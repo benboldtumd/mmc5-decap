@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "51dcedf1-0c7e-437b-a18a-2a975089b4dd")
+	(uuid "459d274f-44ed-44d4-b09e-66c92664b774")
 	(paper "USLedger")
 	(lib_symbols
 		(symbol "BUFFER_1"

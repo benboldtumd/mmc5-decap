@@ -470,6 +470,22 @@
     [
       "bc4fe19f-28d8-4c51-bfe2-e881e7200a16",
       "Fill Mode"
+    ],
+    [
+      "c1262e85-2c8c-4550-8b9b-35681710fa23",
+      "Pulse Length Lookup Table"
+    ],
+    [
+      "a3595ad0-fad7-40da-9701-245d2ccb161b",
+      "Pulse Timer"
+    ],
+    [
+      "58ac8c8e-9b19-48e1-aca9-8ec408ceb475",
+      "Pulse Duty Envelope Volume"
+    ],
+    [
+      "a9c3cd84-12e8-4b65-9740-e66c60f8f2d7",
+      "Pulse DAC"
     ]
   ],
   "text_variables": {}

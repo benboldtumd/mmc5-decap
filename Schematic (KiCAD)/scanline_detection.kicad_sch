@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "975e3a01-28e2-4841-ac7f-97db051a7b3c")
+	(uuid "3ac77d2e-ee91-46c9-b3df-1b27ac830a38")
 	(paper "B")
 	(lib_symbols
 		(symbol "BUFFER_1"
@@ -17035,6 +17035,32 @@
 		)
 		(uuid "75a3ee64-63b3-43c4-838a-63d6b6fc7ba2")
 	)
+	(text "IRQ Scanline\nCounter"
+		(exclude_from_sim no)
+		(at 264.922 147.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "775f50e9-885e-482d-9646-8e4edca38246")
+	)
+	(text "$5203 Register\nIRQ Scanline\nCompare Value"
+		(exclude_from_sim no)
+		(at 264.668 106.68 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "8cb4b047-26cb-49c0-bcd2-388112e1606c")
+	)
 	(text "Hi when $5203\nmatches the present\nV-Split scanline.\n\nD'Morgan tells us\nthat we can pretend\nY8,Y15,Y22 are all\nAND gates."
 		(exclude_from_sim no)
 		(at 332.232 138.684 0)
@@ -20559,7 +20585,7 @@
 			)
 		)
 	)
-	(global_label "{slash}PPU_RD_B{AC7}"
+	(global_label "+PPU_RD_B{AC7}"
 		(shape input)
 		(at 54.61 129.54 180)
 		(fields_autoplaced yes)
@@ -20571,7 +20597,7 @@
 		)
 		(uuid "2afadd18-55de-4500-b617-771d8dfc107d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4171 129.54 0)
+			(at 35.1752 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20823,7 +20849,7 @@
 			)
 		)
 	)
-	(global_label "{slash}PPU_RD_B{AC1}"
+	(global_label "+PPU_RD_B{AC1}"
 		(shape input)
 		(at 162.56 67.31 180)
 		(fields_autoplaced yes)
@@ -20835,7 +20861,7 @@
 		)
 		(uuid "54a350c9-2e55-401f-a92a-9a1d3712181a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.3671 67.31 0)
+			(at 143.1252 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21043,7 +21069,7 @@
 			)
 		)
 	)
-	(global_label "+PPU_RD_B{W1}"
+	(global_label "{slash}PPU_RD_B{W1}"
 		(shape input)
 		(at 161.29 45.72 180)
 		(fields_autoplaced yes)
@@ -21055,7 +21081,7 @@
 		)
 		(uuid "79ed0927-f96a-4b5e-8701-5c0a64b31ad1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.7624 45.72 0)
+			(at 143.0043 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21659,7 +21685,7 @@
 			)
 		)
 	)
-	(global_label "{slash}PPU_RD_B{AB4}"
+	(global_label "+PPU_RD_B{AB4}"
 		(shape input)
 		(at 54.61 106.68 180)
 		(fields_autoplaced yes)
@@ -21671,7 +21697,7 @@
 		)
 		(uuid "eac94c45-2241-4f71-928a-4dbb679bae40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4171 106.68 0)
+			(at 35.1752 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

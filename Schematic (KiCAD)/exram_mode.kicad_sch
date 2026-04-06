@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "eb019b57-1064-4b05-a4dc-7e59661208be")
+	(uuid "7331e097-13c4-4543-b604-5a6fdd3c9999")
 	(paper "USLedger")
 	(lib_symbols
 		(symbol "BIGBUF_1"
@@ -12566,6 +12566,16 @@
 		)
 		(uuid "191e3ff8-d243-4edc-b474-29f55d2a614b")
 	)
+	(text "Syncs\nSL3 to M2"
+		(exclude_from_sim no)
+		(at 63.754 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49e10bfb-4123-44e1-a7a0-1b62586780b4")
+	)
 	(text "There appears to be a selectable\ndelay jumper, connected at BM6."
 		(exclude_from_sim no)
 		(at 151.384 103.378 0)
@@ -12575,16 +12585,6 @@
 			)
 		)
 		(uuid "8a036508-b8ad-4c1f-85fc-ade1932bec3c")
-	)
-	(text "Logically, this must\nbe a NAND or the pins\nare inverted before\ngetting here.  Doesn't\nlook like a NAND."
-		(exclude_from_sim no)
-		(at 121.412 140.716 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a1c62463-b790-4937-b23f-bc1837ae0ed7")
 	)
 	(text "Not sure about polarity; this\nmay be Mode %1x Access,\nand active low or high."
 		(exclude_from_sim no)
@@ -12717,6 +12717,12 @@
 		(uuid "4a6716b2-e927-419f-8d8d-08fc712b927f")
 	)
 	(junction
+		(at 274.32 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ccd619b-b4d9-4ed6-af89-07ed76164d2f")
+	)
+	(junction
 		(at 290.83 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12775,12 +12781,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "910c1e50-f404-4e86-bbd5-9840d396b773")
-	)
-	(junction
-		(at 279.4 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a61f0507-7d58-4ff1-a14f-2b9f3c6c8d30")
 	)
 	(junction
 		(at 54.61 113.03)
@@ -12972,7 +12972,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 130.81) (xy 279.4 130.81)
+			(xy 267.97 130.81) (xy 274.32 130.81)
 		)
 		(stroke
 			(width 0)
@@ -12999,16 +12999,6 @@
 			(type default)
 		)
 		(uuid "1e115b91-c982-43dd-9bf0-97698a73a613")
-	)
-	(wire
-		(pts
-			(xy 341.63 135.89) (xy 279.4 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e2f6def-6de2-4d3f-9e09-e38f78af35e3")
 	)
 	(wire
 		(pts
@@ -13202,7 +13192,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 128.27) (xy 290.83 132.08)
+			(xy 285.75 128.27) (xy 285.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -13479,6 +13469,16 @@
 			(type default)
 		)
 		(uuid "60681c8d-0af4-4004-8ebf-f66f01281f8c")
+	)
+	(wire
+		(pts
+			(xy 274.32 135.89) (xy 255.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6099238b-ee36-469a-926e-ef7eccd16c8c")
 	)
 	(wire
 		(pts
@@ -13872,7 +13872,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 135.89) (xy 279.4 133.35)
+			(xy 274.32 135.89) (xy 274.32 133.35)
 		)
 		(stroke
 			(width 0)
@@ -14022,6 +14022,26 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 128.27) (xy 290.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a669de18-131d-42f8-9183-f1aa7921965c")
+	)
+	(wire
+		(pts
+			(xy 274.32 135.89) (xy 341.63 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7147ef5-9eb4-424a-8ac4-fc1089550bb8")
+	)
+	(wire
+		(pts
 			(xy 328.93 165.1) (xy 290.83 165.1)
 		)
 		(stroke
@@ -14129,16 +14149,6 @@
 			(type default)
 		)
 		(uuid "b39379b3-1003-4e2f-8ac4-d86d972aac55")
-	)
-	(wire
-		(pts
-			(xy 279.4 135.89) (xy 255.27 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b43e63be-5939-4e6c-8a2f-68c976c847fc")
 	)
 	(wire
 		(pts
@@ -15196,7 +15206,7 @@
 			)
 		)
 	)
-	(global_label "{slash}PPU_RD_A_PIN"
+	(global_label "+PPU_RD_A_PIN{PinInv}"
 		(shape input)
 		(at 124.46 130.81 180)
 		(fields_autoplaced yes)
@@ -15208,7 +15218,7 @@
 		)
 		(uuid "b81da6eb-e60d-450f-873b-7055d3a53f94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5371 130.81 0)
+			(at 98.8566 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15306,7 +15316,7 @@
 			)
 		)
 	)
-	(global_label "{slash}PPU_RD_A_PIN"
+	(global_label "+PPU_RD_A_PIN{PinInv}"
 		(shape input)
 		(at 312.42 132.08 180)
 		(fields_autoplaced yes)
@@ -15318,7 +15328,7 @@
 		)
 		(uuid "d2c9d7ce-47d0-4967-b0c0-cdb0b2dbffbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.4971 132.08 0)
+			(at 286.8166 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18329,7 +18339,7 @@
 	(symbol
 		(lib_name "NAND_2_11")
 		(lib_id "MMC5:NAND_2")
-		(at 284.48 132.08 0)
+		(at 279.4 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18338,7 +18348,7 @@
 		(fields_autoplaced yes)
 		(uuid "64a1d2c0-2f62-4d99-9696-3970ce2ad075")
 		(property "Reference" "BL107"
-			(at 284.48 127.762 0)
+			(at 279.4 127.762 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18348,7 +18358,7 @@
 			)
 		)
 		(property "Value" "NAND_2"
-			(at 284.48 132.08 0)
+			(at 279.4 132.08 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18357,7 +18367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 132.08 0)
+			(at 279.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18366,7 +18376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 132.08 0)
+			(at 279.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18375,7 +18385,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 284.48 132.08 0)
+			(at 279.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "43f303ea-d73f-4e3c-822a-e0676a2aa4ad")
+	(uuid "554a32d9-9df3-4ff4-a0db-ff9b0a0c5bcf")
 	(paper "USLedger")
 	(lib_symbols
 		(symbol "INVERT_1"

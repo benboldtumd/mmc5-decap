@@ -576,6 +576,48 @@
 		)
 	)
 	(sheet
+		(at 17.78 161.29)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58ac8c8e-9b19-48e1-aca9-8ec408ceb475")
+		(property "Sheetname" "Pulse Duty Envelope Volume"
+			(at 17.78 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pulse_duty_envelope_volume.kicad_sch"
+			(at 17.78 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 45.72)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -702,6 +744,90 @@
 		)
 	)
 	(sheet
+		(at 17.78 152.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3595ad0-fad7-40da-9701-245d2ccb161b")
+		(property "Sheetname" "Pulse Timer"
+			(at 17.78 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pulse_timer.kicad_sch"
+			(at 17.78 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 170.18)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9c3cd84-12e8-4b65-9740-e66c60f8f2d7")
+		(property "Sheetname" "Pulse DAC"
+			(at 17.78 169.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pulse DAC.kicad_sch"
+			(at 17.78 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 134.62)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -739,6 +865,48 @@
 			(project "MMC5"
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
 					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 143.51)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1262e85-2c8c-4550-8b9b-35681710fa23")
+		(property "Sheetname" "Pulse Length Lookup Table"
+			(at 17.78 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pulse_length_lookup_table.kicad_sch"
+			(at 17.78 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
+					(page "16")
 				)
 			)
 		)

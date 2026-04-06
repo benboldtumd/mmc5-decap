@@ -8326,7 +8326,7 @@
 			)
 		)
 	)
-	(global_label "PPU_A12_PIN_A"
+	(global_label "+PPU_A12_PIN_A{PinBuf}"
 		(shape input)
 		(at 119.38 109.22 180)
 		(fields_autoplaced yes)
@@ -8338,7 +8338,7 @@
 		)
 		(uuid "1a1ee13b-de1d-4fae-84e9-068f95abadeb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.82 109.22 0)
+			(at 92.3857 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

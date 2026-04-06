@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "05847680-81e4-43ad-9b20-5ea12e0892ba")
+	(uuid "584cc39a-271d-4c5b-98ef-170783b6c6c0")
 	(paper "USLedger")
 	(lib_symbols
 		(symbol "AOI_23_1"

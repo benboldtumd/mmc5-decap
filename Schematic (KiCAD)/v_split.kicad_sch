@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "94160612-4d59-4778-a6e4-afb045cd80e3")
+	(uuid "6a177275-f0c7-4893-9d3f-35a7944c67aa")
 	(paper "B")
 	(lib_symbols
 		(symbol "BUFFER_1"
@@ -21259,7 +21259,7 @@
 			)
 		)
 	)
-	(global_label "{slash}PPU_RD_B{X3}"
+	(global_label "+PPU_RD_B{X3}"
 		(shape input)
 		(at 264.16 24.13 180)
 		(fields_autoplaced yes)
@@ -21271,7 +21271,7 @@
 		)
 		(uuid "17683fb7-9e63-4a0e-a303-9aaceca8e196")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.1162 24.13 0)
+			(at 245.8743 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

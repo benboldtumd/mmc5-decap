@@ -20723,16 +20723,6 @@
 		)
 		(uuid "9f032a81-568c-41c3-a0ab-20e4cec5a0c0")
 	)
-	(text "Note: The values generated\nby this lookup table do not\nappear to make any sense.\n\nEx. C15 (MSB) ought to put\nout all 0s, then switch to\nall 1s at some point.\n(i.e. 00000000011111111)\n\nC17 should probably have\n2 groups like that\n(i.e. 00000011100111111)\n\nNot seeing those patterns."
-		(exclude_from_sim no)
-		(at 81.28 106.934 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a22d8b8c-6fb7-4a54-b5e1-fcfefd6c03ff")
-	)
 	(junction
 		(at 270.51 232.41)
 		(diameter 0)
@@ -21585,6 +21575,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 92.71) (xy 226.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80214c72-3b6f-41eb-81f6-71d759894a1c")
+	)
+	(wire
+		(pts
 			(xy 288.29 187.96) (xy 288.29 207.01)
 		)
 		(stroke
@@ -22275,6 +22275,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 92.71) (xy 226.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d855d199-e639-4b25-bf65-07b23923d8de")
+	)
+	(wire
+		(pts
 			(xy 213.36 199.39) (xy 213.36 207.01)
 		)
 		(stroke
@@ -22382,6 +22392,16 @@
 			(type default)
 		)
 		(uuid "dfbe3988-ef5d-4089-b6bb-450574e34ccf")
+	)
+	(wire
+		(pts
+			(xy 226.06 40.64) (xy 226.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fdae6c-98b2-42e7-988c-65af11e8c6c8")
 	)
 	(wire
 		(pts
@@ -22512,6 +22532,16 @@
 			(type default)
 		)
 		(uuid "fef9fa90-95a8-4b92-ba86-3576253e7685")
+	)
+	(wire
+		(pts
+			(xy 224.79 40.64) (xy 226.06 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefd0a6c-f7c6-4000-8c63-b9aaef2b01b9")
 	)
 	(global_label "Pulse_LUT_D5{C17}"
 		(shape input)
@@ -22755,7 +22785,7 @@
 			)
 		)
 	)
-	(global_label "+$5004.5{E68}"
+	(global_label "+$5004.5_Length_Halt{E68}"
 		(shape input)
 		(at 217.17 87.63 180)
 		(fields_autoplaced yes)
@@ -22767,7 +22797,7 @@
 		)
 		(uuid "14137b1e-bc18-46ab-ac15-eec9e9b57d2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.4892 87.63 0)
+			(at 187.3942 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24383,7 +24413,7 @@
 			)
 		)
 	)
-	(global_label "+$5000.5{G85}"
+	(global_label "+$5000.5_Length_Halt{G85}"
 		(shape input)
 		(at 217.17 35.56 180)
 		(fields_autoplaced yes)
@@ -24395,7 +24425,7 @@
 		)
 		(uuid "7c5a5abf-7ad7-4a82-bc61-2cb5058ac874")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.3682 35.56 0)
+			(at 187.2732 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24550,6 +24580,28 @@
 		(uuid "84614280-d464-4a5e-8a9e-63cb6aae96cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.3953 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Pulse_1_L_Restart{C31(b)}"
+		(shape input)
+		(at 224.79 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "851d901b-0ef0-459b-b074-f3fcabc934ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.4654 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25870,6 +25922,28 @@
 		(uuid "d901efb9-1791-438d-a07a-4b948f829d0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.2953 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Pulse_2_L_Restart{C31(a)}"
+		(shape input)
+		(at 224.79 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9a76e7d-333e-4125-aaaa-cd8cf26b1c90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.4654 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

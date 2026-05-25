@@ -23633,7 +23633,7 @@
 		)
 		(uuid "ff0ac76f-a827-49cb-ba54-8ecb428566a3")
 	)
-	(global_label "{slash}CPU_D1{AE13}"
+	(global_label "{slash}CPU_D1{AE15}"
 		(shape output)
 		(at 44.45 125.73 0)
 		(fields_autoplaced yes)
@@ -24557,7 +24557,7 @@
 			)
 		)
 	)
-	(global_label "{slash}CPU_D0{AE14}"
+	(global_label "{slash}CPU_D0{AE16}"
 		(shape output)
 		(at 43.18 67.31 0)
 		(fields_autoplaced yes)
@@ -28750,7 +28750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f6b4464-d380-49f8-8c75-9219b96be342")
-		(property "Reference" "AE13"
+		(property "Reference" "AE15"
 			(at 38.862 122.428 0)
 			(do_not_autoplace yes)
 			(effects
@@ -28805,7 +28805,7 @@
 		(instances
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
-					(reference "AE13")
+					(reference "AE15")
 					(unit 1)
 				)
 			)
@@ -31099,7 +31099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65e4cda4-7777-4b6f-ba62-8cb67f4cd202")
-		(property "Reference" "AE14"
+		(property "Reference" "AE16"
 			(at 37.592 64.008 0)
 			(do_not_autoplace yes)
 			(effects
@@ -31154,7 +31154,7 @@
 		(instances
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
-					(reference "AE14")
+					(reference "AE16")
 					(unit 1)
 				)
 			)

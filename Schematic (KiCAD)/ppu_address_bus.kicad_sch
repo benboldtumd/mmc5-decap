@@ -7498,6 +7498,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NAND_4_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NAND_4"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NAND_4_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NAND_4_1_1_1"
+				(polyline
+					(pts
+						(xy 0.635 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0.635 2.54) (xy 3.175 2.54) (xy 3.175 -2.54) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "PPU Address Bus Buffering"
 		(exclude_from_sim no)
@@ -8646,6 +8858,28 @@
 			)
 		)
 	)
+	(global_label "{slash}PPU_Attribute_Access{BL25}"
+		(shape output)
+		(at 133.35 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e4e4e88-dd59-47e5-ac0f-adaae2a45463")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.3358 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}PPU_RD_PIN"
 		(shape input)
 		(at 101.6 22.86 180)
@@ -8708,6 +8942,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+PPU_A7{BL26}"
+		(shape input)
+		(at 121.92 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bc6da3e-ca64-4a8d-8764-747159e1faae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8157 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9011,6 +9267,28 @@
 		(uuid "597a7b55-233b-4e7f-be94-55a46284e357")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.0972 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+PPU_A9{BL23}"
+		(shape input)
+		(at 121.92 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c5bbf26-2568-4c20-9231-b754e73bbc3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8157 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,6 +9672,28 @@
 			)
 		)
 	)
+	(global_label "+PPU_A6{BL27}"
+		(shape input)
+		(at 121.92 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bd296a6-02e9-40fc-99c9-116e9e980ecf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8157 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+PPU_RD_A{BJ1}"
 		(shape output)
 		(at 121.92 27.94 0)
@@ -9746,6 +10046,28 @@
 			)
 		)
 	)
+	(global_label "+PPU_A8{BL24}"
+		(shape input)
+		(at 121.92 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8df67ca-ff89-4715-a98a-e1ee9559545c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8157 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+PPU_A0{N35}"
 		(shape output)
 		(at 53.34 21.59 0)
@@ -9878,7 +10200,7 @@
 			)
 		)
 	)
-	(global_label "{slash}PPU_A6{BJ12}"
+	(global_label "{slash}PPU_A6{BJ2}"
 		(shape output)
 		(at 40.64 92.71 0)
 		(fields_autoplaced yes)
@@ -9890,7 +10212,7 @@
 		)
 		(uuid "dc16298e-e103-4e5c-a4c6-6cff0e7e7fe2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.4419 92.71 0)
+			(at 57.2324 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12030,6 +12352,87 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_4_1")
+		(lib_id "MMC5:NAND_4")
+		(at 127 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73c72791-7b0a-4bd1-baa3-6a608c273378")
+		(property "Reference" "BL25"
+			(at 127 107.442 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "NAND_4"
+			(at 127 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ac52cc0f-add4-48fb-a0db-3c0ac023adb8")
+		)
+		(pin ""
+			(uuid "27b4cba6-dd83-45a3-9aa7-c1fd315a112e")
+		)
+		(pin ""
+			(uuid "78a747d1-4b04-45e6-af60-92b6810b8f02")
+		)
+		(pin ""
+			(uuid "949d8e5a-8ba0-4f84-b82e-88e3c547ea7d")
+		)
+		(pin ""
+			(uuid "4adc4a88-75f7-41f8-9d54-23a59c2d72d1")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ea105755-ff0d-4162-b72d-5fd0cda1402e"
+					(reference "BL25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "INVERT_25")
 		(lib_id "MMC5:INVERT")
 		(at 45.72 179.07 0)
@@ -13695,7 +14098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dddabdd7-5de4-4127-a630-36a663b4e523")
-		(property "Reference" "BJ12"
+		(property "Reference" "BJ2"
 			(at 35.052 89.408 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13750,7 +14153,7 @@
 		(instances
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ea105755-ff0d-4162-b72d-5fd0cda1402e"
-					(reference "BJ12")
+					(reference "BJ2")
 					(unit 1)
 				)
 			)

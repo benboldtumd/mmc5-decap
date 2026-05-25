@@ -576,6 +576,90 @@
 		)
 	)
 	(sheet
+		(at 17.78 196.85)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4abfc655-06a7-415b-b0f5-6b5387bc5d51")
+		(property "Sheetname" "CHR Bank Selection Logic"
+			(at 17.78 196.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chr_bank_selection_logic.kicad_sch"
+			(at 17.78 201.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 179.07)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e6a5c22-b922-467f-8545-4eb558480830")
+		(property "Sheetname" "PPU Data Bus"
+			(at 17.78 178.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ppu_data_bus.kicad_sch"
+			(at 17.78 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 161.29)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -744,6 +828,48 @@
 		)
 	)
 	(sheet
+		(at 17.78 187.96)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "799667fc-11ed-4c96-acf3-1c12e530a405")
+		(property "Sheetname" "CHR Bank Registers"
+			(at 17.78 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chr_bank_registers.kicad_sch"
+			(at 17.78 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 152.4)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -823,6 +949,48 @@
 			(project "MMC5"
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
 					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 205.74)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc4b8b43-a5fa-4d6e-8fcc-a78339a4fb35")
+		(property "Sheetname" "CHR Address Bus"
+			(at 17.78 205.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chr_address_bus.kicad_sch"
+			(at 17.78 210.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
+					(page "23")
 				)
 			)
 		)

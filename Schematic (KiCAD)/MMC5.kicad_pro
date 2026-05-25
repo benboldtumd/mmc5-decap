@@ -486,6 +486,22 @@
     [
       "a9c3cd84-12e8-4b65-9740-e66c60f8f2d7",
       "Pulse DAC"
+    ],
+    [
+      "4e6a5c22-b922-467f-8545-4eb558480830",
+      "PPU Data Bus"
+    ],
+    [
+      "799667fc-11ed-4c96-acf3-1c12e530a405",
+      "CHR Bank Registers"
+    ],
+    [
+      "4abfc655-06a7-415b-b0f5-6b5387bc5d51",
+      "CHR Bank Selection Logic"
+    ],
+    [
+      "bc4b8b43-a5fa-4d6e-8fcc-a78339a4fb35",
+      "CHR Address Bus"
     ]
   ],
   "text_variables": {}

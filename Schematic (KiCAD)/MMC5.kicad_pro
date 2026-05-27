@@ -501,7 +501,11 @@
     ],
     [
       "bc4b8b43-a5fa-4d6e-8fcc-a78339a4fb35",
-      "CHR Address Bus"
+      "CHR Address Bus 10 to 14"
+    ],
+    [
+      "a24dd017-88dc-4b55-bd2b-229f0f89fdc5",
+      "CHR Address Bus 15 to 19"
     ]
   ],
   "text_variables": {}

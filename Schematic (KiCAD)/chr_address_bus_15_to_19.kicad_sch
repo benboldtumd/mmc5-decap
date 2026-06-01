@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "fd874738-3931-40b9-b825-c1f8547dc5a3")
+	(uuid "7e56f119-7719-4fb4-b1a8-02a71637743a")
 	(paper "USLedger")
 	(lib_symbols
 		(symbol "INVERT_1"
@@ -14350,7 +14350,7 @@
 			)
 		)
 	)
-	(global_label "VSplit_CHR_Bank_$5202.3{AF19}"
+	(global_label "+VSplit_CHR_Bank_$5202.3{AF19}"
 		(shape input)
 		(at 52.07 99.06 180)
 		(fields_autoplaced yes)
@@ -14362,7 +14362,7 @@
 		)
 		(uuid "3d4468f4-6fd9-462a-b11a-0b393a1e2c60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.1212 99.06 0)
+			(at 16.5488 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,7 +14482,7 @@
 			)
 		)
 	)
-	(global_label "VSplit_CHR_Bank_$5202.4{AF20}"
+	(global_label "+VSplit_CHR_Bank_$5202.4{AF20}"
 		(shape input)
 		(at 181.61 99.06 180)
 		(fields_autoplaced yes)
@@ -14494,7 +14494,7 @@
 		)
 		(uuid "4dcc261a-f142-47bf-89b4-ec0481571ef7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.6612 99.06 0)
+			(at 146.0888 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14614,7 +14614,7 @@
 			)
 		)
 	)
-	(global_label "VSplit_CHR_Bank_$5202.7{AE30}"
+	(global_label "+VSplit_CHR_Bank_$5202.7{AE30}"
 		(shape input)
 		(at 181.61 210.82 180)
 		(fields_autoplaced yes)
@@ -14626,7 +14626,7 @@
 		)
 		(uuid "5f5efc8f-ed51-4b3f-a0c7-e0d669508250")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.6008 210.82 0)
+			(at 146.0284 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15186,7 +15186,7 @@
 			)
 		)
 	)
-	(global_label "VSplit_CHR_Bank_$5202.6{AF22}"
+	(global_label "+VSplit_CHR_Bank_$5202.6{AF22}"
 		(shape input)
 		(at 52.07 210.82 180)
 		(fields_autoplaced yes)
@@ -15198,7 +15198,7 @@
 		)
 		(uuid "8a30549a-5911-4771-94cd-5a3a77b84356")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.1212 210.82 0)
+			(at 16.5488 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15538,7 +15538,7 @@
 			)
 		)
 	)
-	(global_label "VSplit_CHR_Bank_$5202.5{AF21}"
+	(global_label "+VSplit_CHR_Bank_$5202.5{AF21}"
 		(shape input)
 		(at 321.31 99.06 180)
 		(fields_autoplaced yes)
@@ -15550,7 +15550,7 @@
 		)
 		(uuid "a33e4063-805d-446d-b2a9-dc7ec9cd56eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.3612 99.06 0)
+			(at 285.7888 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

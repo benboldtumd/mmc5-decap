@@ -8628,6 +8628,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "INVERT_63"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "INVERT"
+				(at 1.27 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INVERT_63_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INVERT_63_1_1"
+				(circle
+					(center 1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 0 180)
+					(length 1.905)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "INVERT_7"
 			(pin_numbers
 				(hide yes)
@@ -20790,6 +20912,12 @@
 		(uuid "a106c8c1-a7ae-44fe-ac31-b3ec444ee58e")
 	)
 	(junction
+		(at 337.82 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b6c807-13cd-48ee-adee-fc5700aab66f")
+	)
+	(junction
 		(at 227.33 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20922,6 +21050,16 @@
 			(type default)
 		)
 		(uuid "144d9782-7582-4720-93eb-36a7949ab29a")
+	)
+	(wire
+		(pts
+			(xy 337.82 205.74) (xy 337.82 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180f46bb-f1be-4c59-9f00-cfaaaa9e36d6")
 	)
 	(wire
 		(pts
@@ -21245,7 +21383,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 205.74) (xy 337.82 210.82)
+			(xy 337.82 199.39) (xy 337.82 205.74)
 		)
 		(stroke
 			(width 0)
@@ -21955,7 +22093,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 205.74) (xy 337.82 205.74)
+			(xy 339.09 199.39) (xy 337.82 199.39)
 		)
 		(stroke
 			(width 0)
@@ -23315,7 +23453,7 @@
 	)
 	(global_label "Pulse_Timer_Clock_SL3{A72}"
 		(shape output)
-		(at 339.09 205.74 0)
+		(at 339.09 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23325,7 +23463,7 @@
 		)
 		(uuid "397e83c3-6489-4b28-b10d-cbdcf7f7691c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.1684 205.74 0)
+			(at 369.1684 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23463,6 +23601,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}Pulse_Timer_Clock_SL3{E51}"
+		(shape output)
+		(at 346.71 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45772a53-ecf9-41f9-9668-c09f8d8d3821")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.1793 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -32977,6 +33137,78 @@
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/c1262e85-2c8c-4550-8b9b-35681710fa23"
 					(reference "B107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "INVERT_63")
+		(lib_id "MMC5:INVERT")
+		(at 342.9 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1199feb-25d3-4c98-8bfa-53532839235a")
+		(property "Reference" "E51"
+			(at 342.392 202.438 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "INVERT"
+			(at 344.17 207.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8e866d7a-b72e-418b-8cd8-f07195a7ac2c")
+		)
+		(pin ""
+			(uuid "d49a0f03-13f6-44af-a469-4fce953318b2")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/c1262e85-2c8c-4550-8b9b-35681710fa23"
+					(reference "E51")
 					(unit 1)
 				)
 			)

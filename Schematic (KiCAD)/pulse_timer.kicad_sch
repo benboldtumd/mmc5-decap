@@ -14398,7 +14398,7 @@
 			)
 		)
 	)
-	(global_label "{slash}Pulse_Timer_Clock_SL3{H87}"
+	(global_label "{slash}Pulse_Timer_Clock_SL3{E51}"
 		(shape input)
 		(at 275.59 115.57 180)
 		(fields_autoplaced yes)
@@ -14410,7 +14410,7 @@
 		)
 		(uuid "178d3c9d-dddf-4363-a9f8-9f44d9413f20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.9392 115.57 0)
+			(at 244.1207 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14829,6 +14829,28 @@
 		(uuid "5bf6d5c4-1193-4cdf-85d5-600a6c88fb56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 376.0626 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{H82(a).2}"
+		(shape output)
+		(at 96.52 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c6090c3-7a4d-420d-a16f-8b3a5ed668b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.6048 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15692,6 +15714,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{E34(b).2}"
+		(shape output)
+		(at 290.83 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e35bd7c2-a7ef-4c6f-8bce-098f5a00e5a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.9267 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

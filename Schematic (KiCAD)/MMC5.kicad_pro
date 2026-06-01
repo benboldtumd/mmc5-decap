@@ -506,6 +506,10 @@
     [
       "a24dd017-88dc-4b55-bd2b-229f0f89fdc5",
       "CHR Address Bus 15 to 19"
+    ],
+    [
+      "f2339e17-4f55-43f8-b207-f65123403db0",
+      "Artifacts"
     ]
   ],
   "text_variables": {}

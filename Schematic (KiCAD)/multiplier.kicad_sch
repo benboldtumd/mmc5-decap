@@ -1,0 +1,11413 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "febd6349-9a8f-4ae0-871e-752ede330671")
+	(paper "USLedger")
+	(lib_symbols
+		(symbol "BUFFER_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_1_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_10"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_10_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_10_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_11"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_11_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_11_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_12"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_12_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_12_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_13"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_13_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_13_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_14_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_14_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_15"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_15_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_15_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_16"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_16_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_16_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_17"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_17_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_17_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_18"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_18_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_18_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_19"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_19_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_19_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_2_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_20"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_20_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_20_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_21"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_21_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_21_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_22"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_22_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_22_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_23"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_23_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_23_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_24"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_24_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_24_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_25"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_25_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_25_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_26"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_26_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_26_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_27"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_27_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_27_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_28"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_28_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_28_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_29"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_29_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_29_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_3_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_30"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_30_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_30_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_31"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_31_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_31_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_32"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_32_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_32_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_33"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_33_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_33_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_4_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_4_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_5_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_5_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_6_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_6_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_7_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_7_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_8_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_8_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_9"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_9_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_9_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMC5:BUFFER"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMC5:Multiplier"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Multiplier"
+				(at 0 -45.974 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Multiplier_0_1"
+				(rectangle
+					(start -21.59 -1.27)
+					(end 21.59 -44.45)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Multiplier_1_1"
+				(text "D0 A"
+					(at -21.336 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D1 A"
+					(at -21.336 -5.08 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D2 A"
+					(at -21.336 -7.62 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D3 A"
+					(at -21.336 -10.16 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D4 A"
+					(at -21.336 -12.7 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D5 A"
+					(at -21.336 -15.24 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D6 A"
+					(at -21.336 -17.78 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D7 A"
+					(at -21.336 -20.32 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D0 B"
+					(at -21.336 -25.4 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D1 B"
+					(at -21.336 -27.94 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D2 B"
+					(at -21.336 -30.48 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D3 B"
+					(at -21.336 -33.02 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D4 B"
+					(at -21.336 -35.56 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D5 B"
+					(at -21.336 -38.1 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D6 B"
+					(at -21.336 -40.64 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D7 B"
+					(at -21.336 -43.18 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "x"
+					(at 0 -19.05 0)
+					(effects
+						(font
+							(size 25.4 25.4)
+							(thickness 5.08)
+							(bold yes)
+						)
+					)
+				)
+				(text "Y0"
+					(at 21.336 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y1"
+					(at 21.336 -5.08 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y2"
+					(at 21.336 -7.62 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y3"
+					(at 21.336 -10.16 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y4"
+					(at 21.336 -12.7 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y5"
+					(at 21.336 -15.24 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y6"
+					(at 21.336 -17.78 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y7"
+					(at 21.336 -20.32 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y8"
+					(at 21.336 -25.4 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y9"
+					(at 21.336 -27.94 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y10"
+					(at 21.336 -30.48 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y11"
+					(at 21.336 -33.02 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y12"
+					(at 21.336 -35.56 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y13"
+					(at 21.336 -38.1 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y14"
+					(at 21.336 -40.64 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Y15"
+					(at 21.336 -43.18 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(pin input line
+					(at -24.13 -2.54 0)
+					(length 2.54)
+					(name "D0A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -5.08 0)
+					(length 2.54)
+					(name "D1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -7.62 0)
+					(length 2.54)
+					(name "D2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -10.16 0)
+					(length 2.54)
+					(name "D3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -12.7 0)
+					(length 2.54)
+					(name "D4A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -15.24 0)
+					(length 2.54)
+					(name "D5A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -17.78 0)
+					(length 2.54)
+					(name "D6A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -20.32 0)
+					(length 2.54)
+					(name "D7A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -25.4 0)
+					(length 2.54)
+					(name "D0B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -27.94 0)
+					(length 2.54)
+					(name "D1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -30.48 0)
+					(length 2.54)
+					(name "D2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -33.02 0)
+					(length 2.54)
+					(name "D3B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -35.56 0)
+					(length 2.54)
+					(name "D4B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -38.1 0)
+					(length 2.54)
+					(name "D5B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -40.64 0)
+					(length 2.54)
+					(name "D6B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -43.18 0)
+					(length 2.54)
+					(name "D7B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -2.54 180)
+					(length 2.54)
+					(name "Y0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -5.08 180)
+					(length 2.54)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -7.62 180)
+					(length 2.54)
+					(name "Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -10.16 180)
+					(length 2.54)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -12.7 180)
+					(length 2.54)
+					(name "Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -15.24 180)
+					(length 2.54)
+					(name "Y5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -17.78 180)
+					(length 2.54)
+					(name "Y6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -20.32 180)
+					(length 2.54)
+					(name "Y7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -25.4 180)
+					(length 2.54)
+					(name "Y8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -27.94 180)
+					(length 2.54)
+					(name "Y9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -30.48 180)
+					(length 2.54)
+					(name "Y10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -33.02 180)
+					(length 2.54)
+					(name "Y11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -35.56 180)
+					(length 2.54)
+					(name "Y12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -38.1 180)
+					(length 2.54)
+					(name "Y13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -40.64 180)
+					(length 2.54)
+					(name "Y14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -43.18 180)
+					(length 2.54)
+					(name "Y15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMC5:Reg_8_D-Latch_N"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Reg 8 D-Latch N"
+				(at 0 -43.434 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Reg_8_D-Latch_N_0_1"
+				(rectangle
+					(start -2.54 -1.27)
+					(end 2.54 -41.91)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -40.005) (xy -1.905 -40.64) (xy -2.54 -41.275)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Reg_8_D-Latch_N_1_1"
+				(circle
+					(center 2.8575 -5.08)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -10.16)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -15.24)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -20.32)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -25.4)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -30.48)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -35.56)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -40.64)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "D0"
+					(at -2.286 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D1"
+					(at -2.286 -7.62 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D2"
+					(at -2.286 -12.7 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D3"
+					(at -2.286 -17.78 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D4"
+					(at -2.286 -22.86 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D5"
+					(at -2.286 -27.94 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D6"
+					(at -2.286 -33.02 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D7"
+					(at -2.286 -38.1 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "Q0"
+					(at 2.286 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q0"
+					(at 2.286 -5.08 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q1"
+					(at 2.286 -7.62 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q1"
+					(at 2.286 -10.16 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q2"
+					(at 2.286 -12.7 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q2"
+					(at 2.286 -15.24 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q3"
+					(at 2.286 -17.78 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q3"
+					(at 2.286 -20.32 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q4"
+					(at 2.286 -22.86 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q4"
+					(at 2.286 -25.4 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q5"
+					(at 2.286 -27.94 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q5"
+					(at 2.286 -30.48 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q6"
+					(at 2.286 -33.02 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q6"
+					(at 2.286 -35.56 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q7"
+					(at 2.286 -38.1 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q7"
+					(at 2.286 -40.64 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -12.7 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -17.78 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -22.86 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -27.94 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -33.02 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -38.1 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -40.64 0)
+					(length 2.54)
+					(name "Clock"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -5.08 180)
+					(length 1.905)
+					(name "/Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -10.16 180)
+					(length 1.905)
+					(name "/Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -12.7 180)
+					(length 2.54)
+					(name "Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -15.24 180)
+					(length 1.905)
+					(name "/Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -17.78 180)
+					(length 2.54)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -20.32 180)
+					(length 1.905)
+					(name "/Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -22.86 180)
+					(length 2.54)
+					(name "Q4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -25.4 180)
+					(length 1.905)
+					(name "/A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -27.94 180)
+					(length 2.54)
+					(name "Q5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -30.48 180)
+					(length 1.905)
+					(name "/Q5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -33.02 180)
+					(length 2.54)
+					(name "Q6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -35.56 180)
+					(length 1.905)
+					(name "/Q6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -38.1 180)
+					(length 2.54)
+					(name "Q7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -40.64 180)
+					(length 1.905)
+					(name "/Q7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Reg_8_D-Latch_N_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Reg 8 D-Latch N"
+				(at 0 -43.434 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Reg_8_D-Latch_N_1_0_1"
+				(rectangle
+					(start -2.54 -1.27)
+					(end 2.54 -41.91)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -40.005) (xy -1.905 -40.64) (xy -2.54 -41.275)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Reg_8_D-Latch_N_1_1_1"
+				(circle
+					(center 2.8575 -5.08)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -10.16)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -15.24)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -20.32)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -25.4)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -30.48)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -35.56)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -40.64)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "D0"
+					(at -2.286 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D1"
+					(at -2.286 -7.62 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D2"
+					(at -2.286 -12.7 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D3"
+					(at -2.286 -17.78 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D4"
+					(at -2.286 -22.86 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D5"
+					(at -2.286 -27.94 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D6"
+					(at -2.286 -33.02 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D7"
+					(at -2.286 -38.1 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "Q0"
+					(at 2.286 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q0"
+					(at 2.286 -5.08 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q1"
+					(at 2.286 -7.62 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q1"
+					(at 2.286 -10.16 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q2"
+					(at 2.286 -12.7 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q2"
+					(at 2.286 -15.24 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q3"
+					(at 2.286 -17.78 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q3"
+					(at 2.286 -20.32 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q4"
+					(at 2.286 -22.86 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q4"
+					(at 2.286 -25.4 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q5"
+					(at 2.286 -27.94 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q5"
+					(at 2.286 -30.48 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q6"
+					(at 2.286 -33.02 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q6"
+					(at 2.286 -35.56 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q7"
+					(at 2.286 -38.1 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q7"
+					(at 2.286 -40.64 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -12.7 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -17.78 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -22.86 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -27.94 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -33.02 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -38.1 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -40.64 0)
+					(length 2.54)
+					(name "Clock"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -5.08 180)
+					(length 1.905)
+					(name "/Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -10.16 180)
+					(length 1.905)
+					(name "/Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -12.7 180)
+					(length 2.54)
+					(name "Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -15.24 180)
+					(length 1.905)
+					(name "/Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -17.78 180)
+					(length 2.54)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -20.32 180)
+					(length 1.905)
+					(name "/Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -22.86 180)
+					(length 2.54)
+					(name "Q4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -25.4 180)
+					(length 1.905)
+					(name "/A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -27.94 180)
+					(length 2.54)
+					(name "Q5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -30.48 180)
+					(length 1.905)
+					(name "/Q5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -33.02 180)
+					(length 2.54)
+					(name "Q6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -35.56 180)
+					(length 1.905)
+					(name "/Q6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -38.1 180)
+					(length 2.54)
+					(name "Q7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -40.64 180)
+					(length 1.905)
+					(name "/Q7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "$5205 Write Register\n8-bit Multiplicand"
+		(exclude_from_sim no)
+		(at 87.884 59.182 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "53115ab8-0053-44ac-87c3-81fbfb7821d2")
+	)
+	(text "$5206 Write Register\n8-bit Multiplier"
+		(exclude_from_sim no)
+		(at 87.884 117.602 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "70ffda4b-4573-48c1-8240-ccbdf7af81ee")
+	)
+	(wire
+		(pts
+			(xy 77.47 105.41) (xy 82.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4db474-7350-41d6-aa6b-2c00ea627707")
+	)
+	(wire
+		(pts
+			(xy 180.34 132.08) (xy 182.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aae9e1b-9862-4cfe-a05e-eda9c0dca3b6")
+	)
+	(wire
+		(pts
+			(xy 180.34 162.56) (xy 198.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac8c8ed-7fb3-49e3-a47c-51eb5dda494f")
+	)
+	(wire
+		(pts
+			(xy 180.34 134.62) (xy 180.34 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1821cc0a-687d-49e2-a376-d4be88cb8889")
+	)
+	(wire
+		(pts
+			(xy 116.84 119.38) (xy 132.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd87aa3-f73b-41f2-9a92-94326a22bdfd")
+	)
+	(wire
+		(pts
+			(xy 77.47 163.83) (xy 82.55 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ae7651-0e30-434c-b41c-1e6e305c6980")
+	)
+	(wire
+		(pts
+			(xy 92.71 82.55) (xy 124.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a57a86-c9bf-45bf-b0c8-902ead7f3231")
+	)
+	(wire
+		(pts
+			(xy 185.42 149.86) (xy 198.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29746eac-ce5a-4b7a-98d9-23ef59e0ffba")
+	)
+	(wire
+		(pts
+			(xy 92.71 151.13) (xy 127 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a203ec-292e-4050-aa4a-13aef4e5a57c")
+	)
+	(wire
+		(pts
+			(xy 129.54 132.08) (xy 132.08 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b496613-d308-487c-909e-a68deea23fd4")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.63) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c200bd5-3806-4158-8bb1-43c6060888f3")
+	)
+	(wire
+		(pts
+			(xy 116.84 130.81) (xy 116.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f86d641-7f11-4c3c-bdc6-1229f9604373")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 190.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307d08a8-6477-41f1-be4d-1f860d560b70")
+	)
+	(wire
+		(pts
+			(xy 182.88 132.08) (xy 182.88 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313f44dc-5200-454e-8339-f73a50b85718")
+	)
+	(wire
+		(pts
+			(xy 180.34 93.98) (xy 180.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b102aa-751a-41b3-8594-83f6baf3a5b6")
+	)
+	(wire
+		(pts
+			(xy 92.71 156.21) (xy 129.54 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33cae176-6348-4bcf-8a2b-0ba512688402")
+	)
+	(wire
+		(pts
+			(xy 92.71 97.79) (xy 116.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3476678c-49f7-49bf-b485-53844d850f03")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3967d430-f2a8-4fb7-a57e-0c9cad1abb8b")
+	)
+	(wire
+		(pts
+			(xy 193.04 130.81) (xy 198.12 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a291cb3-3c66-4fd7-85eb-f070c0c27860")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 132.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad955f4-39fc-430e-8a72-001d7dd89169")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f304539-10b5-4a20-b326-0d65aeddf5e1")
+	)
+	(wire
+		(pts
+			(xy 121.92 104.14) (xy 132.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcadad2-69d1-406d-88cf-f8d07717df92")
+	)
+	(wire
+		(pts
+			(xy 180.34 116.84) (xy 198.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403fad56-bbd0-4637-b293-73dcd4f2b732")
+	)
+	(wire
+		(pts
+			(xy 190.5 124.46) (xy 190.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4380d590-9b01-404b-9a51-1444fe800447")
+	)
+	(wire
+		(pts
+			(xy 114.3 125.73) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461b45f2-ff99-4a6b-8b4f-288c82f8e21a")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 198.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f5695d-d9ac-4f38-a64f-21ddcc79a16a")
+	)
+	(wire
+		(pts
+			(xy 132.08 67.31) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a7c3af-5d18-4368-bbe9-dfa2f9722332")
+	)
+	(wire
+		(pts
+			(xy 190.5 137.16) (xy 198.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbc2405-6604-4529-bf73-18a2980c2430")
+	)
+	(wire
+		(pts
+			(xy 182.88 156.21) (xy 198.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510a82f0-8a92-4e37-b0b2-8027b2513b15")
+	)
+	(wire
+		(pts
+			(xy 121.92 87.63) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5261b286-6f84-4fa7-9ceb-12321e75cca5")
+	)
+	(wire
+		(pts
+			(xy 180.34 129.54) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583d614e-c7be-44be-ac9b-6ef2d0c85e1d")
+	)
+	(wire
+		(pts
+			(xy 187.96 143.51) (xy 198.12 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591d84c3-bd7c-47e7-8306-7d7564b93fde")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7c7a74-2e44-4aef-8eac-131e94512230")
+	)
+	(wire
+		(pts
+			(xy 180.34 99.06) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da4b117-e352-432c-93c2-6f608d42e168")
+	)
+	(wire
+		(pts
+			(xy 127 77.47) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fdba4a-dd6e-4060-ba2d-c4a04a5403c4")
+	)
+	(wire
+		(pts
+			(xy 92.71 161.29) (xy 132.08 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6319b7ae-1612-4904-8533-af4451b39813")
+	)
+	(wire
+		(pts
+			(xy 121.92 124.46) (xy 132.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d30cfa-d7ca-4186-b52c-830ff9b010ac")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 119.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689ffe52-8202-4f34-8197-cbf4e6ec207e")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 132.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a42fe50-b2e1-4e23-91ee-5a169ec8900e")
+	)
+	(wire
+		(pts
+			(xy 92.71 146.05) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c75c60-64dc-4953-9287-2c72b99d55fd")
+	)
+	(wire
+		(pts
+			(xy 92.71 72.39) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76342cc8-7da9-46ed-9349-a5224004e93d")
+	)
+	(wire
+		(pts
+			(xy 92.71 125.73) (xy 114.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a7d01a-1604-4fbf-ac8b-dc988cec7a2d")
+	)
+	(wire
+		(pts
+			(xy 198.12 116.84) (xy 198.12 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7792e5bd-f501-4777-9c49-57f7a27ed7f9")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e0f0d0-0e23-4f43-8b6d-0f7d36042303")
+	)
+	(wire
+		(pts
+			(xy 180.34 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cac1d3f-9081-48b3-a94a-955a9419a5f1")
+	)
+	(wire
+		(pts
+			(xy 182.88 72.39) (xy 198.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fcbfb5-15c8-4e25-89d8-7379bb9ae840")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 77.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820633fe-12ce-4434-971d-e952c4f3133d")
+	)
+	(wire
+		(pts
+			(xy 119.38 135.89) (xy 119.38 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cc634d-78fd-4214-bacc-67768261e4a5")
+	)
+	(wire
+		(pts
+			(xy 114.3 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877da779-4a34-4a80-b0ec-185812d6a94a")
+	)
+	(wire
+		(pts
+			(xy 180.34 109.22) (xy 195.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8782fdf1-4599-4123-bb3f-a029c8f3d753")
+	)
+	(wire
+		(pts
+			(xy 124.46 146.05) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6cf99d-29cd-4d0a-90c8-4a9782dc90bb")
+	)
+	(wire
+		(pts
+			(xy 77.47 166.37) (xy 77.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ced437d-7db2-4e76-9d7f-fea48691426b")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd62eb9-35cb-49fb-a270-29936ea09566")
+	)
+	(wire
+		(pts
+			(xy 185.42 129.54) (xy 185.42 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9441fdf7-bbbd-4ec0-addc-254eeef4e4e5")
+	)
+	(wire
+		(pts
+			(xy 116.84 109.22) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944b6609-8cc6-43c5-a4b7-7b8a5bae0b69")
+	)
+	(wire
+		(pts
+			(xy 195.58 104.14) (xy 198.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fdeab5-cee6-4ebd-9229-ea1da9408567")
+	)
+	(wire
+		(pts
+			(xy 193.04 121.92) (xy 193.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa2503a-7e4b-460d-bad2-f64d7cecea03")
+	)
+	(wire
+		(pts
+			(xy 127 151.13) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c6bfb7-b404-4918-ac22-2f10ba660a44")
+	)
+	(wire
+		(pts
+			(xy 187.96 127) (xy 187.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44d18e2-0ffc-407e-a0e7-a401cf86e511")
+	)
+	(wire
+		(pts
+			(xy 119.38 92.71) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56bd333-1be9-48b4-9a29-e5f1204aca19")
+	)
+	(wire
+		(pts
+			(xy 92.71 67.31) (xy 132.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d1f68d-08d4-4774-a00a-45499805ec87")
+	)
+	(wire
+		(pts
+			(xy 198.12 110.49) (xy 198.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac088cb3-9cb1-431c-9860-8cea555c574e")
+	)
+	(wire
+		(pts
+			(xy 187.96 85.09) (xy 198.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac35d9b4-c90b-46a4-b445-14d898df6d94")
+	)
+	(wire
+		(pts
+			(xy 180.34 121.92) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5a6041-b435-4b52-9b61-f16c993f9423")
+	)
+	(wire
+		(pts
+			(xy 92.71 135.89) (xy 119.38 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5481c0c-83b5-4b23-9b56-59cfd70bfc02")
+	)
+	(wire
+		(pts
+			(xy 124.46 127) (xy 132.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ba6258-8b68-4020-b5ab-282c5c407457")
+	)
+	(wire
+		(pts
+			(xy 92.71 102.87) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f8c977-53ca-479e-adb8-ced9ee66ca53")
+	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0f75f3-c895-4edc-b687-70e74a85f33d")
+	)
+	(wire
+		(pts
+			(xy 132.08 161.29) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3fa4e3-c107-459c-953f-fc93dd652915")
+	)
+	(wire
+		(pts
+			(xy 193.04 106.68) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfafebe6-964d-4d28-a686-4752deddc068")
+	)
+	(wire
+		(pts
+			(xy 180.34 66.04) (xy 198.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00d684c-edd7-4cde-b910-195d917ebbd1")
+	)
+	(wire
+		(pts
+			(xy 92.71 130.81) (xy 116.84 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04f7124-7dd2-4a3c-bb5e-1da1f059321f")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10231ed-6973-4b50-a0f6-a269965b04d2")
+	)
+	(wire
+		(pts
+			(xy 180.34 124.46) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87232c5-dc65-4247-b42e-382ee7f097f2")
+	)
+	(wire
+		(pts
+			(xy 195.58 119.38) (xy 195.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb1092f-32ae-41f4-9c8c-459efec18e4a")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 187.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00f43a0-a96e-40c8-9dd3-a85b2dc2720e")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03f24e9-cef6-47c6-82ba-e72dc00fc776")
+	)
+	(wire
+		(pts
+			(xy 182.88 96.52) (xy 182.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bd49c2-ff0a-4b3f-bca6-bace7b735bc3")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 132.08 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8752a08-2c0d-460a-85ca-fee41b40a075")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7e2d9b-3735-4503-aef2-c6fc0c25c68c")
+	)
+	(wire
+		(pts
+			(xy 121.92 140.97) (xy 121.92 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb859c7-8e45-44b7-b5f3-14c979f9a2da")
+	)
+	(wire
+		(pts
+			(xy 127 129.54) (xy 132.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ea47cb-a6a0-4a4b-aaaf-290ef3ef8677")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 132.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25902c1-8e59-4dbc-adc9-a7f03b5e5118")
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54856ba-9e28-49ed-8241-72ae2e703146")
+	)
+	(wire
+		(pts
+			(xy 92.71 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea362ce4-b713-40e0-bdca-82bdb396efa7")
+	)
+	(wire
+		(pts
+			(xy 195.58 124.46) (xy 198.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf8dc84-8e9c-413e-ab90-5f6c051aca8d")
+	)
+	(wire
+		(pts
+			(xy 92.71 140.97) (xy 121.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1beeed-ea73-453c-8f9c-a9f7f76760f8")
+	)
+	(wire
+		(pts
+			(xy 116.84 97.79) (xy 116.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede958fc-e296-40da-a857-01cea7670b55")
+	)
+	(wire
+		(pts
+			(xy 193.04 97.79) (xy 198.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a4e7ee-21c5-4cca-8158-ce799eca1bde")
+	)
+	(wire
+		(pts
+			(xy 198.12 111.76) (xy 180.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f186372b-9cd8-4d70-a9a4-ac38724de36b")
+	)
+	(wire
+		(pts
+			(xy 180.34 119.38) (xy 195.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ea5424-3dcf-4503-b794-2ea8b510aada")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59e43f9-553f-41d3-a039-6943b32fd3a0")
+	)
+	(wire
+		(pts
+			(xy 129.54 156.21) (xy 129.54 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7573d39-b203-4b14-bb89-2cd71d722cb1")
+	)
+	(wire
+		(pts
+			(xy 180.34 106.68) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f4f9b0-1181-49a7-8e90-01e3b889e9a6")
+	)
+	(global_label "+CPU_D7{MUL26}"
+		(shape input)
+		(at 82.55 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00cf5e9d-1a1f-4060-a7c5-aae8ecc69974")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.0_Read_Multiply_Result_D8{BL78}"
+		(shape output)
+		(at 215.9 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06c453c2-a0e0-4f3c-adf1-f82587b45d6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}CPU_$5206_WR{L93}"
+		(shape input)
+		(at 68.58 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c2f8bde-4d94-42f2-99d9-fe8255908cf8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.5492 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D6{MUL25}"
+		(shape input)
+		(at 82.55 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c773a0f-da51-49fe-ac0e-c3c6060fb5fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.1_Read_Multiply_Result_D1{BL69}"
+		(shape output)
+		(at 215.9 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13d8fc40-64d3-4acc-b71c-5cca561e953c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D2{MUL21}"
+		(shape input)
+		(at 82.55 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "216e8329-9750-469d-be57-572169155ac2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.5_Read_Multiply_Result_D5{BL65}"
+		(shape output)
+		(at 215.9 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bbb30fe-5e07-4de6-919e-62d53e266b4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D6{MUL25}"
+		(shape input)
+		(at 82.55 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "314e0ed2-cb9b-4ba9-b59c-1b0ce62cd72c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.5_Read_Multiply_Result_D13{BL73}"
+		(shape output)
+		(at 215.9 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31ca9986-25e0-4965-aca1-6082395a4826")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.678 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D5{MUL24}"
+		(shape input)
+		(at 82.55 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b5346ae-231c-40c6-bae7-11151d9b84b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D3{MUL22}"
+		(shape input)
+		(at 82.55 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5934f754-782b-488c-9092-6a8528f2840a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.7_Read_Multiply_Result_D15{BL63}"
+		(shape output)
+		(at 215.9 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d67d99d-bf2f-4e00-92be-af2fe49d7e07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.678 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.6_Read_Multiply_Result_D6{BL72}"
+		(shape output)
+		(at 215.9 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c22d6d2-6698-4480-8c0c-6254ee5f9026")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D2{MUL21}"
+		(shape input)
+		(at 82.55 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72d8bef8-f9f6-4587-8efa-7da1ebba794f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D4{MUL23}"
+		(shape input)
+		(at 82.55 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f073823-8197-4c84-8911-03d31fac1992")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D7{MUL26}"
+		(shape input)
+		(at 82.55 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9271878c-82e5-4868-839c-c852f07bbc45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D0{MUL19}"
+		(shape input)
+		(at 82.55 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "941500a3-ffae-40b4-b663-dbb14f746362")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.2_Read_Multiply_Result_D10{BL76}"
+		(shape output)
+		(at 215.9 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "962abbe4-c77f-4058-8441-40fecb3a3437")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.678 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D1{MUL20}"
+		(shape input)
+		(at 82.55 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9958ba9e-0cee-4771-8aef-aa3edb5f67f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.1_Read_Multiply_Result_D9{BL77}"
+		(shape output)
+		(at 215.9 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e8d3059-75ce-4d97-bc01-ed88377bc13b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.2_Read_Multiply_Result_D2{BL68}"
+		(shape output)
+		(at 215.9 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a61475d7-7d30-4201-bfa0-01d4abf6c929")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D1{MUL20}"
+		(shape input)
+		(at 82.55 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa8d8d1f-a272-4bbe-8234-eafc889daba6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.6_Read_Multiply_Result_D14{BL64}"
+		(shape output)
+		(at 215.9 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bab5f965-bab4-4e96-bfd4-45d4385f227e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.678 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.3_Read_Multiply_Result_D3{BL67}"
+		(shape output)
+		(at 215.9 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bce4dfb8-cbfd-456d-aeb6-65b745c8e9f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D4{MUL23}"
+		(shape input)
+		(at 82.55 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2c2872e-eb99-4a90-a0a1-e72cb50b1e7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}CPU_$5205_WR{L89}"
+		(shape input)
+		(at 68.58 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c448b648-b079-4cb4-b9ff-387a79e4c7e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.5492 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.0_Read_Multiply_Result_D0{BL70}"
+		(shape output)
+		(at 215.9 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc3d1a0f-3511-4db0-89af-686beb8770d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.3_Read_Multiply_Result_D11{BL75}"
+		(shape output)
+		(at 215.9 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdb283d1-bd5a-42f7-9c0a-be051786a576")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.678 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.7_Read_Multiply_Result_D7{BL71}"
+		(shape output)
+		(at 215.9 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d805e135-8a18-40ba-8226-39c432bb5282")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D3{MUL22}"
+		(shape input)
+		(at 82.55 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d90663b1-b436-4a53-b5a9-e8aff08ac0d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.4_Read_Multiply_Result_D12{BL74}"
+		(shape output)
+		(at 215.9 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e09dee82-1cc8-43da-b802-d795e39555b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.678 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.4_Read_Multiply_Result_D4{BL66}"
+		(shape output)
+		(at 215.9 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e523881d-631d-422c-b5cb-e1d044cba191")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4685 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D0{MUL19}"
+		(shape input)
+		(at 82.55 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb63fe5c-3acc-497a-b4a8-54e20c3439f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_D5{MUL24}"
+		(shape input)
+		(at 82.55 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed3cfb82-8a1a-41c1-8c7d-8be5ca046030")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3476 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_8")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09d216a6-6753-4dc7-ac5d-eb53fc842bea")
+		(property "Reference" "MUL7"
+			(at 201.93 121.158 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4f59d183-ba1b-4434-85af-ffa2899a7f7d")
+		)
+		(pin ""
+			(uuid "6106a070-f1c0-459c-bf7b-91bee3861ed0")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_13")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a47754a-90a9-469f-afdf-e8059b5f337c")
+		(property "Reference" "MUL14"
+			(at 201.93 75.438 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7f283b45-a94b-4d5f-aba9-5cb20d795ab1")
+		)
+		(pin ""
+			(uuid "860f43a3-54d4-43a7-994e-e23c4221f99b")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMC5:BUFFER")
+		(at 72.39 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "134bf022-491f-43da-b43c-57d6f5f8bd18")
+		(property "Reference" "MUL17"
+			(at 72.39 104.648 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 75.184 109.22 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e52dd074-6ae8-4af9-915a-4c79e2cafdd6")
+		)
+		(pin ""
+			(uuid "62621d46-274f-4b44-9c1a-a13fb73f378b")
+		)
+		(instances
+			(project ""
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_9")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "138a23e6-4b2a-4910-a579-92a216b4753f")
+		(property "Reference" "MUL6"
+			(at 201.93 127.508 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bb2216e8-8fca-49f4-95f6-0341da306e81")
+		)
+		(pin ""
+			(uuid "2f17e43e-aaa9-465b-974e-a758c577a537")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_27")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a1f3a62-f84e-407f-b923-95b3fe7c2afe")
+		(property "Reference" "BL72"
+			(at 210.82 100.838 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6dbc47e0-67bc-42bc-bfda-bd9e00e477a4")
+		)
+		(pin ""
+			(uuid "3a2fbf81-180b-4ee6-a806-8074918a0de8")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_23")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b967492-18ba-4faa-add4-62dbca7953cb")
+		(property "Reference" "BL68"
+			(at 210.82 75.438 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e24dcdb0-d885-411e-babf-613685045b1a")
+		)
+		(pin ""
+			(uuid "62ce4c1f-168c-44ab-9cf5-f972eb7c6ef4")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_22")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b98fd39-1f7b-4659-b183-4558fb43894f")
+		(property "Reference" "BL67"
+			(at 210.82 81.788 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6661aa41-dff1-4c7f-bd9d-827c51d603ed")
+		)
+		(pin ""
+			(uuid "63b85de6-ffd3-4455-b34d-d00c4f2715cc")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_20")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2119b406-623e-4a37-a0da-b87434f87246")
+		(property "Reference" "BL65"
+			(at 210.82 94.488 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 99.06 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a2330bf8-31d1-4e81-ba24-08deb7d75088")
+		)
+		(pin ""
+			(uuid "17baae28-9e48-482f-b10b-9b1547394810")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_1")
+		(lib_id "MMC5:BUFFER")
+		(at 72.39 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b582127-c9f4-4eeb-ab78-e2aae21c3d37")
+		(property "Reference" "MUL28"
+			(at 72.39 163.068 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 75.184 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8f0ce232-73d7-485e-86d6-35782b0e503a")
+		)
+		(pin ""
+			(uuid "7e8a9283-196d-43ce-a71a-f550fdc609e9")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_19")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e93e05e-edda-4744-8c9b-15208093836d")
+		(property "Reference" "BL64"
+			(at 210.82 152.908 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 157.48 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1f333e94-4045-417c-836d-df0b9a1bf567")
+		)
+		(pin ""
+			(uuid "4dc42ab4-9e67-4b56-a1e6-f1f994220708")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_16")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a148dc7-7939-4600-836f-af88cd764bb3")
+		(property "Reference" "MUL10"
+			(at 201.93 100.838 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "745f4748-e8c3-4813-867e-1bbbd8effc30")
+		)
+		(pin ""
+			(uuid "df3142aa-2f43-4e2a-bdc5-ade7fbe2cdba")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMC5:Multiplier")
+		(at 156.21 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b1794ff-bd52-481b-8f93-986c2fac6600")
+		(property "Reference" "MULTIPLIER"
+			(at 156.21 91.44 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiplier"
+			(at 156.21 137.414 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3e77adbd-82c2-4656-b5b7-56901af91813")
+		)
+		(pin ""
+			(uuid "b8f01b76-0760-4b88-9f6a-67ec7e954587")
+		)
+		(pin ""
+			(uuid "d43a3d1c-ad74-4906-a6ce-54746bf621a1")
+		)
+		(pin ""
+			(uuid "146fc22e-8c86-4afb-8bdc-59906c71c2ab")
+		)
+		(pin ""
+			(uuid "5d36eb0b-0b8e-466f-b46d-28b46a5f1f94")
+		)
+		(pin ""
+			(uuid "fb2434b7-e464-4bfe-b6ff-afb31b5a581e")
+		)
+		(pin ""
+			(uuid "16ab2f33-8fbf-4443-ab73-27f2fd280f28")
+		)
+		(pin ""
+			(uuid "36503823-71a2-4e5f-bda5-cc8f59865115")
+		)
+		(pin ""
+			(uuid "d4526c7b-78ef-48c0-b46b-7f8b0e7f8881")
+		)
+		(pin ""
+			(uuid "f941ee36-1070-4fef-b801-8f969a0f5e8c")
+		)
+		(pin ""
+			(uuid "17e247c0-1bde-4285-a583-bacee29f4246")
+		)
+		(pin ""
+			(uuid "a5cac920-c220-4541-88f6-7788c61aa747")
+		)
+		(pin ""
+			(uuid "1ddcb311-a79b-4a8b-90e2-58efeab296ed")
+		)
+		(pin ""
+			(uuid "90626282-3db8-4f6f-a91c-13f126990048")
+		)
+		(pin ""
+			(uuid "ba43d616-ef9d-4f67-bae9-2d15d30bab8a")
+		)
+		(pin ""
+			(uuid "bac6cac2-208c-46f6-9dc7-ab588f0a1317")
+		)
+		(pin ""
+			(uuid "cda15d95-9a0c-4cf9-a8cb-ec2e3b3f6352")
+		)
+		(pin ""
+			(uuid "c1b66c6f-c51f-4fc4-8acb-f6044683f828")
+		)
+		(pin ""
+			(uuid "f023555d-8ac9-444a-8591-a3253d6324dd")
+		)
+		(pin ""
+			(uuid "2c7258c8-3f45-4dfd-9b86-057480bc5cc7")
+		)
+		(pin ""
+			(uuid "daeb7cd4-54d0-4e9b-9dc5-30d0478cf6b0")
+		)
+		(pin ""
+			(uuid "f00bf40a-3aa8-4511-b055-85a7fa839e4a")
+		)
+		(pin ""
+			(uuid "525703bc-71c8-4135-849f-91d0f4759996")
+		)
+		(pin ""
+			(uuid "19f130ec-6043-43dd-949e-dafb08a75f52")
+		)
+		(pin ""
+			(uuid "35fbddb6-d0d8-4446-ae13-da724e6de4f4")
+		)
+		(pin ""
+			(uuid "605d7b86-24f1-4ddc-adeb-7108274297d9")
+		)
+		(pin ""
+			(uuid "3c62e031-844f-4225-847f-41d4cc069739")
+		)
+		(pin ""
+			(uuid "f5a39cfc-ef6e-4178-9a68-3685a150f41c")
+		)
+		(pin ""
+			(uuid "132743a1-06f7-4d29-a4b9-809f3d8a825e")
+		)
+		(pin ""
+			(uuid "52264626-5780-4fde-8ff6-0cd7bb7aacfe")
+		)
+		(pin ""
+			(uuid "4fbb5f47-8bfa-4f87-9525-7b4f7f17efbc")
+		)
+		(pin ""
+			(uuid "e25bd0e6-49a3-444f-a399-1caf8fd1c4f0")
+		)
+		(instances
+			(project ""
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MULTIPLIER")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_4")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e2e7155-691b-4bf0-a4b6-7875afef3185")
+		(property "Reference" "MUL3"
+			(at 201.93 146.558 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 151.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a3d00566-412c-43e5-be3a-5efd95dec85f")
+		)
+		(pin ""
+			(uuid "f0822b3e-7501-44d8-911e-1a780cf4dd83")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_5")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "638f1984-7c29-48ae-ab0e-28846624fa4c")
+		(property "Reference" "MUL4"
+			(at 201.93 140.208 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 144.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7644bde5-78a0-4b9a-8e1c-78159e75528f")
+		)
+		(pin ""
+			(uuid "f26d1e01-c6d5-4f5d-807f-9da5ba3fa684")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_14")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "658f7820-cb73-4e7b-84fe-bc4d5514fd2b")
+		(property "Reference" "MUL11"
+			(at 201.93 94.488 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 99.06 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "92af0e81-930d-425c-b4c9-16228245b8b0")
+		)
+		(pin ""
+			(uuid "7ebbd414-661c-4521-a3d4-f5ce3ed98e6f")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_26")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66dd1389-0615-4b85-b73f-30ed86ab8e05")
+		(property "Reference" "BL71"
+			(at 210.82 107.188 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c90f80de-f479-459b-958e-e8c7610fa13f")
+		)
+		(pin ""
+			(uuid "c92ec5a5-df17-47cf-89ff-069acc72c2bf")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMC5:Reg_8_D-Latch_N")
+		(at 87.63 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69558a82-4368-4ea5-be40-627edfc3118a")
+		(property "Reference" "MUL27"
+			(at 87.63 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Reg 8 D-Latch N"
+			(at 87.63 108.204 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d7e2f665-006a-4166-a101-09473bd08ac5")
+		)
+		(pin ""
+			(uuid "24067926-d402-4625-bcb7-b4352c6e4f13")
+		)
+		(pin ""
+			(uuid "992d4c90-886a-426e-a4a7-97c250284415")
+		)
+		(pin ""
+			(uuid "b3522b78-8f17-4b51-a693-e6eee044c928")
+		)
+		(pin ""
+			(uuid "e02f3cb9-4369-4a94-9f58-87f8fa326a54")
+		)
+		(pin ""
+			(uuid "b4fa560c-5fba-452b-9a1a-aa572f9a56ce")
+		)
+		(pin ""
+			(uuid "7686f565-30e0-4acf-a3ed-538263175965")
+		)
+		(pin ""
+			(uuid "46c11351-2c03-4f17-9d20-d04bf0d75081")
+		)
+		(pin ""
+			(uuid "a4436e9a-25ad-4747-8141-7a30401597d3")
+		)
+		(pin ""
+			(uuid "aea36c21-9c9d-4ac3-9c28-96e3080e306c")
+		)
+		(pin ""
+			(uuid "163bb90c-2c05-481c-bd81-b6d89720b94b")
+		)
+		(pin ""
+			(uuid "2908f97a-f656-4970-9604-66c352fb82f7")
+		)
+		(pin ""
+			(uuid "68adf394-a814-495f-8ed2-f0e0a5a16228")
+		)
+		(pin ""
+			(uuid "e8714122-d737-4cfd-8366-beb81ed6cd92")
+		)
+		(pin ""
+			(uuid "cd31ae1d-300c-4df5-a6c3-d75e0e587069")
+		)
+		(pin ""
+			(uuid "d8b412bf-6fc4-4d59-a331-33c0aac78284")
+		)
+		(pin ""
+			(uuid "091b5407-151f-44ad-a164-87f9c239606e")
+		)
+		(pin ""
+			(uuid "29b8e208-3909-44e5-b2b4-49cefe15d8d4")
+		)
+		(pin ""
+			(uuid "29d50811-ea1a-4e4b-b896-c9f242dc3cc4")
+		)
+		(pin ""
+			(uuid "21c59efc-1a6d-456d-b013-6bcec7cb255a")
+		)
+		(pin ""
+			(uuid "a352a115-c882-45aa-9a38-8066da9f974b")
+		)
+		(pin ""
+			(uuid "b2f23c42-1d94-4e1c-afdc-d3f4640dadcf")
+		)
+		(pin ""
+			(uuid "13d98f06-3c45-408e-a2aa-8abe7b904a45")
+		)
+		(pin ""
+			(uuid "c2404dcc-40ca-4414-b047-51ead5c7758f")
+		)
+		(pin ""
+			(uuid "43799f05-a04f-41b1-8c74-2212589f4ada")
+		)
+		(instances
+			(project ""
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_2")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dd7ea27-e0bd-4605-beaa-d5fe8c253242")
+		(property "Reference" "MUL1"
+			(at 201.93 159.258 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 163.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d80f1153-ae51-4a04-9d71-77768f3a438c")
+		)
+		(pin ""
+			(uuid "9360615a-5f86-4efd-85c2-932f64f4138a")
+		)
+		(instances
+			(project ""
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_32")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7182c4ae-2218-4b3a-97ff-3af4128397b2")
+		(property "Reference" "BL77"
+			(at 210.82 121.158 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3ce2e0bf-ad7c-4233-a9dc-62aaa6655a35")
+		)
+		(pin ""
+			(uuid "2f0e688e-98f6-48b6-b9fd-2fa78563d352")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_11")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b82bf28-790a-454f-b4cb-8a6407b2f40b")
+		(property "Reference" "MUL9"
+			(at 201.93 107.188 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5bb5cda0-c0c8-4133-a48b-e755444a805a")
+		)
+		(pin ""
+			(uuid "333c615b-a175-483c-b754-74c424cd59f7")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_28")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "863174b8-3124-4912-a139-422154a3aedd")
+		(property "Reference" "BL73"
+			(at 210.82 146.558 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 151.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "12fd42c8-d963-497e-86ba-47268ca68c1f")
+		)
+		(pin ""
+			(uuid "8002c248-356e-4846-8c68-e3cc535fda17")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_30")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ebee91d-a1ba-4dca-870f-0a5b5a32789f")
+		(property "Reference" "BL75"
+			(at 210.82 133.858 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 138.43 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b57d1d14-2e22-4bda-8ed2-62f749e5f07d")
+		)
+		(pin ""
+			(uuid "7bd418fe-d347-4cea-a8f2-7a74297233b3")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_25")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7f8d80a-e584-4f0b-b2c8-17823e19539c")
+		(property "Reference" "BL70"
+			(at 210.82 62.738 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4819b004-376f-4a1b-8b3e-e7177533c598")
+		)
+		(pin ""
+			(uuid "0028aedf-02bd-4884-8220-75cba3aefabc")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_10")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8959316-3b85-4fbd-8b03-7c6bdc4ad605")
+		(property "Reference" "MUL15"
+			(at 201.93 69.088 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 73.66 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "57897cc6-006e-4043-9ceb-f5f582b1b29b")
+		)
+		(pin ""
+			(uuid "06ee5581-4f4b-4e74-b7b1-bec39c811aba")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_31")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3f06ae6-9462-4e95-85e1-59af0fc01347")
+		(property "Reference" "BL76"
+			(at 210.82 127.508 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3eb6d2f9-e26a-4e0b-8fb2-39e131d8517b")
+		)
+		(pin ""
+			(uuid "011733f2-13ff-4ea4-8dad-75fb3b3ca654")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_12")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6ce6976-48e4-4b06-8f84-da6908f00cf6")
+		(property "Reference" "MUL13"
+			(at 201.93 81.788 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d556e5a0-5c08-4105-8a4a-e314c580b74a")
+		)
+		(pin ""
+			(uuid "18334769-6e1a-4cb8-a138-088da8ba2de7")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_24")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbee06cd-521e-4a49-a250-d22018f592c1")
+		(property "Reference" "BL69"
+			(at 210.82 69.088 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 73.66 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "08cfed70-581c-4c62-9111-d04aa23fdb77")
+		)
+		(pin ""
+			(uuid "d44cfefb-6bc8-4566-b45b-770e1821992c")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_33")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf26049f-410d-4821-a441-927e1fed32ee")
+		(property "Reference" "BL78"
+			(at 210.82 114.808 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 119.38 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6ac6322a-b846-4147-9d46-675a9bffc082")
+		)
+		(pin ""
+			(uuid "4b4e1d27-bbfc-43d4-95a4-b9b45471ba84")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_21")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf98e593-60fc-464c-b516-f2c7e9cebebe")
+		(property "Reference" "BL66"
+			(at 210.82 88.138 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a4292ecf-eada-4e62-b169-f86d08747146")
+		)
+		(pin ""
+			(uuid "373ef5ce-c950-4f89-8446-7387b9afa42a")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_3")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c036a4c7-0da6-4a68-9e05-6215bdf439d7")
+		(property "Reference" "MUL2"
+			(at 201.93 152.908 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 157.48 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ce89af3f-1026-4951-8643-84dece624b65")
+		)
+		(pin ""
+			(uuid "f9de1ab1-25ac-4eb7-922a-2e6e94918350")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_18")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c960540e-1757-4eaf-9a80-27f73d8febf7")
+		(property "Reference" "BL63"
+			(at 210.82 159.258 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 163.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c9359c8a-c966-4293-ab9f-a6b46baed7b6")
+		)
+		(pin ""
+			(uuid "14f5450d-273e-4d22-97a3-7607b3d12c8d")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_29")
+		(lib_id "MMC5:BUFFER")
+		(at 210.82 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9a081f0-6d98-4af6-a5e6-c06776109f4b")
+		(property "Reference" "BL74"
+			(at 210.82 140.208 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 213.614 144.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "79b2b3cb-9f23-4b87-9ecc-0d2df7d9c5ff")
+		)
+		(pin ""
+			(uuid "0285a274-25ea-4182-88d8-cfd66a8575e0")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "BL74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_7")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cef9b749-e47c-4214-918b-a01853a7b555")
+		(property "Reference" "MUL5"
+			(at 201.93 133.858 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 138.43 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "90d9e48f-e916-4144-8c77-41660ef56ccd")
+		)
+		(pin ""
+			(uuid "08793f19-7fad-4818-8f9e-3a6965717c5e")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_6")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8185e20-1858-4bce-9d26-a3f977a64b49")
+		(property "Reference" "MUL8"
+			(at 201.93 114.808 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 119.38 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7c6e7ae8-7bce-4946-944e-9d0029368ca7")
+		)
+		(pin ""
+			(uuid "4be7aaea-e7e6-44b1-9f15-bbbabba9983b")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Reg_8_D-Latch_N_1")
+		(lib_id "MMC5:Reg_8_D-Latch_N")
+		(at 87.63 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa0bd7a4-2c3e-496a-8338-fd0c4463834b")
+		(property "Reference" "MUL18"
+			(at 87.63 123.19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Reg 8 D-Latch N"
+			(at 87.63 166.624 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6f97d762-848f-443e-a326-3c74e0eba627")
+		)
+		(pin ""
+			(uuid "54ada8df-417c-48f6-b299-21198d31979e")
+		)
+		(pin ""
+			(uuid "3dc85eae-4eb0-438c-a886-dc93b0aa574a")
+		)
+		(pin ""
+			(uuid "163f59a4-f680-4c19-afa0-d7ebc2aca1b1")
+		)
+		(pin ""
+			(uuid "c0b378ca-6c04-4d36-b069-fdd9a1ae9e8e")
+		)
+		(pin ""
+			(uuid "9aae760b-e749-4852-a00a-a4624155fe49")
+		)
+		(pin ""
+			(uuid "5d7ff3b7-6fdb-4e19-8015-235817008ac0")
+		)
+		(pin ""
+			(uuid "d972d81f-4be3-456c-8d4e-64e96538872e")
+		)
+		(pin ""
+			(uuid "142eed70-f8ae-425d-ab10-6a07b0c2c5a6")
+		)
+		(pin ""
+			(uuid "762b3fde-651f-413c-915a-3eca5ba50ebc")
+		)
+		(pin ""
+			(uuid "3e5fad68-c826-4823-bd33-7b993e3a77a6")
+		)
+		(pin ""
+			(uuid "32ee9f02-f4d5-4a16-a7f0-a6e6307e18ba")
+		)
+		(pin ""
+			(uuid "c52f8cde-a417-49d7-ad35-6fabfd4fa6fb")
+		)
+		(pin ""
+			(uuid "0d918871-c756-4df2-8965-c44c88f7b63c")
+		)
+		(pin ""
+			(uuid "c4881845-a2f8-4b66-b3cb-0c018429c36e")
+		)
+		(pin ""
+			(uuid "7ebfdf66-8ea1-4cfc-9a7c-1ae60a5813a3")
+		)
+		(pin ""
+			(uuid "e153d5df-1d70-429e-b9c3-9eab752017dd")
+		)
+		(pin ""
+			(uuid "19e788b2-1d95-463f-8632-4a1612a5821e")
+		)
+		(pin ""
+			(uuid "93db1378-928c-4642-abdf-fe90cfc9003e")
+		)
+		(pin ""
+			(uuid "a8a07221-29dd-4fe5-82e9-beceee5d4afc")
+		)
+		(pin ""
+			(uuid "b3f95d64-98bf-4d02-9d36-8b95f67bb0cb")
+		)
+		(pin ""
+			(uuid "7dca2ad4-1f74-4356-be67-ddc326c94bc1")
+		)
+		(pin ""
+			(uuid "3eb49fcf-f5e8-4a8f-b028-39128a833c31")
+		)
+		(pin ""
+			(uuid "b5604962-706f-4331-92e4-3272ac39e737")
+		)
+		(pin ""
+			(uuid "9a6a32b8-bea9-414e-8d79-40d3826e959a")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_15")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd48a87b-cfab-4db1-9d03-119c7d7c083f")
+		(property "Reference" "MUL12"
+			(at 201.93 88.138 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "af60d1a0-9f8e-433b-a9e3-fbca113335d5")
+		)
+		(pin ""
+			(uuid "120be6df-fe1b-4f24-9685-2427259443fd")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_17")
+		(lib_id "MMC5:BUFFER")
+		(at 201.93 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdba5b28-b9d4-4a16-aaa7-31fae4a649ac")
+		(property "Reference" "MUL16"
+			(at 201.93 62.738 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 204.724 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3e1b0889-40e3-443b-9d6c-844da0dd3e5f")
+		)
+		(pin ""
+			(uuid "a21f7583-9723-4df7-81dc-2e3b05ba0d0d")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/ae2dff98-5df2-4a7b-a299-0d6ba6b79b38"
+					(reference "MUL16")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

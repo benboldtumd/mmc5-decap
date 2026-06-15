@@ -8200,6 +8200,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 102.87) (xy 236.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a15be2-e10c-4a28-bc13-df70c5428ecf")
+	)
+	(wire
+		(pts
 			(xy 194.31 26.67) (xy 193.04 26.67)
 		)
 		(stroke
@@ -8978,7 +8988,7 @@
 	)
 	(global_label "CIRAM_CE_PIN{A9}"
 		(shape output)
-		(at 236.22 102.87 0)
+		(at 238.76 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8988,7 +8998,7 @@
 		)
 		(uuid "658e884c-f8a9-41a8-a545-c18a1daf4ba9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.441 102.87 0)
+			(at 258.981 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -996,6 +996,48 @@
 		)
 	)
 	(sheet
+		(at 17.78 223.52)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae2dff98-5df2-4a7b-a299-0d6ba6b79b38")
+		(property "Sheetname" "Multiplier"
+			(at 17.78 222.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "multiplier.kicad_sch"
+			(at 17.78 227.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 205.74)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -1332,7 +1374,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 223.52)
+		(at 17.78 232.41)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1348,7 +1390,7 @@
 		)
 		(uuid "f2339e17-4f55-43f8-b207-f65123403db0")
 		(property "Sheetname" "Artifacts"
-			(at 17.78 222.8084 0)
+			(at 17.78 231.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1399,7 @@
 			)
 		)
 		(property "Sheetfile" "artifacts.kicad_sch"
-			(at 17.78 227.9146 0)
+			(at 17.78 236.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1410,7 @@
 		(instances
 			(project "MMC5"
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
-					(page "25")
+					(page "26")
 				)
 			)
 		)

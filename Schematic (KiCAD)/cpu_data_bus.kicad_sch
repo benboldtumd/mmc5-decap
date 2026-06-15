@@ -4012,6 +4012,252 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BUFFER_26"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_26_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_26_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_27"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_27_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_27_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BUFFER_3"
 			(pin_numbers
 				(hide yes)
@@ -23163,28 +23409,6 @@
 			)
 		)
 	)
-	(global_label "$5206.5_Read_Multiply_Result_D13"
-		(shape input)
-		(at 354.33 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07a2487e-fc5f-46ed-ac71-f107c2ec79f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.9625 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+CPU_D7{E64}"
 		(shape output)
 		(at 139.7 196.85 0)
@@ -23295,6 +23519,28 @@
 			)
 		)
 	)
+	(global_label "$5205.6_Read_Multiply_Result_D6{BL72}"
+		(shape input)
+		(at 354.33 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d9b68e7-87c4-4f9a-bc7a-f09d40ac50ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.8985 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}CPU_D3{L125}"
 		(shape output)
 		(at 60.96 207.01 0)
@@ -23383,28 +23629,6 @@
 			)
 		)
 	)
-	(global_label "ExRAM_Read_Buf_D3"
-		(shape input)
-		(at 345.44 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11a99bcb-690e-426a-b2a4-c3a87c0e412c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.2841 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "{slash}CPU_D1{AE19}"
 		(shape output)
 		(at 43.18 130.81 0)
@@ -23449,6 +23673,28 @@
 			)
 		)
 	)
+	(global_label "$5206.2_Read_Multiply_Result_D10{BL76}"
+		(shape input)
+		(at 354.33 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1256c9b5-6b37-4354-b41c-9e6b66e3887e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 397.108 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}CPU_D2{E1}"
 		(shape output)
 		(at 43.18 143.51 0)
@@ -23462,6 +23708,28 @@
 		(uuid "127d4532-c3e3-4031-8e31-53f43b319ad2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.8652 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ExRAM_D5_Read{BJ12(f)}"
+		(shape input)
+		(at 345.44 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "130b495f-8bf0-4bf7-973a-eed3a140260c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.2527 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23581,28 +23849,6 @@
 			)
 		)
 	)
-	(global_label "ExRAM_Read_Buf_D5"
-		(shape input)
-		(at 345.44 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1da739ea-b593-4f23-8e35-a59b55600df8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.2841 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "{slash}CPU_D3{X21}"
 		(shape output)
 		(at 44.45 212.09 0)
@@ -23616,6 +23862,28 @@
 		(uuid "1fb0a4d9-ce2e-46d1-b600-591ad45977ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.4052 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.3_Read_Multiply_Result_D3{BL67}"
+		(shape input)
+		(at 354.33 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "211f5b7f-a486-4d03-8ab7-950ad699d4a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.8985 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23691,24 +23959,24 @@
 			)
 		)
 	)
-	(global_label "$5206.4_Read_Multiply_Result_D12"
-		(shape input)
-		(at 354.33 128.27 180)
+	(global_label "$5015.1_Read_Pulse_2_Status_Bit{BL20}"
+		(shape output)
+		(at 256.54 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2832e024-f28a-47f1-86bb-302e31add7b8")
+		(uuid "27b3c901-7e61-44aa-ad64-d75ab59b81c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.9625 128.27 0)
+			(at 298.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -23757,6 +24025,28 @@
 			)
 		)
 	)
+	(global_label "ExRAM_D4_Read{BJ12(e)}"
+		(shape input)
+		(at 345.44 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29a4fad4-6e80-4dce-991b-3817145e190e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.6156 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}CPU_D2{AE20}"
 		(shape output)
 		(at 43.18 173.99 0)
@@ -23797,28 +24087,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "$5205.4_Read_Multiply_Result_D4"
-		(shape input)
-		(at 354.33 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ba34bb7-7196-4afd-8e3f-a446dfb734fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23955,6 +24223,28 @@
 			)
 		)
 	)
+	(global_label "ExRAM_D6_Read{BJ12(g)}"
+		(shape input)
+		(at 345.44 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3104de5e-0787-400e-b4b2-1a584dd8bcd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.676 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+CPU_$5010_Access{BL53}"
 		(shape output)
 		(at 208.28 212.09 0)
@@ -24034,6 +24324,28 @@
 		(uuid "3971ce47-a4d7-47ec-a61a-9ad1523442e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.1633 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.2_Read_Multiply_Result_D2{BL68}"
+		(shape input)
+		(at 354.33 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c82410f-5295-46a3-a6bd-f38962663d92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.8985 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24175,28 +24487,6 @@
 			)
 		)
 	)
-	(global_label "ExRAM_Read_Buf_D4"
-		(shape input)
-		(at 345.44 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "492bbc36-375d-4f8f-a564-ddecb06bd795")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.2841 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+CPU_D7{G2}"
 		(shape output)
 		(at 123.19 186.69 0)
@@ -24241,28 +24531,6 @@
 			)
 		)
 	)
-	(global_label "$5205.5_Read_Multiply_Result_D5"
-		(shape input)
-		(at 354.33 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e9c6c62-a56b-4fe7-b25b-eb5d6c6f0f01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CPU_D3_OUT_PIN"
 		(shape output)
 		(at 393.7 109.22 0)
@@ -24281,28 +24549,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "$5205.7_Read_Multiply_Result_D7"
-		(shape input)
-		(at 354.33 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5290c4a0-d013-4d90-8986-c4c943a55343")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24342,28 +24588,6 @@
 		(uuid "540443ef-2cbd-4b0d-85ac-63593f488fe4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 328.9081 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "$5206.6_Read_Multiply_Result_D14"
-		(shape input)
-		(at 354.33 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "545b4577-c389-4281-bf64-59a892e9a5dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.9625 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24439,28 +24663,6 @@
 			)
 		)
 	)
-	(global_label "ExRAM_Read_Buf_D6"
-		(shape input)
-		(at 345.44 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "57fd712b-cabd-4c27-ae6d-6e92e36e598d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.2841 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "{slash}CPU_D1{X19}"
 		(shape output)
 		(at 44.45 110.49 0)
@@ -24483,9 +24685,9 @@
 			)
 		)
 	)
-	(global_label "$5205.0_Read_Multiply_Result_D0"
+	(global_label "ExRAM_D3_Read{BJ12(d)}"
 		(shape input)
-		(at 354.33 64.77 180)
+		(at 345.44 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24493,14 +24695,14 @@
 			)
 			(justify right)
 		)
-		(uuid "5b52c553-b354-4de6-9931-7d137b9ba817")
+		(uuid "5a763d92-fb4f-4f82-aff5-4b5b92f83966")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 64.77 0)
+			(at 372.676 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -24527,9 +24729,9 @@
 			)
 		)
 	)
-	(global_label "$5205.1_Read_Multiply_Result_D1"
+	(global_label "$5015.1_Read_Pulse_2_Status_Bit{B104}"
 		(shape input)
-		(at 354.33 82.55 180)
+		(at 247.65 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24537,9 +24739,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5f09a733-3ce6-4c2b-ab7f-7494d6bf29bb")
+		(uuid "5cc0aa10-8d2e-4d19-b70d-dbd752375aaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 82.55 0)
+			(at 205.7186 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24681,28 +24883,6 @@
 			)
 		)
 	)
-	(global_label "ExRAM_Read_Buf_D7"
-		(shape input)
-		(at 345.44 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a0177c9-8d2b-49c3-9c65-b05c997e78ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.2841 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "{slash}CPU_D7{E59}"
 		(shape output)
 		(at 132.08 191.77 0)
@@ -24725,7 +24905,29 @@
 			)
 		)
 	)
-	(global_label "$5015.0_Read_Pulse_1_Status_Bit{B106}"
+	(global_label "ExRAM_D0_Read{BJ12(a)}"
+		(shape input)
+		(at 344.17 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70bd63b8-1c56-4ad5-8caa-e1787769d6ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 371.406 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5015.0_Read_Pulse_1_Status_Bit{BL21}"
 		(shape input)
 		(at 354.33 67.31 180)
 		(fields_autoplaced yes)
@@ -24737,7 +24939,7 @@
 		)
 		(uuid "7179ccbc-c8af-4a90-a032-b7bfd041a78c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.3986 67.31 0)
+			(at 312.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24791,7 +24993,7 @@
 			)
 		)
 	)
-	(global_label "$5206.7_Read_Multiply_Result_D15"
+	(global_label "$5206.7_Read_Multiply_Result_D15{BL63}"
 		(shape input)
 		(at 354.33 176.53 180)
 		(fields_autoplaced yes)
@@ -24801,14 +25003,14 @@
 			)
 			(justify right)
 		)
-		(uuid "78707761-a3ae-4d2e-9ae4-0e58fe660e01")
+		(uuid "7abf08ba-f967-4bfb-8585-372184283309")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.9625 176.53 0)
+			(at 397.108 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -24835,9 +25037,9 @@
 			)
 		)
 	)
-	(global_label "$5205.6_Read_Multiply_Result_D6"
+	(global_label "$5205.1_Read_Multiply_Result_D1{BL69}"
 		(shape input)
-		(at 354.33 161.29 180)
+		(at 354.33 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24845,14 +25047,14 @@
 			)
 			(justify right)
 		)
-		(uuid "7bb3c005-fcd2-41f0-9c97-adfb0b5b26d7")
+		(uuid "7b59d06f-a104-4482-acd4-6fcf770ff1a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 161.29 0)
+			(at 395.8985 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -24967,6 +25169,28 @@
 			)
 		)
 	)
+	(global_label "$5206.4_Read_Multiply_Result_D12{BL74}"
+		(shape input)
+		(at 354.33 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81fbd475-5049-4f51-bfb3-b1d2a0b16383")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 397.108 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "$5204.7_Read_Scanline_IRQ_Pending{BL79}"
 		(shape input)
 		(at 354.33 181.61 180)
@@ -25068,6 +25292,28 @@
 		(uuid "8b2cf562-495c-41f1-8db1-cab90e6d7b3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.0133 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.6_Read_Multiply_Result_D14{BL64}"
+		(shape input)
+		(at 354.33 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b4ada0c-7128-407e-b59b-1e25c5b5beb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 397.108 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25209,9 +25455,9 @@
 			)
 		)
 	)
-	(global_label "$5205.3_Read_Multiply_Result_D3"
+	(global_label "$5206.3_Read_Multiply_Result_D11{BL75}"
 		(shape input)
-		(at 354.33 115.57 180)
+		(at 354.33 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25219,14 +25465,14 @@
 			)
 			(justify right)
 		)
-		(uuid "93c0ce66-7693-492e-b648-2bec2a6b9a13")
+		(uuid "950f2765-b7c4-426d-81a1-14f4fe1f1763")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 115.57 0)
+			(at 397.108 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -25244,6 +25490,28 @@
 		(uuid "96181e40-6c86-4b1b-b87f-977532571741")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.9681 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.0_Read_Multiply_Result_D0{BL70}"
+		(shape input)
+		(at 354.33 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97348937-807e-41d8-bd69-f13ca33b4604")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.8985 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25319,28 +25587,6 @@
 			)
 		)
 	)
-	(global_label "ExRAM_Read_Buf_D2"
-		(shape input)
-		(at 345.44 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c0c7bdf-0259-4475-aec7-f9da761d775b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.2841 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+CPU_D2{P13}"
 		(shape output)
 		(at 52.07 163.83 0)
@@ -25407,6 +25653,28 @@
 			)
 		)
 	)
+	(global_label "$5206.1_Read_Multiply_Result_D9{BL77}"
+		(shape input)
+		(at 354.33 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4e25915-4c9d-49be-b87e-cb3a66c67b7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.8985 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}CPU_D4{E56}"
 		(shape output)
 		(at 132.08 52.07 0)
@@ -25442,6 +25710,28 @@
 		(uuid "a5394751-8d98-4077-82d1-59d0610dd064")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.2381 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5205.7_Read_Multiply_Result_D7{BL71}"
+		(shape input)
+		(at 354.33 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a69d1f28-4f8a-49aa-b362-ca3683f73b5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.8985 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25495,6 +25785,28 @@
 			)
 		)
 	)
+	(global_label "$5206.5_Read_Multiply_Result_D13{BL73}"
+		(shape input)
+		(at 354.33 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aea4d9db-f2a7-404c-be76-5d9e42fd578e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 397.108 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}CPU_D3{E2}"
 		(shape output)
 		(at 44.45 186.69 0)
@@ -25513,6 +25825,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5015.0_Read_Pulse_1_Status_Bit{B106}"
+		(shape input)
+		(at 247.65 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b735c820-12c7-4a87-804e-fff40debb986")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.7186 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -25583,6 +25917,28 @@
 			)
 		)
 	)
+	(global_label "$5205.5_Read_Multiply_Result_D5{BL65}"
+		(shape input)
+		(at 354.33 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c10169db-da0d-4459-969f-4fa8ddd2559c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.8985 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}CPU_D4{L126}"
 		(shape output)
 		(at 130.81 62.23 0)
@@ -25649,6 +26005,50 @@
 			)
 		)
 	)
+	(global_label "$5015.0_Read_Pulse_1_Status_Bit{BL21}"
+		(shape output)
+		(at 256.54 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6d93dab-a1dd-458c-9b4f-d99df3d36393")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 298.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ExRAM_D1_Read{BJ12(b)}"
+		(shape input)
+		(at 344.17 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8f78768-887d-4c54-8db9-95599c34d118")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 371.406 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}CPU_D0{X18}"
 		(shape output)
 		(at 43.18 52.07 0)
@@ -25662,6 +26062,28 @@
 		(uuid "c955bcf5-84eb-430b-b071-0bd956bd6b5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.1352 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "$5206.0_Read_Multiply_Result_D8{BL78}"
+		(shape input)
+		(at 354.33 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb49deb0-0641-46aa-b7e6-43d50a0bd637")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.8985 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25737,28 +26159,6 @@
 			)
 		)
 	)
-	(global_label "ExRAM_Read_Buf_D1"
-		(shape input)
-		(at 344.17 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd3acb56-be32-4b21-8e61-026b0741a53e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.0141 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+CPU_$5015_Access{L118}"
 		(shape input)
 		(at 198.12 179.07 180)
@@ -25803,9 +26203,9 @@
 			)
 		)
 	)
-	(global_label "$5206.0_Read_Multiply_Result_D8"
+	(global_label "ExRAM_D7_Read{BJ12(h)}"
 		(shape input)
-		(at 354.33 59.69 180)
+		(at 345.44 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25813,41 +26213,19 @@
 			)
 			(justify right)
 		)
-		(uuid "da9f0dcf-56a0-4860-86b9-c92e5e10f95f")
+		(uuid "d33df723-d2ff-4460-91c4-ceb0af55a222")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 59.69 0)
+			(at 372.676 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "$5205.2_Read_Multiply_Result_D2"
-		(shape input)
-		(at 354.33 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dabf2200-64ba-4e32-92dc-e3b2add1330e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "$5015.1_Read_Pulse_2_Status_Bit{B104}"
+	(global_label "$5015.1_Read_Pulse_2_Status_Bit{BL20}"
 		(shape input)
 		(at 354.33 85.09 180)
 		(fields_autoplaced yes)
@@ -25859,7 +26237,7 @@
 		)
 		(uuid "db317e21-cc56-4906-9ab7-70cfe3cd691d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.3986 85.09 0)
+			(at 312.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26045,6 +26423,28 @@
 			)
 		)
 	)
+	(global_label "ExRAM_D2_Read{BJ12(c)}"
+		(shape input)
+		(at 345.44 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5a9f149-168d-46a1-b58b-405f01f6df44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.6156 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+CPU_D6{Y25}"
 		(shape output)
 		(at 121.92 163.83 0)
@@ -26063,28 +26463,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "$5206.1_Read_Multiply_Result_D9"
-		(shape input)
-		(at 354.33 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e7819518-f6d6-443c-bd99-100887ed05b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.172 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26133,9 +26511,9 @@
 			)
 		)
 	)
-	(global_label "$5206.2_Read_Multiply_Result_D10"
+	(global_label "$5205.4_Read_Multiply_Result_D4{BL66}"
 		(shape input)
-		(at 354.33 97.79 180)
+		(at 354.33 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26143,14 +26521,14 @@
 			)
 			(justify right)
 		)
-		(uuid "e8caa9f8-29c8-43dc-b264-622c73af75e3")
+		(uuid "ea6774cf-7693-4a52-ba81-f43f3eab2373")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.9625 97.79 0)
+			(at 395.8985 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -26168,28 +26546,6 @@
 		(uuid "eaaf787f-586f-4796-8a1a-e03a288b1b81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.4914 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ExRAM_Read_Buf_D0"
-		(shape input)
-		(at 344.17 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb2478fb-c6ca-424f-aa7b-3997a1e3fa5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.0141 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26454,28 +26810,6 @@
 		(uuid "f7dd5862-0a3d-4a3e-8ab8-34b549eaa9f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.4914 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "$5206.3_Read_Multiply_Result_D11"
-		(shape input)
-		(at 354.33 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8b360de-145b-40e1-8f6f-a8d0d85b6cd9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.9625 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34295,6 +34629,78 @@
 		)
 	)
 	(symbol
+		(lib_name "BUFFER_26")
+		(lib_id "MMC5:BUFFER")
+		(at 251.46 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc46e660-6069-4979-b974-e95c2e6a1b64")
+		(property "Reference" "BL20"
+			(at 251.46 117.348 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 254.254 121.92 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "cf2d0c4b-e689-4056-b6bd-109ceb916ba5")
+		)
+		(pin ""
+			(uuid "b50ac0b6-2128-4c38-975a-d5a48751510d")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
+					(reference "BL20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "INVERT_47")
 		(lib_id "MMC5:INVERT")
 		(at 135.89 57.15 0)
@@ -35307,6 +35713,78 @@
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
 					(reference "BL53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BUFFER_27")
+		(lib_id "MMC5:BUFFER")
+		(at 251.46 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2fd522f-2e0c-452a-969c-490b3fb50c36")
+		(property "Reference" "BL21"
+			(at 251.46 110.998 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BUFFER"
+			(at 254.254 115.57 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2284eacc-5d8b-4b1c-a1fc-b94953556058")
+		)
+		(pin ""
+			(uuid "83af3ddc-57ff-4312-8290-27356c81d1a5")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
+					(reference "BL21")
 					(unit 1)
 				)
 			)

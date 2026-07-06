@@ -7986,6 +7986,952 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Multiplier"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiplier"
+			(at 0 -45.974 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Multiplier_0_1"
+			(rectangle
+				(start -21.59 -1.27)
+				(end 21.59 -44.45)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Multiplier_1_1"
+			(text "D0 A"
+				(at -21.336 -2.54 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D1 A"
+				(at -21.336 -5.08 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D2 A"
+				(at -21.336 -7.62 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D3 A"
+				(at -21.336 -10.16 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D4 A"
+				(at -21.336 -12.7 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D5 A"
+				(at -21.336 -15.24 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D6 A"
+				(at -21.336 -17.78 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D7 A"
+				(at -21.336 -20.32 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D0 B"
+				(at -21.336 -25.4 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D1 B"
+				(at -21.336 -27.94 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D2 B"
+				(at -21.336 -30.48 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D3 B"
+				(at -21.336 -33.02 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D4 B"
+				(at -21.336 -35.56 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D5 B"
+				(at -21.336 -38.1 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D6 B"
+				(at -21.336 -40.64 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "D7 B"
+				(at -21.336 -43.18 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "x"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 25.4 25.4)
+						(thickness 5.08)
+						(bold yes)
+					)
+				)
+			)
+			(text "Y0"
+				(at 21.336 -2.54 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y1"
+				(at 21.336 -5.08 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y2"
+				(at 21.336 -7.62 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y3"
+				(at 21.336 -10.16 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y4"
+				(at 21.336 -12.7 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y5"
+				(at 21.336 -15.24 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y6"
+				(at 21.336 -17.78 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y7"
+				(at 21.336 -20.32 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y8"
+				(at 21.336 -25.4 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y9"
+				(at 21.336 -27.94 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y10"
+				(at 21.336 -30.48 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y11"
+				(at 21.336 -33.02 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y12"
+				(at 21.336 -35.56 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y13"
+				(at 21.336 -38.1 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y14"
+				(at 21.336 -40.64 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "Y15"
+				(at 21.336 -43.18 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(pin input line
+				(at -24.13 -2.54 0)
+				(length 2.54)
+				(name "D0A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -5.08 0)
+				(length 2.54)
+				(name "D1A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -7.62 0)
+				(length 2.54)
+				(name "D2A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -10.16 0)
+				(length 2.54)
+				(name "D3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -12.7 0)
+				(length 2.54)
+				(name "D4A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -15.24 0)
+				(length 2.54)
+				(name "D5A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -17.78 0)
+				(length 2.54)
+				(name "D6A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -20.32 0)
+				(length 2.54)
+				(name "D7A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -25.4 0)
+				(length 2.54)
+				(name "D0B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -27.94 0)
+				(length 2.54)
+				(name "D1B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -30.48 0)
+				(length 2.54)
+				(name "D2B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -33.02 0)
+				(length 2.54)
+				(name "D3B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -35.56 0)
+				(length 2.54)
+				(name "D4B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -38.1 0)
+				(length 2.54)
+				(name "D5B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -40.64 0)
+				(length 2.54)
+				(name "D6B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -43.18 0)
+				(length 2.54)
+				(name "D7B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -2.54 180)
+				(length 2.54)
+				(name "Y0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -5.08 180)
+				(length 2.54)
+				(name "Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -7.62 180)
+				(length 2.54)
+				(name "Y2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -10.16 180)
+				(length 2.54)
+				(name "Y3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -12.7 180)
+				(length 2.54)
+				(name "Y4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -15.24 180)
+				(length 2.54)
+				(name "Y5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -17.78 180)
+				(length 2.54)
+				(name "Y6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -20.32 180)
+				(length 2.54)
+				(name "Y7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -25.4 180)
+				(length 2.54)
+				(name "Y8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -27.94 180)
+				(length 2.54)
+				(name "Y9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -30.48 180)
+				(length 2.54)
+				(name "Y10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -33.02 180)
+				(length 2.54)
+				(name "Y11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -35.56 180)
+				(length 2.54)
+				(name "Y12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -38.1 180)
+				(length 2.54)
+				(name "Y13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -40.64 180)
+				(length 2.54)
+				(name "Y14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -43.18 180)
+				(length 2.54)
+				(name "Y15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "NAND_2"
 		(pin_numbers
 			(hide yes)

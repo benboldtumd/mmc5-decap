@@ -19757,7 +19757,7 @@
 			)
 		)
 	)
-	(global_label "V-Split_Side_Latched{BL43}"
+	(global_label "V-Split_Rendering{BL43}"
 		(shape input)
 		(at 179.07 21.59 180)
 		(fields_autoplaced yes)
@@ -19769,7 +19769,7 @@
 		)
 		(uuid "cf631434-92b2-41ec-a912-f2d88bf3072e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.294 21.59 0)
+			(at 152.2573 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

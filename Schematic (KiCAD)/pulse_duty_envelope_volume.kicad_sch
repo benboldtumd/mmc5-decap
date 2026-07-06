@@ -8071,6 +8071,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MMC5:Reg_2_DFF-No-Reset_N"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Reg 2 DFF-No-Reset N"
+				(at 0 -9.906 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Reg_2_DFF-No-Reset_N_0_1"
+				(rectangle
+					(start -2.54 -1.27)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -6.985) (xy -1.905 -7.62) (xy -2.54 -8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Reg_2_DFF-No-Reset_N_1_1"
+				(circle
+					(center 2.8575 -3.81)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.8575 -6.35)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "D0"
+					(at -2.286 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "D1"
+					(at -2.286 -5.08 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(text "Q0"
+					(at 2.286 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q0"
+					(at 2.286 -3.81 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "Q1"
+					(at 2.286 -5.08 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "/Q1"
+					(at 2.286 -6.35 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "Clock"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -3.81 180)
+					(length 1.905)
+					(name "/Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -6.35 180)
+					(length 1.905)
+					(name "/Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MMC5:Reg_4_D-Latch_N"
 			(pin_numbers
 				(hide yes)
@@ -13276,6 +13562,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "894.886 kHz"
+		(exclude_from_sim no)
+		(at 237.236 225.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03d21146-b94a-42a1-b831-b70b08b92294")
+	)
+	(text "Probably /Reset input."
+		(exclude_from_sim no)
+		(at 173.736 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "082577d0-6543-495a-b403-fabe992c3100")
+	)
 	(text "Pulse 2\nDuty Cycle Counter"
 		(exclude_from_sim no)
 		(at 184.404 136.652 0)
@@ -13302,6 +13610,30 @@
 		)
 		(uuid "366ee12c-70e0-47c9-8b5d-0b94f9305372")
 	)
+	(text "894.886 kHz"
+		(exclude_from_sim no)
+		(at 194.056 198.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38d398c9-413d-4c28-a355-c4677da9c485")
+	)
+	(text "$5015 Write Register\nPulse 1&2 Status"
+		(exclude_from_sim no)
+		(at 185.42 236.474 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "51f13ea9-be27-4933-9c62-728418d59d40")
+	)
 	(text "$5004 Register\nPulse 2 Duty Envelope Volume"
 		(exclude_from_sim no)
 		(at 49.53 137.16 0)
@@ -13315,6 +13647,17 @@
 		)
 		(uuid "625ee21e-50c8-4cc9-ae7b-cac1fff04428")
 	)
+	(text "894.886 kHz"
+		(exclude_from_sim no)
+		(at 237.236 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c0de567-cb07-4032-94c7-c8a90b0308bb")
+	)
 	(text "Bit 0 is internally bypassed."
 		(exclude_from_sim no)
 		(at 205.232 26.416 0)
@@ -13324,6 +13667,17 @@
 			)
 		)
 		(uuid "8844b539-a159-486c-a989-d30bbd1e3379")
+	)
+	(text "0 when enabled\n895 kHz when disabled"
+		(exclude_from_sim no)
+		(at 207.264 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "997935c2-1c5d-421a-923c-785cca84ff0c")
 	)
 	(text "Pulse 1\nEnvelope/Volume Multiplexing"
 		(exclude_from_sim no)
@@ -13351,6 +13705,28 @@
 		)
 		(uuid "ace87e5e-df7b-4b93-bed4-ea327dfb7ccb")
 	)
+	(text "0=length counter>0"
+		(exclude_from_sim no)
+		(at 249.682 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af1c44f4-58e2-41b9-aeca-84569c5ff55b")
+	)
+	(text "894.886 kHz"
+		(exclude_from_sim no)
+		(at 193.802 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2670aab-0f7b-4e26-a4a6-467bd48c38f3")
+	)
 	(text "Bit 0 is internally bypassed."
 		(exclude_from_sim no)
 		(at 205.232 143.256 0)
@@ -13360,6 +13736,17 @@
 			)
 		)
 		(uuid "e3d28313-30b7-45a2-b179-0e3ef0ec2647")
+	)
+	(text "1=length counter>0"
+		(exclude_from_sim no)
+		(at 273.05 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5fc6096-53a8-4aff-b222-383e57fa1947")
 	)
 	(text "$5000 Register\nPulse 1 Duty Envelope Volume"
 		(exclude_from_sim no)
@@ -14259,6 +14646,16 @@
 			(type default)
 		)
 		(uuid "6aa9d442-12ae-44bf-a588-295102236286")
+	)
+	(wire
+		(pts
+			(xy 191.77 245.11) (xy 190.5 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdebf8b-7286-41a5-9546-4a899eabc8b8")
 	)
 	(wire
 		(pts
@@ -15422,6 +15819,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 247.65) (xy 190.5 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9888527-4306-4728-90b5-f6e95dd424cb")
+	)
+	(wire
+		(pts
 			(xy 228.6 76.2) (xy 228.6 64.77)
 		)
 		(stroke
@@ -15812,7 +16219,7 @@
 			)
 		)
 	)
-	(global_label "Pulse_Timer_Clock{A59}"
+	(global_label "Pulse_Timer_Clock_Fast{A59}"
 		(shape input)
 		(at 195.58 200.66 180)
 		(fields_autoplaced yes)
@@ -15824,7 +16231,7 @@
 		)
 		(uuid "1134376c-b532-45e5-ab95-92276df2d9ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.9163 200.66 0)
+			(at 164.9573 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15988,6 +16395,28 @@
 			)
 		)
 	)
+	(global_label "+CPU_D1{G14}"
+		(shape input)
+		(at 180.34 247.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ec1567e-e037-470c-8c76-0367221526e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.0824 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Pulse_2_Vol{slash}Env.0{F22}"
 		(shape output)
 		(at 383.54 147.32 0)
@@ -16120,7 +16549,7 @@
 			)
 		)
 	)
-	(global_label "Pulse_Timer_Clock{A61}"
+	(global_label "Pulse_Timer_Clock_Fast{A61}"
 		(shape input)
 		(at 238.76 222.25 180)
 		(fields_autoplaced yes)
@@ -16132,7 +16561,7 @@
 		)
 		(uuid "29132146-71f8-46ca-8892-cd46f00e0529")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.0963 222.25 0)
+			(at 208.1373 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16736,6 +17165,28 @@
 			)
 		)
 	)
+	(global_label "+$5015.0_Pulse_1_Enable{B98}"
+		(shape output)
+		(at 191.77 245.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5728d574-88af-43d4-8e60-0f922c4ddbab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.2348 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+Reset_Detect{C14}"
 		(shape input)
 		(at 205.74 212.09 180)
@@ -16890,7 +17341,7 @@
 			)
 		)
 	)
-	(global_label "Pulse_Timer_Clock{A59}"
+	(global_label "Pulse_Timer_Clock_Fast{A59}"
 		(shape input)
 		(at 195.58 83.82 180)
 		(fields_autoplaced yes)
@@ -16902,7 +17353,7 @@
 		)
 		(uuid "69993de3-6b8a-418f-8b54-603cd71d9ac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.9163 83.82 0)
+			(at 164.9573 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17550,7 +18001,7 @@
 			)
 		)
 	)
-	(global_label "Pulse_Timer_Clock{A61}"
+	(global_label "Pulse_Timer_Clock_Fast{A61}"
 		(shape input)
 		(at 238.76 105.41 180)
 		(fields_autoplaced yes)
@@ -17562,12 +18013,34 @@
 		)
 		(uuid "9dc3cc8e-1cce-4ca2-8469-3acadc38b6c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.0963 105.41 0)
+			(at 208.1373 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+$5015.1_Pulse_2_Enable{B98}"
+		(shape output)
+		(at 191.77 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e31075b-7415-47f4-9828-4af8b0ebd4a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.2348 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18320,6 +18793,28 @@
 			)
 		)
 	)
+	(global_label "+CPU_D0{G16}"
+		(shape input)
+		(at 180.34 245.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2b05f57-e037-4d60-adc6-1132cf80003f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.0824 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "$5015.0_Read_Pulse_1_Status_Bit{B106}"
 		(shape output)
 		(at 257.81 96.52 0)
@@ -18729,6 +19224,28 @@
 		(uuid "f232e5ec-9170-4caf-8509-8145789e62bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 171.6703 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}CPU_$5015_WR{L119}"
+		(shape input)
+		(at 180.34 250.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7d0b52d-4cbc-4933-a012-2646725916d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.0997 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19377,6 +19894,91 @@
 			(project "MMC5"
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/58ac8c8e-9b19-48e1-aca9-8ec408ceb475"
 					(reference "H108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMC5:Reg_2_DFF-No-Reset_N")
+		(at 185.42 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14548916-b5a9-4e34-a01c-7f3a2db5f57f")
+		(property "Reference" "B98"
+			(at 185.42 242.57 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Reg 2 DFF-No-Reset N"
+			(at 185.42 252.476 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5eff215f-d15f-4a4c-8d26-9b4b9218eb25")
+		)
+		(pin ""
+			(uuid "86b71fe2-55c3-4a54-a8d5-5db053db4830")
+		)
+		(pin ""
+			(uuid "96618706-925f-4e3e-83e0-5ed856cae5a0")
+		)
+		(pin ""
+			(uuid "00074b74-d02b-4bd2-be37-8ee21d72838c")
+		)
+		(pin ""
+			(uuid "3e606d3d-f802-414a-838f-ef6feba555b9")
+		)
+		(pin ""
+			(uuid "9c6a4570-b4e4-4a91-88a6-442ccc37c606")
+		)
+		(pin ""
+			(uuid "44ec3b6e-4482-4ba4-8b37-d57fcc491437")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/58ac8c8e-9b19-48e1-aca9-8ec408ceb475"
+					(reference "B98")
 					(unit 1)
 				)
 			)

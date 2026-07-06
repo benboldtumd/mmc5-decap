@@ -7109,16 +7109,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Order Not Clear"
-		(exclude_from_sim no)
-		(at 79.756 68.326 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "36411989-1fe4-4cc5-b2f0-d8a752e6b766")
-	)
 	(text "I believe this uses\ninverting tristate buffers."
 		(exclude_from_sim no)
 		(at 229.87 140.716 0)
@@ -7340,6 +7330,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 67.31) (xy 113.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a21bba9-516b-49f5-a735-255eb10866fc")
+	)
+	(wire
+		(pts
 			(xy 195.58 154.94) (xy 201.93 154.94)
 		)
 		(stroke
@@ -7416,7 +7416,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "175a201c-dcb4-457b-9e8c-c3b6d89b0739")
+		(uuid "1842939e-1607-4f6c-bd34-d58383e9b4d1")
 	)
 	(wire
 		(pts
@@ -7447,16 +7447,6 @@
 			(type default)
 		)
 		(uuid "1dd49048-a2cb-44f8-a24f-95fbb5a69c83")
-	)
-	(wire
-		(pts
-			(xy 113.03 66.04) (xy 114.3 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "206eab95-5cc8-41f9-b13f-7588397e3a09")
 	)
 	(wire
 		(pts
@@ -7610,6 +7600,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a903599-3c0f-4438-8dc9-9ef65e2c2999")
+	)
+	(wire
+		(pts
 			(xy 80.01 173.99) (xy 95.25 173.99)
 		)
 		(stroke
@@ -7700,16 +7700,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 71.12) (xy 114.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bad2b05-2e25-4df2-8ed7-01609d5b0de5")
-	)
-	(wire
-		(pts
 			(xy 96.52 143.51) (xy 104.14 143.51)
 		)
 		(stroke
@@ -7787,16 +7777,6 @@
 			(type default)
 		)
 		(uuid "7a99638e-3c0c-44ad-98bc-000e15a96866")
-	)
-	(wire
-		(pts
-			(xy 111.76 67.31) (xy 113.03 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ff8c4a6-3a27-4a67-8968-85ef6fb768d8")
 	)
 	(wire
 		(pts
@@ -7930,6 +7910,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 66.04) (xy 113.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c20684d-c995-4232-9b39-1a8e9f82b6c6")
+	)
+	(wire
+		(pts
 			(xy 166.37 64.77) (xy 166.37 73.66)
 		)
 		(stroke
@@ -8060,16 +8050,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 67.31) (xy 113.03 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75cbf02-97df-444a-bcfc-37287f2d3519")
-	)
-	(wire
-		(pts
 			(xy 236.22 125.73) (xy 236.22 132.08)
 		)
 		(stroke
@@ -8150,6 +8130,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 71.12) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9019e6-9718-4a8c-8b31-54edff1cc6a1")
+	)
+	(wire
+		(pts
+			(xy 114.3 66.04) (xy 113.03 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cceb6111-c15e-4449-86dd-67de7fdaca1f")
+	)
+	(wire
+		(pts
 			(xy 163.83 85.09) (xy 163.83 93.98)
 		)
 		(stroke
@@ -8167,16 +8167,6 @@
 			(type default)
 		)
 		(uuid "cfe54c89-2370-4719-90ee-4944dcf0d0f9")
-	)
-	(wire
-		(pts
-			(xy 114.3 71.12) (xy 114.3 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d076f4b0-a549-4490-9496-d5037eaa05d4")
 	)
 	(wire
 		(pts
@@ -8812,7 +8802,7 @@
 	)
 	(global_label "+CounterS.3{S21}"
 		(shape input)
-		(at 111.76 67.31 180)
+		(at 111.76 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8822,7 +8812,7 @@
 		)
 		(uuid "3c538561-6bf1-4f40-a03c-23fb4675c5b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.5392 67.31 0)
+			(at 91.5392 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,7 +9658,7 @@
 			)
 		)
 	)
-	(global_label "V-Split_Side_Latched{N15}"
+	(global_label "V-Split_Rendering{N15}"
 		(shape input)
 		(at 111.76 71.12 180)
 		(fields_autoplaced yes)
@@ -9680,7 +9670,7 @@
 		)
 		(uuid "ced61e0e-2047-417c-b8da-7302ab54d8e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9516 71.12 0)
+			(at 85.9149 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +9968,7 @@
 	)
 	(global_label "{slash}ExRAM_Mode_%01{BK80}"
 		(shape input)
-		(at 111.76 64.77 180)
+		(at 111.76 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9988,7 +9978,7 @@
 		)
 		(uuid "fde9889f-a335-4506-bf8d-52ac0f8f1bb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.1612 64.77 0)
+			(at 84.1612 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

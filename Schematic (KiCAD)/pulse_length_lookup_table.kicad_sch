@@ -14410,174 +14410,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_3_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 4.826 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "NAND_3"
-				(at 0 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NAND_3_3_1_1"
-				(polyline
-					(pts
-						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 0.635 3.175) (xy 3.175 3.175) (xy 3.175 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NAND_4_1"
 			(pin_numbers
 				(hide yes)
@@ -20314,6 +20146,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NOR_3_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.826 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NOR_3"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOR_3_1_0_1"
+				(bezier
+					(pts
+						(xy -3.175 3.175) (xy -1.905 1.905) (xy -1.905 -1.905) (xy -3.175 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NOR_3_1_1_1"
+				(bezier
+					(pts
+						(xy -3.175 3.175) (xy 4.445 3.175) (xy 4.445 -3.175) (xy -3.175 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.286)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.794)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.286)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NOR_5_1"
 			(pin_numbers
 				(hide yes)
@@ -20793,6 +20795,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "always 0 when reset detected,\nwithout reset, only 0 when value=3712"
+		(exclude_from_sim no)
+		(at 228.6 199.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0cdf6c98-1506-4d58-88ad-8a1cfeb73fb3")
+	)
 	(text "Pulse Channel Clock Source"
 		(exclude_from_sim no)
 		(at 255.524 136.652 0)
@@ -20805,6 +20818,49 @@
 			)
 		)
 		(uuid "13807806-92b4-4a05-b9b2-b18b660aa07c")
+	)
+	(text "241.08Hz"
+		(exclude_from_sim no)
+		(at 234.442 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15bb7c4d-68b4-4a72-96dc-502bd835e4e9")
+	)
+	(text "A65 resets\nQ7 of A66."
+		(exclude_from_sim no)
+		(at 244.348 178.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2745af5b-be05-4594-94f4-23cb5a7e8d6e")
+	)
+	(text "1.789773 MHz"
+		(exclude_from_sim no)
+		(at 207.264 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2bd4335d-3536-45c1-a73a-0fe6757c84a2")
+	)
+	(text "A66.2 in this logic can only\ncreate a phase shift and\nnot affect the period\nsince it doesn't cause A66\nto reset."
+		(exclude_from_sim no)
+		(at 211.582 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "345d7910-f059-41ae-a1d7-6334349f16d0")
 	)
 	(text "$5003 Register\nPulse 1 Length Counter"
 		(exclude_from_sim no)
@@ -20819,6 +20875,71 @@
 		)
 		(uuid "3d2c2f3c-aefd-48b5-a93e-4f3c43a33486")
 	)
+	(text "The reset inputs of ALL these\ncounters seem to be /Reset.\nHard to see why this acts different\nthan T-FF counters elsewhere."
+		(exclude_from_sim no)
+		(at 220.726 168.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4092e3b7-18f5-469b-8073-f1a8bc0c943f")
+	)
+	(text "894.886 kHz"
+		(exclude_from_sim no)
+		(at 337.82 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b9f6178-8c24-416a-a317-9a56a20c2b1e")
+	)
+	(text "0=Reset Held By A67.Q4 or Pin 30"
+		(exclude_from_sim no)
+		(at 329.946 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e853a6c-f508-4761-bff5-3ae301401f44")
+	)
+	(text "/Value\n3712"
+		(exclude_from_sim no)
+		(at 279.146 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64f9749e-1092-4303-b941-42132752d3c7")
+	)
+	(text "These counters count \"down\"\nthe preloaded period value.\n\nThis means either the outputs\nor preload inputs are inverted."
+		(exclude_from_sim no)
+		(at 292.862 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "662653ad-a574-484d-9f9a-06b61ad8a8d9")
+	)
+	(text "Important:\nA63 resets\nQ4 of A67."
+		(exclude_from_sim no)
+		(at 246.634 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78664f5c-29f1-4ba0-bc72-b525bf83f23f")
+	)
 	(text "5-Bit to 7-Bit\nPulse Length Lookup Table"
 		(exclude_from_sim no)
 		(at 81.534 20.32 0)
@@ -20832,6 +20953,28 @@
 		)
 		(uuid "821c18fc-7554-4c94-a407-a8c3fcc9722d")
 	)
+	(text "447.443 kHz\n50% duty"
+		(exclude_from_sim no)
+		(at 268.732 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bf9779b-1e2f-440d-ab28-f3439b54060d")
+	)
+	(text "/Q4 is high for the first\n240Hz period after reset\nhas stopped being detected."
+		(exclude_from_sim no)
+		(at 259.588 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c9bdbaf-bad8-4392-ac31-018ee0d191bb")
+	)
 	(text "$5007 Register\nPulse 2 Length Counter"
 		(exclude_from_sim no)
 		(at 279.908 70.612 0)
@@ -20844,6 +20987,81 @@
 			)
 		)
 		(uuid "9f032a81-568c-41c3-a0ab-20e4cec5a0c0")
+	)
+	(text "All of these outputs are\n241.08 Hz\n-or- \nPin 98 Input"
+		(exclude_from_sim no)
+		(at 394.716 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4b74058-11dc-4f3b-a63f-d4b97b11157b")
+	)
+	(text "241.08 Hz or\nPin 98 Input"
+		(exclude_from_sim no)
+		(at 297.942 216.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b32a543a-4bdb-4c65-a016-13cf5b6ca64d")
+	)
+	(text "241.08 Hz\nDuty seems thin"
+		(exclude_from_sim no)
+		(at 289.306 207.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9d56d18-dfc7-42a5-8b1b-688ad7f563bd")
+	)
+	(text "894.886 kHz\n50% duty"
+		(exclude_from_sim no)
+		(at 234.188 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f11c58ce-5a6e-452e-be7d-cdda4bb72202")
+	)
+	(text "894.886 kHz\n<25% duty, depends on M2 Duty"
+		(exclude_from_sim no)
+		(at 246.126 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3c43ad3-12d9-459a-ad25-e550c55b57b9")
+	)
+	(text "3.49565 kHz\n50% duty"
+		(exclude_from_sim no)
+		(at 262.382 171.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f784270d-9378-4ca1-8556-b7d183941c5f")
+	)
+	(text "See spreadsheet for decoded values:\n\"pulse length lookup table.xlsx\""
+		(exclude_from_sim no)
+		(at 81.534 28.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff94458e-0e02-4668-9a20-1b902c3401f7")
 	)
 	(junction
 		(at 270.51 232.41)
@@ -20921,7 +21139,7 @@
 		(at 227.33 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9a8fe8b-479e-401d-a43f-d009fd20b038")
+		(uuid "b3aaa0ba-9891-48cf-ad9f-8bd88e22a1e5")
 	)
 	(junction
 		(at 269.24 110.49)
@@ -23187,28 +23405,6 @@
 			)
 		)
 	)
-	(global_label "SL3_PIN_98"
-		(shape input)
-		(at 259.08 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2603d508-332c-493d-80fb-db737771dd13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0882 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "{slash}CPU_D6{E58}"
 		(shape input)
 		(at 34.29 220.98 180)
@@ -23222,6 +23418,28 @@
 		(uuid "2623a75b-051e-40ab-bfc8-835ebc10aab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.3953 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}Test_Input_PIN_30{PinInv}"
+		(shape input)
+		(at 259.08 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27b481b5-5b1a-4e74-a378-ce2db9973c3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.2111 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23495,28 +23713,6 @@
 			)
 		)
 	)
-	(global_label "+Use_Internal_Scanline_Detection_PIN_92"
-		(shape input)
-		(at 259.08 232.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f8e9f78-c495-4931-ad86-f592e949d53c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.3017 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+CPU_D6{E63}"
 		(shape input)
 		(at 123.19 101.6 180)
@@ -23755,6 +23951,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}SL3_PIN_98{PinInv}"
+		(shape input)
+		(at 259.08 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ccee8ce-d611-40da-8aeb-d423d52b43ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.8409 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -24859,28 +25077,6 @@
 			)
 		)
 	)
-	(global_label "V-Split_Scanline_PIN_30"
-		(shape input)
-		(at 259.08 237.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8775b18d-a860-4438-b4bc-6aff0e02d179")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.4488 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "{slash}CPU_D3{E55}"
 		(shape input)
 		(at 123.19 43.18 180)
@@ -25233,7 +25429,7 @@
 			)
 		)
 	)
-	(global_label "Pulse_Timer_Clock{A59}"
+	(global_label "Pulse_Timer_Clock_Fast{A59}"
 		(shape output)
 		(at 309.88 151.13 0)
 		(fields_autoplaced yes)
@@ -25245,7 +25441,7 @@
 		)
 		(uuid "a2df4df5-f120-45ac-9618-776241201528")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.5437 151.13 0)
+			(at 340.5027 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25277,7 +25473,7 @@
 			)
 		)
 	)
-	(global_label "Pulse_Timer_Clock{A61}"
+	(global_label "Pulse_Timer_Clock_Fast{A61}"
 		(shape output)
 		(at 309.88 143.51 0)
 		(fields_autoplaced yes)
@@ -25289,7 +25485,7 @@
 		)
 		(uuid "a6bc674a-bb5d-45f4-9707-6243943206a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.5437 143.51 0)
+			(at 340.5027 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25541,7 +25737,7 @@
 			)
 		)
 	)
-	(global_label "Pulse_Length_Clock{A75}"
+	(global_label "Pulse_Length_Clock_SL3(Reset_Aware){A75}"
 		(shape output)
 		(at 358.14 219.71 0)
 		(fields_autoplaced yes)
@@ -25553,7 +25749,7 @@
 		)
 		(uuid "b3152e2f-6c5b-49f3-b337-ffd2de58950e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 384.9526 219.71 0)
+			(at 402.6722 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25840,6 +26036,28 @@
 		(uuid "cc82d06e-5693-4807-9758-b2f06c456161")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.3953 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Test_Mode_PIN_92{PinInv}"
+		(shape input)
+		(at 259.08 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdcb0d49-6a13-4b74-bb62-e93c1c234bad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.9087 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26289,7 +26507,7 @@
 			)
 		)
 	)
-	(global_label "Pulse_Length_Clock{A75}"
+	(global_label "Pulse_Length_Clock_SL3(Reset_Aware){A75}"
 		(shape input)
 		(at 236.22 63.5 180)
 		(fields_autoplaced yes)
@@ -26301,7 +26519,7 @@
 		)
 		(uuid "f3934aed-52c3-43c2-84ad-d86f0c8cb5b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.4074 63.5 0)
+			(at 191.6878 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31606,84 +31824,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_3")
-		(lib_id "MMC5:NAND_3")
-		(at 220.98 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84c92885-5990-4493-96bd-a8e82615a246")
-		(property "Reference" "A66.5"
-			(at 220.98 194.564 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "NAND_3"
-			(at 220.98 199.39 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "2253c89b-2e73-426a-8ef1-96c61a1164c3")
-		)
-		(pin ""
-			(uuid "362f3e81-4a0c-4af4-b4f5-697564c1d435")
-		)
-		(pin ""
-			(uuid "721b6c6a-2874-4122-8bd4-c7c29da9e7a3")
-		)
-		(pin ""
-			(uuid "926c01cd-890c-4f97-bfbb-43f236fa52d3")
-		)
-		(instances
-			(project ""
-				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/c1262e85-2c8c-4550-8b9b-35681710fa23"
-					(reference "A66.5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "INVERT_31")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 185.42 0)
@@ -35311,6 +35451,84 @@
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/c1262e85-2c8c-4550-8b9b-35681710fa23"
 					(reference "A78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NOR_3_1")
+		(lib_id "MMC5:NOR_3")
+		(at 220.98 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaed4846-835a-4531-af0b-9bb3e40b3aed")
+		(property "Reference" "A66.5"
+			(at 220.98 194.564 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "NOR_3"
+			(at 220.98 199.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c8252a50-41ae-4349-909b-ca8e687e4cb6")
+		)
+		(pin ""
+			(uuid "8a104e57-0ba4-49a7-80e7-43d038210ee7")
+		)
+		(pin ""
+			(uuid "fe2798a5-fd57-46ef-bbbf-afb3daa02f3b")
+		)
+		(pin ""
+			(uuid "35d5f5f9-32b3-4f49-b0e8-6aea968c157e")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/c1262e85-2c8c-4550-8b9b-35681710fa23"
+					(reference "A66.5")
 					(unit 1)
 				)
 			)

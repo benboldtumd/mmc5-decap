@@ -20390,17 +20390,6 @@
 		)
 		(uuid "b4f70cd5-831f-4ca3-a3e6-4c8b3cdb496f")
 	)
-	(text "The area BK93-BK97\nis damaged and it is\nhard to deduce the\ncorrect connections."
-		(exclude_from_sim no)
-		(at 236.982 27.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d30e4f36-b17e-4cb6-90d1-d9488af8940b")
-	)
 	(text "Writing to ExRAM\nvia $5C00-5FFF\nin mode %10"
 		(exclude_from_sim no)
 		(at 129.286 131.826 0)
@@ -20650,6 +20639,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "664edb92-233d-4b99-a159-56e49bdc5537")
+	)
+	(junction
+		(at 271.78 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69687e80-1344-4e8c-82e6-8c86e26394f9")
 	)
 	(junction
 		(at 118.11 76.2)
@@ -21947,6 +21942,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 34.29) (xy 280.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b58300d-82fc-43de-89b6-760bdc921c95")
+	)
+	(wire
+		(pts
 			(xy 86.36 33.02) (xy 78.74 33.02)
 		)
 		(stroke
@@ -21984,6 +21989,16 @@
 			(type default)
 		)
 		(uuid "4dbc0a7c-d38e-453b-ba96-26732c288ca0")
+	)
+	(wire
+		(pts
+			(xy 270.51 43.18) (xy 280.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f40f9fb-4589-45c7-b6f1-0739daef36cc")
 	)
 	(wire
 		(pts
@@ -22327,16 +22342,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 38.1) (xy 279.4 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "695f4b1d-c37b-4b0e-a5e6-2fa31fbfd60e")
-	)
-	(wire
-		(pts
 			(xy 54.61 222.25) (xy 53.34 222.25)
 		)
 		(stroke
@@ -22384,16 +22389,6 @@
 			(type default)
 		)
 		(uuid "6d0464a7-c6b7-4134-8ed5-c0134f709229")
-	)
-	(wire
-		(pts
-			(xy 279.4 29.21) (xy 280.67 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6da7a15a-8c86-4130-aa52-ac5078d3db51")
 	)
 	(wire
 		(pts
@@ -22807,6 +22802,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 21.59) (xy 280.67 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3efccf-762d-4924-8027-daac24c84b37")
+	)
+	(wire
+		(pts
 			(xy 303.53 104.14) (xy 303.53 93.98)
 		)
 		(stroke
@@ -23027,6 +23032,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 45.72) (xy 280.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960c3e5e-ea20-4016-8ac0-b6d00aa9fe36")
+	)
+	(wire
+		(pts
 			(xy 113.03 124.46) (xy 113.03 132.08)
 		)
 		(stroke
@@ -23124,6 +23139,16 @@
 			(type default)
 		)
 		(uuid "9ca13e33-7142-4583-a190-bd0f12f8ff0c")
+	)
+	(wire
+		(pts
+			(xy 270.51 19.05) (xy 280.67 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d187c65-5b10-4372-9113-9eff459ae5d6")
 	)
 	(wire
 		(pts
@@ -23264,6 +23289,16 @@
 			(type default)
 		)
 		(uuid "a9475f4d-0742-44ad-80c0-3623cfc8ebdb")
+	)
+	(wire
+		(pts
+			(xy 271.78 27.94) (xy 271.78 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba342b0-3159-4114-8a8e-5b8079526b5d")
 	)
 	(wire
 		(pts
@@ -23657,13 +23692,13 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 36.83) (xy 280.67 38.1)
+			(xy 270.51 36.83) (xy 280.67 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c694d634-ad43-4c8c-a18c-a46c8529bba6")
+		(uuid "c692d7c3-3375-41c6-8bd9-da80318f46c4")
 	)
 	(wire
 		(pts
@@ -23827,6 +23862,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 27.94) (xy 271.78 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d668f66a-fd29-49f3-b4c0-90b6b3886f0c")
+	)
+	(wire
+		(pts
 			(xy 118.11 76.2) (xy 127 76.2)
 		)
 		(stroke
@@ -23904,16 +23949,6 @@
 			(type default)
 		)
 		(uuid "d99533e5-75a7-4f98-91fe-286b1fa86c55")
-	)
-	(wire
-		(pts
-			(xy 280.67 29.21) (xy 280.67 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dafb7af9-011b-4492-996e-3759f101848f")
 	)
 	(wire
 		(pts
@@ -24057,6 +24092,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 27.94) (xy 271.78 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ab07a1-01ba-4065-8f39-9ad140588d53")
+	)
+	(wire
+		(pts
 			(xy 271.78 130.81) (xy 271.78 138.43)
 		)
 		(stroke
@@ -24064,6 +24109,16 @@
 			(type default)
 		)
 		(uuid "e9fd964a-96f7-4818-847d-ecba9c87d792")
+	)
+	(wire
+		(pts
+			(xy 271.78 24.13) (xy 280.67 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea82b824-d019-41cf-867b-31633c3fc194")
 	)
 	(wire
 		(pts
@@ -24817,7 +24872,7 @@
 	)
 	(global_label "+ExRAM_Mode_$0x{BL96}"
 		(shape input)
-		(at 279.4 38.1 180)
+		(at 270.51 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24827,7 +24882,7 @@
 		)
 		(uuid "27b093ef-9fc7-4935-b16d-2e1db7740346")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.2245 38.1 0)
+			(at 243.3345 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24949,7 +25004,29 @@
 	)
 	(global_label "{slash}PPU_A13_A{BK97}"
 		(shape input)
-		(at 280.67 21.59 180)
+		(at 270.51 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "350082c3-44f8-4e0b-986a-48277a2abb30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}PPU_A13_A{BK97}"
+		(shape input)
+		(at 270.51 19.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24959,7 +25036,7 @@
 		)
 		(uuid "35bbbc60-ecaa-4ec1-bff8-d48d5e63b61f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.3 21.59 0)
+			(at 249.14 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25053,6 +25130,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+ExRAM_Mode_$0x{BL96}"
+		(shape input)
+		(at 270.51 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f672971-22d4-49db-a288-5b49554b4621")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3345 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -25317,28 +25416,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V-Split_Rendering{N15}"
-		(shape input)
-		(at 280.67 19.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e8814ff-0b6c-4543-a224-16bb7b5e8ea4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.8249 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26841,7 +26918,7 @@
 	)
 	(global_label "+ExRAM_Mode_$0x{BL96}"
 		(shape input)
-		(at 280.67 45.72 180)
+		(at 270.51 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26851,7 +26928,7 @@
 		)
 		(uuid "bff82f13-779a-411e-bcbc-0e78a38e2dfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.4945 45.72 0)
+			(at 243.3345 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27147,28 +27224,6 @@
 			)
 		)
 	)
-	(global_label "?"
-		(shape input)
-		(at 279.4 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8592091-4b5f-4e6f-96dd-653dcea81991")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.3262 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "{slash}CPU_Write_To_ExRAM_Any_Mode{BK85}"
 		(shape input)
 		(at 231.14 153.67 180)
@@ -27193,7 +27248,7 @@
 	)
 	(global_label "V-Split_Rendering{N15}"
 		(shape input)
-		(at 271.78 34.29 180)
+		(at 270.51 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27203,7 +27258,7 @@
 		)
 		(uuid "da1ee0a4-7124-4959-b47c-17bf9f0d6d97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.9349 34.29 0)
+			(at 244.6649 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27323,28 +27378,6 @@
 			)
 		)
 	)
-	(global_label "?"
-		(shape input)
-		(at 280.67 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1662afc-2d11-4dd2-9a9a-55f1eecc9699")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.5962 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ExRAM_D2_Read"
 		(shape input)
 		(at 44.45 219.71 180)
@@ -27413,7 +27446,7 @@
 	)
 	(global_label "{slash}PPU_A13_A{BK97}"
 		(shape input)
-		(at 280.67 43.18 180)
+		(at 270.51 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27423,7 +27456,7 @@
 		)
 		(uuid "eb1f1c09-ded2-4d39-bd2e-b65c18ee4721")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.3 43.18 0)
+			(at 249.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28802,7 +28835,7 @@
 	(symbol
 		(lib_name "INVERT_11")
 		(lib_id "MMC5:INVERT")
-		(at 276.86 34.29 0)
+		(at 276.86 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28811,7 +28844,7 @@
 		(fields_autoplaced yes)
 		(uuid "2163338a-4f69-42bf-b1ce-b845d09d6e77")
 		(property "Reference" "BK92"
-			(at 276.352 30.988 0)
+			(at 276.352 28.448 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -28821,7 +28854,7 @@
 			)
 		)
 		(property "Value" "INVERT"
-			(at 278.13 35.56 0)
+			(at 278.13 33.02 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -28830,7 +28863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 34.29 0)
+			(at 276.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28839,7 +28872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 34.29 0)
+			(at 276.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28848,7 +28881,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 34.29 0)
+			(at 276.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

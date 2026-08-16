@@ -2782,129 +2782,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BUFFER_17"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_17_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_17_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BUFFER_18"
 			(pin_numbers
 				(hide yes)
@@ -8485,6 +8362,128 @@
 				)
 			)
 			(symbol "INVERT_34_1_1"
+				(circle
+					(center 1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 0 180)
+					(length 1.905)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "INVERT_35"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "INVERT"
+				(at 1.27 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INVERT_35_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INVERT_35_1_1"
 				(circle
 					(center 1.27 0)
 					(radius 0.635)
@@ -17255,6 +17254,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MMC5:NOR_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NOR_2"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOR_2_0_1"
+				(bezier
+					(pts
+						(xy -3.175 2.54) (xy -1.905 1.27) (xy -1.905 -1.27) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NOR_2_1_1"
+				(bezier
+					(pts
+						(xy -3.175 2.54) (xy 4.445 2.54) (xy 4.445 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.5908)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.5908)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MMC5:OAI_2"
 			(pin_numbers
 				(hide yes)
@@ -20460,12 +20611,6 @@
 		(uuid "65116e0d-93eb-44f5-b01c-995ed8949207")
 	)
 	(junction
-		(at 307.34 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "657d556b-a489-451b-af10-a330f915b4af")
-	)
-	(junction
 		(at 369.57 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20674,6 +20819,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb3e462e-fb3c-46e0-ae12-5b4907210e99")
+	)
+	(junction
+		(at 307.34 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbde4673-6495-4f45-a6bc-8a8687acdc74")
 	)
 	(junction
 		(at 367.03 114.3)
@@ -22182,6 +22333,16 @@
 			(type default)
 		)
 		(uuid "81a64429-1bee-43a3-a301-3f5d9f56cd3b")
+	)
+	(wire
+		(pts
+			(xy 287.02 54.61) (xy 295.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ab9a49-4964-4ef3-9b9e-8c87cc0f23aa")
 	)
 	(wire
 		(pts
@@ -23735,6 +23896,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+CPU_ExRAM_Access{BL51}"
+		(shape input)
+		(at 287.02 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "135b0b8c-530f-4169-ba9e-d467d33aab4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.8485 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -25323,9 +25506,9 @@
 			)
 		)
 	)
-	(global_label "+CPU_ExRAM_Access{BL51}"
+	(global_label "PPU_RW_Mode_%0x_Access{BL48}"
 		(shape input)
-		(at 298.45 53.34 180)
+		(at 287.02 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25333,9 +25516,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8c10743e-00bc-4599-8936-67521fd8b2ae")
+		(uuid "8c665f92-34c1-41d5-9bf8-542dfe08bc65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.2785 53.34 0)
+			(at 252.2244 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27458,6 +27641,80 @@
 		)
 	)
 	(symbol
+		(lib_id "MMC5:NOR_2")
+		(at 300.99 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11927e98-9430-47ef-8034-5de503553ef5")
+		(property "Reference" "BL61.2"
+			(at 300.99 49.022 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "NOR_2"
+			(at 300.99 53.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 300.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ef120097-91dd-4e0b-a375-0e365fab1259")
+		)
+		(pin ""
+			(uuid "3a96fccd-6f9e-4c8b-a69c-998e331684a3")
+		)
+		(pin ""
+			(uuid "f0fcd997-db71-45ab-9ce0-e003314f294e")
+		)
+		(instances
+			(project ""
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
+					(reference "BL61.2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "INVERT_80")
 		(lib_id "MMC5:INVERT")
 		(at 109.22 212.09 0)
@@ -28898,6 +29155,78 @@
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
 					(reference "P7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "INVERT_35")
+		(lib_id "MMC5:INVERT")
+		(at 292.1 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41582a41-f793-4bbb-8b82-1bb73e7c6430")
+		(property "Reference" "BL61.1"
+			(at 291.592 48.768 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "INVERT"
+			(at 293.37 53.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e42f22c4-1f83-4051-b331-2ab4646432e0")
+		)
+		(pin ""
+			(uuid "086ec4a3-b0c7-4498-8f31-f9896529d407")
+		)
+		(instances
+			(project ""
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
+					(reference "BL61.1")
 					(unit 1)
 				)
 			)
@@ -32203,78 +32532,6 @@
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
 					(reference "L128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BUFFER_17")
-		(lib_id "MMC5:BUFFER")
-		(at 302.26 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d201652-d240-40a7-a0c1-9b90c17fa431")
-		(property "Reference" "BL61"
-			(at 302.26 50.038 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "BUFFER"
-			(at 305.054 54.61 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 302.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 302.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "f3ee7092-b51f-4f31-9cea-d233b9da6ffb")
-		)
-		(pin ""
-			(uuid "5137b101-d411-4fb8-8e86-c0e5df71d90d")
-		)
-		(instances
-			(project ""
-				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f8de81e6-db49-4c78-bf33-f3fdf7c2f2f8"
-					(reference "BL61")
 					(unit 1)
 				)
 			)

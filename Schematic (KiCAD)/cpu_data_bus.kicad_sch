@@ -25308,7 +25308,7 @@
 			)
 		)
 	)
-	(global_label "PPU_RW_Mode_%0x_Access{BL48}"
+	(global_label "+ExRAM_Mode_$0x{BL48}"
 		(shape output)
 		(at 208.28 204.47 0)
 		(fields_autoplaced yes)
@@ -25320,7 +25320,7 @@
 		)
 		(uuid "7f66a7a4-16fb-4e24-bc47-15fc97535ef0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.0756 204.47 0)
+			(at 235.4555 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25506,7 +25506,7 @@
 			)
 		)
 	)
-	(global_label "PPU_RW_Mode_%0x_Access{BL48}"
+	(global_label "+ExRAM_Mode_$0x{BL48}"
 		(shape input)
 		(at 287.02 54.61 180)
 		(fields_autoplaced yes)
@@ -25518,7 +25518,7 @@
 		)
 		(uuid "8c665f92-34c1-41d5-9bf8-542dfe08bc65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.2244 54.61 0)
+			(at 259.8445 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25748,7 +25748,7 @@
 			)
 		)
 	)
-	(global_label "PPU_RW_Mode_%0x_Access{BL83}"
+	(global_label "+ExRAM_Mode_$0x{BL96}"
 		(shape input)
 		(at 198.12 207.01 180)
 		(fields_autoplaced yes)
@@ -25760,7 +25760,7 @@
 		)
 		(uuid "9a60d9e3-4937-4d1d-bfc3-ab3622095be3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.3244 207.01 0)
+			(at 170.9445 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

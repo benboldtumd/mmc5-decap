@@ -3962,6 +3962,256 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "D-FF-SR"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 4.318 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "D-FF-SR"
+			(at 0 -8.636 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D-FF-SR_0_1"
+			(rectangle
+				(start -2.54 2.54)
+				(end 3.81 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -5.715) (xy -1.905 -6.35) (xy -2.54 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D-FF-SR_1_1"
+			(circle
+				(center 4.1275 -1.27)
+				(radius 0.3175)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "D"
+				(at -2.286 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "/Set"
+				(at -2.286 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "/Reset"
+				(at -2.286 -3.81 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(text "Q"
+				(at 3.556 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(text "/Q"
+				(at 3.556 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify right)
+				)
+			)
+			(pin input line
+				(at -5.08 1.27 0)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -1.27 0)
+				(length 2.54)
+				(name "/Set"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -3.81 0)
+				(length 2.54)
+				(name "/Reset"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -6.35 0)
+				(length 2.54)
+				(name "Clock"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "Q"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 -1.27 180)
+				(length 1.905)
+				(name "/Q"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "D-FF_No_Reset"
 		(pin_numbers
 			(hide yes)

@@ -11773,6 +11773,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NAND_2_12"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NAND_2"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NAND_2_12_1_1"
+				(polyline
+					(pts
+						(xy 0.635 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0.635 2.54) (xy 3.175 2.54) (xy 3.175 -2.54) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NAND_2_2"
 			(pin_numbers
 				(hide yes)
@@ -14529,158 +14679,6 @@
 				)
 			)
 			(symbol "NOR_2_1_1_1"
-				(bezier
-					(pts
-						(xy -3.175 2.54) (xy 4.445 2.54) (xy 4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 1.27 0)
-					(length 2.5908)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -1.27 0)
-					(length 2.5908)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NOR_2_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 4.318 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "NOR_2"
-				(at 0 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NOR_2_2_0_1"
-				(bezier
-					(pts
-						(xy -3.175 2.54) (xy -1.905 1.27) (xy -1.905 -1.27) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NOR_2_2_1_1"
 				(bezier
 					(pts
 						(xy -3.175 2.54) (xy 4.445 2.54) (xy 4.445 -2.54) (xy -3.175 -2.54)
@@ -24726,6 +24724,81 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_2_12")
+		(lib_id "MMC5:NAND_2")
+		(at 242.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2acadbeb-2005-4097-861b-29f7cfbbaa77")
+		(property "Reference" "M2"
+			(at 242.57 101.092 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "NAND_2"
+			(at 242.57 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "46c8cd8a-9680-4155-a9df-5be1670751ad")
+		)
+		(pin ""
+			(uuid "7d7c9aa1-0e95-40db-8f43-479ad94b3055")
+		)
+		(pin ""
+			(uuid "74fe98ca-98f6-4451-bdb1-563a275422c1")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/6046dae0-7343-4130-8be0-3bf9e6fb16fb"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MMC5:Counter_8_Reset")
 		(at 213.36 182.88 0)
 		(unit 1)
@@ -27555,81 +27628,6 @@
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/6046dae0-7343-4130-8be0-3bf9e6fb16fb"
 					(reference "AB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "NOR_2_2")
-		(lib_id "MMC5:NOR_2")
-		(at 242.57 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86f1841e-1d02-4622-bfc1-c9c66c10e9b4")
-		(property "Reference" "M2"
-			(at 242.57 101.092 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "NOR_2"
-			(at 242.57 105.41 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "55373581-d7ff-4524-ae2b-42d32db97568")
-		)
-		(pin ""
-			(uuid "15580f4f-089f-48a1-998e-0716d26d7677")
-		)
-		(pin ""
-			(uuid "71071707-36a3-43cd-bbb0-8996625631b2")
-		)
-		(instances
-			(project ""
-				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/6046dae0-7343-4130-8be0-3bf9e6fb16fb"
-					(reference "M2")
 					(unit 1)
 				)
 			)

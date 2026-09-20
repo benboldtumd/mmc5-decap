@@ -6549,7 +6549,7 @@
 		)
 		(uuid "0408964a-6126-41e8-8d91-9e87f11a74ac")
 	)
-	(text "Value (None of these numbers make sense.)\nNAND=> /75 (/.6=/11)"
+	(text "Value (None of these numbers make sense.)\nNAND=> /73 (/.6=/9)"
 		(exclude_from_sim no)
 		(at 90.932 170.434 0)
 		(effects
@@ -6624,6 +6624,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "173bcafc-8213-4174-9dc2-41a369a6d104")
+	)
+	(junction
+		(at 100.33 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68e178eb-65dd-4c9e-9f2d-8cd1e706b0a8")
 	)
 	(junction
 		(at 175.26 175.26)
@@ -6728,6 +6734,16 @@
 			(type default)
 		)
 		(uuid "040daa55-991f-46bc-b716-15951ae58205")
+	)
+	(wire
+		(pts
+			(xy 100.33 53.34) (xy 100.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06eb2abe-044b-45f0-8a38-602aae074db1")
 	)
 	(wire
 		(pts
@@ -7231,6 +7247,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 53.34) (xy 109.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91497402-17bb-4684-8b87-8a7e06743287")
+	)
+	(wire
+		(pts
 			(xy 100.33 109.22) (xy 100.33 111.76)
 		)
 		(stroke
@@ -7268,16 +7294,6 @@
 			(type default)
 		)
 		(uuid "9cd5291e-9fc3-415b-8c12-9792e16e1436")
-	)
-	(wire
-		(pts
-			(xy 109.22 45.72) (xy 100.33 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e78384-1536-4ddb-b6a6-051e0fd79a67")
 	)
 	(wire
 		(pts
@@ -7451,16 +7467,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 45.72) (xy 100.33 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccdd5591-2507-4e76-af59-af1830953cc8")
-	)
-	(wire
-		(pts
 			(xy 87.63 107.95) (xy 87.63 97.79)
 		)
 		(stroke
@@ -7551,7 +7557,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 55.88) (xy 100.33 49.53)
+			(xy 100.33 55.88) (xy 100.33 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7919,7 +7925,7 @@
 			)
 		)
 	)
-	(global_label "+PPU_Fetch_Counter.1{S12}"
+	(global_label "{slash}PPU_Fetch_Counter.1{S12}"
 		(shape input)
 		(at 81.28 167.64 180)
 		(fields_autoplaced yes)
@@ -7931,12 +7937,12 @@
 		)
 		(uuid "4198e322-60c4-4997-b603-94320535e656")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.2375 167.64 0)
+			(at 51.5644 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8623,9 +8629,9 @@
 			)
 		)
 	)
-	(global_label "+PPU_Fetch_Counter.1{S12}"
+	(global_label "{slash}PPU_Fetch_Counter.1{S12}"
 		(shape output)
-		(at 109.22 45.72 0)
+		(at 109.22 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8635,7 +8641,7 @@
 		)
 		(uuid "9e79dc1b-d888-4909-8dba-d83a0bccd936")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.1775 45.72 0)
+			(at 138.9356 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

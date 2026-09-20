@@ -493,128 +493,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "INVERT_5"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.508 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "INVERT"
-				(at 1.27 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INVERT_5_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "INVERT_5_1_1"
-				(circle
-					(center 1.27 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 3.81 0 180)
-					(length 1.905)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NAND_2_1"
 			(pin_numbers
 				(hide yes)
@@ -854,28 +732,6 @@
 			)
 		)
 	)
-	(global_label "SL3_PIN_98"
-		(shape input)
-		(at 120.65 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab241e8a-cf3c-4cd4-a0d6-9052bdc00f05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.6582 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Test_Input_PIN_29"
 		(shape input)
 		(at 120.65 41.91 180)
@@ -911,28 +767,6 @@
 		(uuid "c94602a4-a022-4eed-9e1b-f37047b6b06f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.4089 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "{slash}SL3_PIN_98{PinInv}"
-		(shape output)
-		(at 129.54 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb8b1ef5-26e7-417c-a0e5-57ae3a8bd043")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.3009 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,78 +1128,6 @@
 			(project "MMC5"
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
 					(reference "PinInv1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "INVERT_5")
-		(lib_id "MMC5:INVERT")
-		(at 125.73 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d27edd34-41a6-4e16-910c-08cecda8d881")
-		(property "Reference" "PinInv3"
-			(at 125.222 51.308 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "INVERT"
-			(at 127 55.88 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "1cab7932-ab94-449a-9259-61763563cf0d")
-		)
-		(pin ""
-			(uuid "753224dd-f358-4590-9f0d-b83944db7754")
-		)
-		(instances
-			(project "MMC5"
-				(path "/46093bf6-f83e-4237-9ece-7350a682aff0"
-					(reference "PinInv3")
 					(unit 1)
 				)
 			)

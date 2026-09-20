@@ -1657,129 +1657,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BUFFER_29"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_29_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_29_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BUFFER_3"
 			(pin_numbers
 				(hide yes)
@@ -12508,156 +12385,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_2_45"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 4.318 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "NAND_2"
-				(at 0 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NAND_2_45_1_1"
-				(polyline
-					(pts
-						(xy 0.635 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 0.635 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 0.635 2.54) (xy 3.175 2.54) (xy 3.175 -2.54) (xy 0.635 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NAND_2_8"
 			(pin_numbers
 				(hide yes)
@@ -15962,6 +15689,12 @@
 		(uuid "963d1042-9a70-4a9e-8536-a67d1177349a")
 	)
 	(junction
+		(at 170.18 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99c7dfef-9b4a-43fd-92b3-8f1e5be49559")
+	)
+	(junction
 		(at 224.79 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16044,12 +15777,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e092efbd-3915-436e-92ac-500697ed24a1")
-	)
-	(junction
-		(at 170.18 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea1dfdd3-bea8-4fbf-bec6-471547e14d8a")
 	)
 	(junction
 		(at 345.44 120.65)
@@ -16773,6 +16500,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4952e894-3012-4e8a-bd2b-918739b727bf")
+	)
+	(wire
+		(pts
 			(xy 271.78 25.4) (xy 274.32 25.4)
 		)
 		(stroke
@@ -17083,7 +16820,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 91.44) (xy 167.64 91.44)
+			(xy 166.37 91.44) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -18965,28 +18702,6 @@
 			)
 		)
 	)
-	(global_label "+PPU_Fetch_Count.0{S10}"
-		(shape input)
-		(at 149.86 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e48f508-9658-4bad-b260-ea114a44b4b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.7773 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PPU_D7_In{BigBuf}"
 		(shape output)
 		(at 48.26 91.44 0)
@@ -19055,7 +18770,7 @@
 	)
 	(global_label "+V-Split_Scanline_Counter.4{T22}"
 		(shape input)
-		(at 149.86 91.44 180)
+		(at 166.37 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19065,7 +18780,7 @@
 		)
 		(uuid "5c87dda1-5604-42a2-9037-e2cf2a8ebda5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.0365 91.44 0)
+			(at 130.5465 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19484,28 +19199,6 @@
 		(uuid "a30f0feb-4495-43bc-9646-9df912e08a9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 289.6593 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+PPU_Fetch_Count.1{S13}"
-		(shape input)
-		(at 149.86 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3d15966-6832-4c15-973f-9b9fab418ac0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.7773 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20012,6 +19705,28 @@
 		(uuid "f7517533-4c7e-4568-b3f1-3f56b40f37af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.1814 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+PPU_Fetch_Counter.3{S21}"
+		(shape input)
+		(at 166.37 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa097c66-c7ad-434d-8b2c-42b8a0e65bf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.4125 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21238,81 +20953,6 @@
 			(project "MMC5"
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/4e6a5c22-b922-467f-8545-4eb558480830"
 					(reference "BL12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "NAND_2_45")
-		(lib_id "MMC5:NAND_2")
-		(at 154.94 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22f67d01-416f-43a7-80f8-94eb4a1f7d58")
-		(property "Reference" "S2"
-			(at 154.94 82.042 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "NAND_2"
-			(at 154.94 86.36 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7a5f7705-fe1d-4a43-87fa-510b3fbb08c5")
-		)
-		(pin ""
-			(uuid "a43ac744-f413-43c8-b92d-5ccee8c11e56")
-		)
-		(pin ""
-			(uuid "6a95b873-4d80-4213-a87e-488cfcb9ead8")
-		)
-		(instances
-			(project "MMC5"
-				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/4e6a5c22-b922-467f-8545-4eb558480830"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -25115,78 +24755,6 @@
 			(project "MMC5"
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/4e6a5c22-b922-467f-8545-4eb558480830"
 					(reference "BL17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BUFFER_29")
-		(lib_id "MMC5:BUFFER")
-		(at 165.1 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e38492c-9023-4917-a429-cb81278b043f")
-		(property "Reference" "S1"
-			(at 165.1 83.058 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "BUFFER"
-			(at 167.894 87.63 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "43eae267-3e5f-41fe-b9fe-f004b957cbe2")
-		)
-		(pin ""
-			(uuid "de61d34c-f281-42cb-9191-a6afcd0bceae")
-		)
-		(instances
-			(project "MMC5"
-				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/4e6a5c22-b922-467f-8545-4eb558480830"
-					(reference "S1")
 					(unit 1)
 				)
 			)

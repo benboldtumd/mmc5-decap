@@ -20795,6 +20795,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 186.69 222.25)
+		(end 223.52 232.41)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 445936de-30b5-4820-b1e1-d0f93556d6c0)
+	)
+	(rectangle
+		(start 186.69 212.09)
+		(end 223.52 222.25)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a820827-d83c-47c0-abdb-6b93482665fb)
+	)
 	(text "always 0 when reset detected,\nwithout reset, only 0 when value=3712"
 		(exclude_from_sim no)
 		(at 228.6 199.644 0)
@@ -20874,6 +20898,20 @@
 			)
 		)
 		(uuid "3d2c2f3c-aefd-48b5-a93e-4f3c43a33486")
+	)
+	(text "MMC5 Only"
+		(exclude_from_sim no)
+		(at 187.96 215.392 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "40144880-3dfe-45f3-bf00-6db131e36105")
 	)
 	(text "The reset inputs of ALL these\ncounters seem to be /Reset.\nHard to see why this acts different\nthan T-FF counters elsewhere."
 		(exclude_from_sim no)
@@ -20998,6 +21036,20 @@
 		)
 		(uuid "a4b74058-11dc-4f3b-a63f-d4b97b11157b")
 	)
+	(text "MMC5A Only"
+		(exclude_from_sim no)
+		(at 187.96 225.552 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "a51eea37-5b3f-4634-b143-f13e48662862")
+	)
 	(text "241.08 Hz or\nPin 98 Input"
 		(exclude_from_sim no)
 		(at 297.942 216.408 0)
@@ -21062,6 +21114,12 @@
 			)
 		)
 		(uuid "ff94458e-0e02-4668-9a20-1b902c3401f7")
+	)
+	(junction
+		(at 226.06 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f1d5dc-8ba2-4001-a416-a29971be4482")
 	)
 	(junction
 		(at 270.51 232.41)
@@ -21631,6 +21689,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 213.36) (xy 226.06 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e9bb31-7a6c-4e68-9412-70a4b4d14671")
+	)
+	(wire
+		(pts
 			(xy 247.65 151.13) (xy 247.65 171.45)
 		)
 		(stroke
@@ -21901,6 +21969,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 213.36) (xy 288.29 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c801c52-e948-4f56-8c42-e55555545a03")
+	)
+	(wire
+		(pts
 			(xy 215.9 204.47) (xy 215.9 201.93)
 		)
 		(stroke
@@ -21998,6 +22076,16 @@
 			(type default)
 		)
 		(uuid "8715c530-9c1a-459c-ad25-a012cdf3ddcb")
+	)
+	(wire
+		(pts
+			(xy 226.06 229.87) (xy 222.25 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874f5172-3eeb-4b9d-8fb3-4c7258c7ce30")
 	)
 	(wire
 		(pts
@@ -22351,16 +22439,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 213.36) (xy 288.29 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e41514-47b7-486a-9baf-cb2a9fdeb4e0")
-	)
-	(wire
-		(pts
 			(xy 146.05 152.4) (xy 146.05 129.54)
 		)
 		(stroke
@@ -22448,6 +22526,16 @@
 			(type default)
 		)
 		(uuid "bfc99058-7ae0-45a5-b7bb-033e7d11f808")
+	)
+	(wire
+		(pts
+			(xy 226.06 219.71) (xy 226.06 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c032d1e9-c7cb-4e71-807f-2b86642a72e3")
 	)
 	(wire
 		(pts
@@ -22818,6 +22906,16 @@
 			(type default)
 		)
 		(uuid "f4e8e6e3-9521-4ec3-b518-394f7dc49f33")
+	)
+	(wire
+		(pts
+			(xy 222.25 219.71) (xy 226.06 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69d4d4f-f684-4685-b343-646ab0f07c02")
 	)
 	(wire
 		(pts
@@ -23493,6 +23591,28 @@
 			)
 		)
 	)
+	(global_label "+SL3_PIN{PinBuf}"
+		(shape input)
+		(at 222.25 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f52dc46-d555-4df9-80f9-9ddc34017596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.2105 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "1"
 		(shape input)
 		(at 219.71 154.94 180)
@@ -23955,9 +24075,9 @@
 			)
 		)
 	)
-	(global_label "{slash}SL3_PIN_98{PinInv}"
+	(global_label "{slash}Invalid_A0_M2_Sequence{BM11}"
 		(shape input)
-		(at 259.08 213.36 180)
+		(at 222.25 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23967,12 +24087,12 @@
 		)
 		(uuid "4ccee8ce-d611-40da-8aeb-d423d52b43ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.8409 213.36 0)
+			(at 187.9384 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)

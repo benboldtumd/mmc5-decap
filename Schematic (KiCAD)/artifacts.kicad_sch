@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e0cea47c-9f6e-4ab6-bf01-4a94e42f1f80")
+	(uuid "6cbc37ea-3042-4056-a70b-389308a1a5a3")
 	(paper "USLedger")
 	(lib_symbols
 		(symbol "BIGBUF_3"
@@ -12270,6 +12270,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NAND_3_11"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.826 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NAND_3"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NAND_3_11_1_1"
+				(polyline
+					(pts
+						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0.635 3.175) (xy 3.175 3.175) (xy 3.175 -3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NAND_3_12"
 			(pin_numbers
 				(hide yes)
@@ -13168,174 +13336,6 @@
 				)
 			)
 			(symbol "NAND_3_17_1_1"
-				(polyline
-					(pts
-						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 0.635 3.175) (xy 3.175 3.175) (xy 3.175 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NAND_3_18"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 4.826 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "NAND_3"
-				(at 0 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NAND_3_18_1_1"
 				(polyline
 					(pts
 						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
@@ -21979,12 +21979,6 @@
 		(uuid "d108cb2a-50d5-4ec5-987e-05b91e8b1c16")
 	)
 	(junction
-		(at 260.35 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4220b0c-eaa7-4970-8306-9d1e4a822167")
-	)
-	(junction
 		(at 74.93 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -22043,16 +22037,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa4eaba6-1d84-4626-8815-80332819b6ec")
-	)
-	(wire
-		(pts
-			(xy 260.35 177.8) (xy 254 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c1bbdc-1dee-48f0-a2e7-aff3e3a96971")
 	)
 	(wire
 		(pts
@@ -22293,26 +22277,6 @@
 			(type default)
 		)
 		(uuid "11716004-9d64-4168-b3ff-5167215813f4")
-	)
-	(wire
-		(pts
-			(xy 262.89 181.61) (xy 262.89 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f30661-b249-4181-8c80-19c388f96913")
-	)
-	(wire
-		(pts
-			(xy 278.13 179.07) (xy 270.51 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "121a533c-ce9f-4e84-9631-3c3f827bec25")
 	)
 	(wire
 		(pts
@@ -23106,7 +23070,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 176.53) (xy 260.35 176.53)
+			(xy 227.33 176.53) (xy 266.7 176.53)
 		)
 		(stroke
 			(width 0)
@@ -23406,16 +23370,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 182.88) (xy 254 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a430bf-0226-4a44-aa93-16f0444567ad")
-	)
-	(wire
-		(pts
 			(xy 321.31 68.58) (xy 318.77 68.58)
 		)
 		(stroke
@@ -23696,16 +23650,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 179.07) (xy 270.51 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a2d644-1061-46da-95ff-1013c6719846")
-	)
-	(wire
-		(pts
 			(xy 287.02 68.58) (xy 287.02 74.93)
 		)
 		(stroke
@@ -23733,16 +23677,6 @@
 			(type default)
 		)
 		(uuid "950c21d3-4a23-4e37-91af-da1314f68f1c")
-	)
-	(wire
-		(pts
-			(xy 270.51 180.34) (xy 265.43 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c5b1c0-86f1-4347-a42e-8d8cff0add3a")
 	)
 	(wire
 		(pts
@@ -23843,16 +23777,6 @@
 			(type default)
 		)
 		(uuid "9ff0a955-3b20-4274-8af2-83435b8a2570")
-	)
-	(wire
-		(pts
-			(xy 266.7 179.07) (xy 261.62 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a18b58-81a5-4013-a6b9-da86bf1f961e")
 	)
 	(wire
 		(pts
@@ -24076,16 +24000,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 180.34) (xy 254 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd18e928-02f0-4444-9f29-6d2ed14d84cb")
-	)
-	(wire
-		(pts
 			(xy 74.93 30.48) (xy 74.93 33.02)
 		)
 		(stroke
@@ -24143,16 +24057,6 @@
 			(type default)
 		)
 		(uuid "c4bc8a25-dc1f-4cac-9db1-968f1355b2cb")
-	)
-	(wire
-		(pts
-			(xy 261.62 179.07) (xy 261.62 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b89d03-711b-40f7-85d4-9fb71bd7ea5f")
 	)
 	(wire
 		(pts
@@ -24253,16 +24157,6 @@
 			(type default)
 		)
 		(uuid "d565779d-acda-4751-923d-3b250a325d8c")
-	)
-	(wire
-		(pts
-			(xy 266.7 181.61) (xy 262.89 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5c3fb64-b08b-4852-ab37-772679693c3b")
 	)
 	(wire
 		(pts
@@ -24536,16 +24430,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 176.53) (xy 260.35 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3b46999-e6d6-4638-ba6e-4e45e2a6d451")
-	)
-	(wire
-		(pts
 			(xy 86.36 138.43) (xy 86.36 139.7)
 		)
 		(stroke
@@ -24623,16 +24507,6 @@
 			(type default)
 		)
 		(uuid "f9e8bb36-b239-4182-a91b-aaad438fa75f")
-	)
-	(wire
-		(pts
-			(xy 266.7 176.53) (xy 260.35 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa1bf4a0-db50-410c-a2e6-91b59701233e")
 	)
 	(wire
 		(pts
@@ -28295,6 +28169,84 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_3_11")
+		(lib_id "MMC5:NAND_3")
+		(at 271.78 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29afbbdd-5691-4994-afb4-ab95575dc66f")
+		(property "Reference" "G60"
+			(at 271.78 174.244 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "NAND_3"
+			(at 271.78 179.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5ded8809-cffc-4dc8-8cee-9137d0b7c49a")
+		)
+		(pin ""
+			(uuid "b51259e0-40d5-4069-9132-32558766c431")
+		)
+		(pin ""
+			(uuid "eb8464d3-d6cf-450a-a8a6-d6c50530fc08")
+		)
+		(pin ""
+			(uuid "c5de8877-0a4d-4641-a498-43cb63a45f13")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f2339e17-4f55-43f8-b207-f65123403db0"
+					(reference "G60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "INVERT_8")
 		(lib_id "MMC5:INVERT")
 		(at 62.23 80.01 0)
@@ -30940,83 +30892,6 @@
 			(project "MMC5"
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f2339e17-4f55-43f8-b207-f65123403db0"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "NAND_3_18")
-		(lib_id "MMC5:NAND_3")
-		(at 259.08 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e5722a6-55f0-4d05-9a15-3fe0a09e45a0")
-		(property "Reference" "G60"
-			(at 271.78 174.244 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "NAND_3"
-			(at 271.78 179.07 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "5ac5c42b-3e98-408d-8473-af18d128df4c")
-		)
-		(pin ""
-			(uuid "34433130-b179-4273-b6cc-c3c89946a1bb")
-		)
-		(pin ""
-			(uuid "72b4db1f-e4cb-4d70-a65f-990022a129a4")
-		)
-		(pin ""
-			(uuid "6d2327ac-7382-497a-9ce6-b3d215e83c25")
-		)
-		(instances
-			(project "MMC5"
-				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/f2339e17-4f55-43f8-b207-f65123403db0"
-					(reference "G60")
 					(unit 1)
 				)
 			)

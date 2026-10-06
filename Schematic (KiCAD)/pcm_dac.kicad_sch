@@ -6234,6 +6234,12 @@
 		(uuid "07ba0e7c-e069-4fa0-b10b-24edbbac4f9a")
 	)
 	(junction
+		(at 167.64 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "088b81dc-726b-4a67-96a3-74ddd5484cc3")
+	)
+	(junction
 		(at 116.84 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7039,6 +7045,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 162.56) (xy 168.91 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab35dfb4-4bac-48d8-ace2-65a7df6e3546")
+	)
+	(wire
+		(pts
 			(xy 95.25 93.98) (xy 100.33 93.98)
 		)
 		(stroke
@@ -7066,6 +7082,16 @@
 			(type default)
 		)
 		(uuid "ad89467a-79a5-4e6f-82b4-b114668fad16")
+	)
+	(wire
+		(pts
+			(xy 167.64 167.64) (xy 167.64 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae600241-123f-4410-b65b-2be284a86074")
 	)
 	(wire
 		(pts
@@ -7711,6 +7737,28 @@
 			)
 		)
 	)
+	(global_label "{slash}PCM_IRQ_If_Enabled{K113}"
+		(shape output)
+		(at 168.91 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d24035e-d37f-4f1f-bd28-3734dac354e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.7464 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}CPU_D4{L126}"
 		(shape input)
 		(at 92.71 59.69 180)
@@ -7777,7 +7825,7 @@
 			)
 		)
 	)
-	(global_label "+PCM_IRQ_If_Enabled{K114}"
+	(global_label "+PCM_IRQ_Status_Bit{K114}"
 		(shape output)
 		(at 176.53 167.64 0)
 		(fields_autoplaced yes)
@@ -7789,7 +7837,7 @@
 		)
 		(uuid "4e825937-68c4-4f01-9813-33ac873cd60a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.6083 167.64 0)
+			(at 206.3665 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

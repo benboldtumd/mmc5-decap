@@ -6597,6 +6597,17 @@
 		)
 		(uuid "d75ba46e-909f-4b7e-981a-a446f7e694dc")
 	)
+	(text "The output of this mux is the\nExRAM address for the data to\nbe substituted for the PPU.\n\nSee sheet 14."
+		(exclude_from_sim no)
+		(at 273.304 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5a6adf5-0c78-47ad-8b63-2f6e9e4f4a59")
+	)
 	(text "I am guessing this is\nany PPU fetch excluding\nsprites"
 		(exclude_from_sim no)
 		(at 189.23 180.34 0)
@@ -7595,6 +7606,28 @@
 		)
 		(uuid "ffafa7c7-8106-493e-9b6a-389b659bc120")
 	)
+	(global_label "1"
+		(shape input)
+		(at 232.41 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01496f66-128d-417b-b929-b1ed67dd1a36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.2153 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PPU_Fetch_Mux_9{M1}"
 		(shape output)
 		(at 245.11 110.49 0)
@@ -8387,7 +8420,7 @@
 			)
 		)
 	)
-	(global_label "1?"
+	(global_label "1"
 		(shape input)
 		(at 232.41 93.98 180)
 		(fields_autoplaced yes)
@@ -8399,7 +8432,7 @@
 		)
 		(uuid "83b1f6a8-485f-41af-a86f-deeb7e68802f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1267 93.98 0)
+			(at 228.2153 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8783,50 +8816,6 @@
 			)
 		)
 	)
-	(global_label "1?"
-		(shape input)
-		(at 232.41 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2a7cb46-53c3-4618-a916-dd6b69f7f380")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1267 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "1?"
-		(shape input)
-		(at 232.41 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba8bdc2b-3490-4f51-89f7-b68ef63d8d2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1267 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PPU_Fetch_Mux_2{M1}"
 		(shape output)
 		(at 245.11 66.04 0)
@@ -8959,28 +8948,6 @@
 			)
 		)
 	)
-	(global_label "1?"
-		(shape input)
-		(at 232.41 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5ce513f-6cdb-4849-8e13-7e339e175b57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1267 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "1"
 		(shape input)
 		(at 85.09 116.84 180)
@@ -9091,7 +9058,7 @@
 			)
 		)
 	)
-	(global_label "+PPU_RD_B{X3}"
+	(global_label "{slash}PPU_RD_B{X3}"
 		(shape input)
 		(at 116.84 163.83 180)
 		(fields_autoplaced yes)
@@ -9103,7 +9070,7 @@
 		)
 		(uuid "d748ffb9-c8d9-4451-a8ca-3632e78453d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.5543 163.83 0)
+			(at 98.7962 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,6 +9186,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1"
+		(shape input)
+		(at 232.41 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e565f6f6-0e98-433c-82c8-6e328c322c32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.2153 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1"
+		(shape input)
+		(at 232.41 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e85a4a98-7831-4243-9bed-af3eafda5a8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.2153 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

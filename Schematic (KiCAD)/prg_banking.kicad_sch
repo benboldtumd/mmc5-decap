@@ -472,6 +472,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "INVERT_109"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "INVERT"
+				(at 1.27 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INVERT_109_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INVERT_109_1_1"
+				(circle
+					(center 1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 0 180)
+					(length 1.905)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "INVERT_11"
 			(pin_numbers
 				(hide yes)
@@ -2528,6 +2650,243 @@
 				(pin output line
 					(at 3.81 0 180)
 					(length 1.905)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMC5:BIGBUF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BIGBUF"
+				(at -1.016 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(thickness 0.1778)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BIGBUF_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BIGBUF_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMC5:BIGINV"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BIGINV"
+				(at -1.016 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(thickness 0.1778)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BIGINV_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BIGINV_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
 					(name "X"
 						(effects
 							(font
@@ -15933,6 +16292,16 @@
 		)
 		(uuid "d6c6f5c2-042e-4d35-8ea5-89edf7cd7712")
 	)
+	(text "These varying BigBuffs seem to be\nused for varying delays."
+		(exclude_from_sim no)
+		(at 321.056 175.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0e539a0-f099-4594-8f45-e4197e1f0cd5")
+	)
 	(text "0=Mode 1\n$4000-7FFF\n$C000-FFFF"
 		(exclude_from_sim no)
 		(at 140.716 55.372 0)
@@ -16104,6 +16473,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3025442-3c81-45c3-b6b8-babcf50e1ff0")
+	)
+	(junction
+		(at 314.96 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5fba701-046f-4393-b8ff-b4054bc13bf8")
 	)
 	(junction
 		(at 165.1 237.49)
@@ -16453,6 +16828,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 147.32) (xy 341.63 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1412e6da-c96b-4d76-b86a-75b12d3543c8")
+	)
+	(wire
+		(pts
 			(xy 185.42 45.72) (xy 185.42 44.45)
 		)
 		(stroke
@@ -16533,6 +16918,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 158.75) (xy 339.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a12b72a-6e8b-4c7c-ab8d-b82ea945f8f5")
+	)
+	(wire
+		(pts
 			(xy 193.04 130.81) (xy 194.31 130.81)
 		)
 		(stroke
@@ -16590,6 +16985,16 @@
 			(type default)
 		)
 		(uuid "1e049f17-c2fa-4314-a362-afe13ceb52b7")
+	)
+	(wire
+		(pts
+			(xy 314.96 158.75) (xy 314.96 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8b47a1-e7f9-43c1-8d6b-db8fe5ec9faa")
 	)
 	(wire
 		(pts
@@ -17463,6 +17868,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 167.64) (xy 341.63 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60deea3b-dff1-4196-9af8-5d14fefcad0a")
+	)
+	(wire
+		(pts
 			(xy 187.96 247.65) (xy 184.15 247.65)
 		)
 		(stroke
@@ -17740,6 +18155,16 @@
 			(type default)
 		)
 		(uuid "77146f64-53b5-41e8-b107-aa01142946aa")
+	)
+	(wire
+		(pts
+			(xy 339.09 149.86) (xy 341.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775f159a-6fb1-4113-8d26-ab05c9d3b659")
 	)
 	(wire
 		(pts
@@ -18410,6 +18835,16 @@
 			(type default)
 		)
 		(uuid "9c34a05c-91c6-4e7c-a35b-431ce675e101")
+	)
+	(wire
+		(pts
+			(xy 313.69 158.75) (xy 314.96 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d86df24-1e6e-482d-98c6-ba4544d3bf12")
 	)
 	(wire
 		(pts
@@ -19100,6 +19535,16 @@
 			(type default)
 		)
 		(uuid "d1854a01-53ab-4c3a-8a0d-c6156e727bb4")
+	)
+	(wire
+		(pts
+			(xy 341.63 167.64) (xy 341.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ac0859-445d-407e-a8ca-ebc77199339e")
 	)
 	(wire
 		(pts
@@ -20261,7 +20706,7 @@
 	)
 	(global_label "+M2_CLK_BUF3{E14}"
 		(shape input)
-		(at 341.63 144.78 180)
+		(at 313.69 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20271,7 +20716,7 @@
 		)
 		(uuid "16703b15-9782-4312-916e-738d0418cc4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.7482 144.78 0)
+			(at 290.8082 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22264,7 +22709,7 @@
 	)
 	(global_label "{slash}CPU_R{slash}W{E27}"
 		(shape input)
-		(at 341.63 152.4 180)
+		(at 341.63 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22274,7 +22719,7 @@
 		)
 		(uuid "6ab0994e-f8bc-48c5-bd48-f9c07e0c2fe8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.1629 152.4 0)
+			(at 323.1629 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22324,6 +22769,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}Romsel{PinBuf}"
+		(shape input)
+		(at 314.96 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d33de77-7199-4691-a4c7-40d43218c26d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.8882 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -22825,28 +23292,6 @@
 		(uuid "7f8621c7-2238-4345-9a04-5fac73a02940")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.5901 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "{slash}M2_CLK_BUF3{E15}"
-		(shape input)
-		(at 341.63 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "80455092-2ba7-49e1-bae6-ededb97142cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.9901 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25008,28 +25453,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "{slash}ROMSEL{E23,E24}"
-		(shape input)
-		(at 341.63 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eec76d07-9cc1-4f22-a4f7-ed7474492d9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.4416 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27429,6 +27852,78 @@
 		)
 	)
 	(symbol
+		(lib_id "MMC5:BIGBUF")
+		(at 321.31 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b09662f-b34b-48b5-ba9e-89aea5f08ca1")
+		(property "Reference" "E23,E24"
+			(at 320.802 163.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Buf 83"
+			(at 320.294 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(thickness 0.1778)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "40e65cb3-f418-4cd6-95fd-d857c6d90e61")
+		)
+		(pin ""
+			(uuid "904e1750-44a6-4b48-9e0c-fb7a56282ea2")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/592254d1-b82c-4794-a868-544fd8c831b6"
+					(reference "E23,E24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "NAND_2_6")
 		(lib_id "MMC5:NAND_2")
 		(at 149.86 101.6 0)
@@ -27498,6 +27993,79 @@
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/592254d1-b82c-4794-a868-544fd8c831b6"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMC5:BIGINV")
+		(at 321.31 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "735235a8-cf0e-49da-b930-dbbe6b65b61d")
+		(property "Reference" "E14.2"
+			(at 320.802 154.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Inv 30"
+			(at 320.294 158.75 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(thickness 0.1778)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "40dcc4f3-b082-4585-beda-a7af0c023044")
+		)
+		(pin ""
+			(uuid "1664b3e5-d34c-487b-b1c4-784bd605cfd6")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/592254d1-b82c-4794-a868-544fd8c831b6"
+					(reference "E14.2")
 					(unit 1)
 				)
 			)
@@ -30943,6 +31511,78 @@
 			(project ""
 				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/592254d1-b82c-4794-a868-544fd8c831b6"
 					(reference "B38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "INVERT_109")
+		(lib_id "MMC5:INVERT")
+		(at 335.28 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec249643-004e-4ad1-9450-b441a8d58459")
+		(property "Reference" "E15"
+			(at 334.772 155.448 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "INVERT"
+			(at 336.55 160.02 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b7ad0465-1f36-49bc-8b53-a5726fd7cc5d")
+		)
+		(pin ""
+			(uuid "c4b80f39-40f6-4f99-a4c3-40a6bb579c6b")
+		)
+		(instances
+			(project "MMC5"
+				(path "/46093bf6-f83e-4237-9ece-7350a682aff0/592254d1-b82c-4794-a868-544fd8c831b6"
+					(reference "E15")
 					(unit 1)
 				)
 			)

@@ -13063,7 +13063,7 @@
 			)
 		)
 	)
-	(global_label "+PPU_A12_PIN_A{PinBuf}"
+	(global_label "{slash}PPU_A12_PIN_A{PinInv}"
 		(shape input)
 		(at 58.42 64.77 180)
 		(fields_autoplaced yes)
@@ -13075,7 +13075,7 @@
 		)
 		(uuid "24418b69-54a3-4039-8258-be7fe0dbff28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.4257 64.77 0)
+			(at 32.0909 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13173,7 +13173,7 @@
 			)
 		)
 	)
-	(global_label "+PPU_A10_PIN_A{PinBuf}"
+	(global_label "{slash}PPU_A10_PIN_A{PinInv}"
 		(shape input)
 		(at 59.69 33.02 180)
 		(fields_autoplaced yes)
@@ -13185,7 +13185,7 @@
 		)
 		(uuid "2b9d63f5-fcbc-4103-beb0-1338172bc543")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.6957 33.02 0)
+			(at 33.3609 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,7 +13525,7 @@
 			)
 		)
 	)
-	(global_label "+PPU_A11_PIN_A{PinBuf}"
+	(global_label "{slash}PPU_A11_PIN_A{PinInv}"
 		(shape input)
 		(at 59.69 48.26 180)
 		(fields_autoplaced yes)
@@ -13537,7 +13537,7 @@
 		)
 		(uuid "5502a009-03dc-4b1a-aacf-fee8e52c25ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.6957 48.26 0)
+			(at 33.3609 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

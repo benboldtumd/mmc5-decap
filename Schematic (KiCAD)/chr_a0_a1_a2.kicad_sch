@@ -9957,6 +9957,17 @@
 		)
 		(uuid "dbc41021-2c70-4d87-ba13-b3eeddab1dfc")
 	)
+	(text "This area should be verified because\nit seems N15 should also go low for\nextended attribute fetches."
+		(exclude_from_sim no)
+		(at 122.174 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef6dcf1a-b71d-448f-a127-a628499c3c16")
+	)
 	(text "MMC5A Only"
 		(exclude_from_sim no)
 		(at 236.728 113.03 0)
@@ -12300,7 +12311,7 @@
 			)
 		)
 	)
-	(global_label "V-Split_Rendering{BL43}"
+	(global_label "{slash}V-Split_Rendering{BL43}"
 		(shape output)
 		(at 162.56 48.26 0)
 		(fields_autoplaced yes)
@@ -12312,7 +12323,7 @@
 		)
 		(uuid "5eaa0a81-d2f3-4d46-b7e0-8edbef633ade")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.3727 48.26 0)
+			(at 190.7032 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13070,7 +13081,7 @@
 			)
 		)
 	)
-	(global_label "V-Split_Rendering{N15}"
+	(global_label "{slash}V-Split_Rendering{N15}"
 		(shape output)
 		(at 137.16 53.34 0)
 		(fields_autoplaced yes)
@@ -13082,7 +13093,7 @@
 		)
 		(uuid "c8772446-15c9-4542-b69d-e156f487fd93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.0051 53.34 0)
+			(at 164.3356 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

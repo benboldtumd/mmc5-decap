@@ -4802,7 +4802,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "INVERT_10"
+		(symbol "INVERT_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4859,7 +4859,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INVERT_10_0_1"
+			(symbol "INVERT_1_0_1"
 				(polyline
 					(pts
 						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
@@ -4873,7 +4873,7 @@
 					)
 				)
 			)
-			(symbol "INVERT_10_1_1"
+			(symbol "INVERT_1_1_1"
 				(circle
 					(center 1.27 0)
 					(radius 0.635)
@@ -4924,7 +4924,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "INVERT_11"
+		(symbol "INVERT_2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4981,7 +4981,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INVERT_11_0_1"
+			(symbol "INVERT_2_0_1"
 				(polyline
 					(pts
 						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
@@ -4995,7 +4995,7 @@
 					)
 				)
 			)
-			(symbol "INVERT_11_1_1"
+			(symbol "INVERT_2_1_1"
 				(circle
 					(center 1.27 0)
 					(radius 0.635)
@@ -5046,7 +5046,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "INVERT_12"
+		(symbol "INVERT_3"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5103,7 +5103,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INVERT_12_0_1"
+			(symbol "INVERT_3_0_1"
 				(polyline
 					(pts
 						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
@@ -5117,7 +5117,129 @@
 					)
 				)
 			)
-			(symbol "INVERT_12_1_1"
+			(symbol "INVERT_3_1_1"
+				(circle
+					(center 1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 0 180)
+					(length 1.905)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "INVERT_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "INVERT"
+				(at 1.27 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INVERT_4_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INVERT_4_1_1"
 				(circle
 					(center 1.27 0)
 					(radius 0.635)
@@ -5606,128 +5728,6 @@
 				)
 			)
 			(symbol "INVERT_8_1_1"
-				(circle
-					(center 1.27 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 3.81 0 180)
-					(length 1.905)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "INVERT_9"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.508 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "INVERT"
-				(at 1.27 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INVERT_9_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "INVERT_9_1_1"
 				(circle
 					(center 1.27 0)
 					(radius 0.635)
@@ -33189,7 +33189,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_31")
+		(lib_name "BUFFER_33")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 152.4 0)
 		(unit 1)
@@ -33260,7 +33260,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_33")
+		(lib_name "BUFFER_29")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 144.78 0)
 		(unit 1)
@@ -33331,6 +33331,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Reg_10_D-Latch_OE_2")
 		(lib_id "MMC5:Reg_10_D-Latch_OE")
 		(at 46.99 219.71 0)
 		(unit 1)
@@ -33535,7 +33536,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_12")
+		(lib_name "INVERT_8")
 		(lib_id "MMC5:INVERT")
 		(at 306.07 55.88 0)
 		(unit 1)
@@ -33793,6 +33794,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TriBuf_1N_1")
 		(lib_id "MMC5:TriBuf_1N")
 		(at 59.69 34.29 0)
 		(unit 1)
@@ -33977,7 +33979,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_24")
+		(lib_name "BUFFER_21")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 95.25 0)
 		(unit 1)
@@ -34048,7 +34050,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_15")
+		(lib_name "BUFFER_14")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 45.72 0)
 		(unit 1)
@@ -34277,7 +34279,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_5")
+		(lib_name "BUFFER_6")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 123.19 0)
 		(unit 1)
@@ -34348,7 +34350,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_29")
+		(lib_name "BUFFER_30")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 132.08 0)
 		(unit 1)
@@ -34419,7 +34421,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_13")
+		(lib_name "BUFFER_15")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 53.34 0)
 		(unit 1)
@@ -34490,7 +34492,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TriBuf_1N_1")
 		(lib_id "MMC5:TriBuf_1N")
 		(at 59.69 26.67 0)
 		(unit 1)
@@ -34636,7 +34637,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_25")
+		(lib_name "BUFFER_26")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 119.38 0)
 		(unit 1)
@@ -34707,7 +34708,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_32")
+		(lib_name "BUFFER_31")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 148.59 0)
 		(unit 1)
@@ -34778,6 +34779,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Reg_10_D-Latch_N_2")
 		(lib_id "MMC5:Reg_10_D-Latch_N")
 		(at 46.99 106.68 0)
 		(unit 1)
@@ -34935,7 +34937,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_3")
+		(lib_name "BUFFER_4")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 90.17 0)
 		(unit 1)
@@ -35006,7 +35008,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_38")
+		(lib_name "BUFFER_39")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 181.61 0)
 		(unit 1)
@@ -35193,7 +35195,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_10_D-Latch_OE_5")
+		(lib_name "Reg_10_D-Latch_OE_6")
 		(lib_id "MMC5:Reg_10_D-Latch_OE")
 		(at 208.28 176.53 0)
 		(unit 1)
@@ -35326,7 +35328,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_10_D-Latch_OE_4")
+		(lib_name "Reg_10_D-Latch_OE_3")
 		(lib_id "MMC5:Reg_10_D-Latch_OE")
 		(at 208.28 219.71 0)
 		(unit 1)
@@ -35460,7 +35462,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_18")
+		(lib_name "BUFFER_17")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 62.23 0)
 		(unit 1)
@@ -35531,7 +35533,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_10_D-Latch_OE_6")
+		(lib_name "Reg_10_D-Latch_OE_1")
 		(lib_id "MMC5:Reg_10_D-Latch_OE")
 		(at 289.56 219.71 0)
 		(unit 1)
@@ -35665,7 +35667,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_20")
+		(lib_name "BUFFER_19")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 82.55 0)
 		(unit 1)
@@ -35736,7 +35738,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_10_D-Latch_OE_2")
 		(lib_id "MMC5:Reg_10_D-Latch_OE")
 		(at 127 219.71 0)
 		(unit 1)
@@ -35870,7 +35871,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_30")
+		(lib_name "BUFFER_32")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 128.27 0)
 		(unit 1)
@@ -35941,7 +35942,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_34")
+		(lib_name "BUFFER_36")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 168.91 0)
 		(unit 1)
@@ -36012,7 +36013,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_10_D-Latch_OE_1")
+		(lib_name "Reg_10_D-Latch_OE_4")
 		(lib_id "MMC5:Reg_10_D-Latch_OE")
 		(at 46.99 176.53 0)
 		(unit 1)
@@ -36145,7 +36146,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_35")
+		(lib_name "BUFFER_37")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 165.1 0)
 		(unit 1)
@@ -36216,7 +36217,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_10_D-Latch_OE_7")
+		(lib_name "Reg_10_D-Latch_OE_5")
 		(lib_id "MMC5:Reg_10_D-Latch_OE")
 		(at 289.56 176.53 0)
 		(unit 1)
@@ -36349,7 +36350,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_37")
+		(lib_name "BUFFER_34")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 185.42 0)
 		(unit 1)
@@ -36420,7 +36421,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_6")
+		(lib_name "BUFFER_2")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 139.7 0)
 		(unit 1)
@@ -36562,7 +36563,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_23")
+		(lib_name "BUFFER_25")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 99.06 0)
 		(unit 1)
@@ -36633,7 +36634,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_22")
+		(lib_name "BUFFER_23")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 102.87 0)
 		(unit 1)
@@ -36704,7 +36705,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_5")
+		(lib_name "INVERT_2")
 		(lib_id "MMC5:INVERT")
 		(at 299.72 29.21 0)
 		(unit 1)
@@ -36776,7 +36777,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TriBuf_9N_1")
 		(lib_id "MMC5:TriBuf_9N")
 		(at 214.63 41.91 0)
 		(unit 1)
@@ -36899,7 +36899,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_27")
+		(lib_name "BUFFER_22")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 111.76 0)
 		(unit 1)
@@ -36970,7 +36970,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_10")
+		(lib_name "INVERT_5")
 		(lib_id "MMC5:INVERT")
 		(at 306.07 48.26 0)
 		(unit 1)
@@ -37042,7 +37042,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_17")
+		(lib_name "BUFFER_16")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 66.04 0)
 		(unit 1)
@@ -37113,7 +37113,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_8")
+		(lib_name "INVERT_4")
 		(lib_id "MMC5:INVERT")
 		(at 306.07 40.64 0)
 		(unit 1)
@@ -37185,7 +37185,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_7")
+		(lib_name "INVERT_3")
 		(lib_id "MMC5:INVERT")
 		(at 299.72 36.83 0)
 		(unit 1)
@@ -37257,7 +37257,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_9")
+		(lib_name "INVERT_7")
 		(lib_id "MMC5:INVERT")
 		(at 299.72 52.07 0)
 		(unit 1)
@@ -37329,7 +37329,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_6")
+		(lib_name "INVERT_1")
 		(lib_id "MMC5:INVERT")
 		(at 306.07 33.02 0)
 		(unit 1)
@@ -37401,7 +37401,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_10_D-Latch_N_2")
+		(lib_name "Reg_10_D-Latch_N_3")
 		(lib_id "MMC5:Reg_10_D-Latch_N")
 		(at 289.56 106.68 0)
 		(unit 1)
@@ -37559,7 +37559,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_26")
+		(lib_name "BUFFER_27")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 115.57 0)
 		(unit 1)
@@ -37630,6 +37630,7 @@
 		)
 	)
 	(symbol
+		(lib_name "BUFFER_3")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 40.64 0)
 		(unit 1)
@@ -37700,7 +37701,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_39")
+		(lib_name "BUFFER_35")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 177.8 0)
 		(unit 1)
@@ -37771,7 +37772,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_1")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 57.15 0)
 		(unit 1)
@@ -37842,6 +37842,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TriBuf_9N_1")
 		(lib_id "MMC5:TriBuf_9N")
 		(at 162.56 41.91 0)
 		(unit 1)
@@ -38052,7 +38053,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_21")
+		(lib_name "BUFFER_20")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 78.74 0)
 		(unit 1)
@@ -38123,7 +38124,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_12")
+		(lib_name "BUFFER_13")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 29.21 0)
 		(unit 1)
@@ -38194,7 +38195,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_14")
+		(lib_name "BUFFER_18")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 49.53 0)
 		(unit 1)
@@ -38265,7 +38266,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_2")
+		(lib_name "BUFFER_5")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 73.66 0)
 		(unit 1)
@@ -38336,7 +38337,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_36")
+		(lib_name "BUFFER_38")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 161.29 0)
 		(unit 1)
@@ -38478,7 +38479,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_16")
+		(lib_name "BUFFER_12")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 69.85 0)
 		(unit 1)
@@ -38620,7 +38621,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_19")
+		(lib_name "BUFFER_24")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 86.36 0)
 		(unit 1)
@@ -38691,7 +38692,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_4")
+		(lib_name "BUFFER_1")
 		(lib_id "MMC5:BUFFER")
 		(at 379.73 106.68 0)
 		(unit 1)
@@ -38762,7 +38763,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_10_D-Latch_OE_3")
+		(lib_name "Reg_10_D-Latch_OE_7")
 		(lib_id "MMC5:Reg_10_D-Latch_OE")
 		(at 127 176.53 0)
 		(unit 1)
@@ -38966,7 +38967,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_10_D-Latch_N_3")
 		(lib_id "MMC5:Reg_10_D-Latch_N")
 		(at 208.28 106.68 0)
 		(unit 1)
@@ -39124,7 +39124,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_11")
+		(lib_name "INVERT_6")
 		(lib_id "MMC5:INVERT")
 		(at 299.72 44.45 0)
 		(unit 1)

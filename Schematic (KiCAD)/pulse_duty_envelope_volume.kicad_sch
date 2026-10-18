@@ -183,32 +183,32 @@
 				)
 			)
 			(symbol "AOI_2_1_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -218,7 +218,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -236,7 +236,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -254,7 +254,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -272,7 +272,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -486,32 +486,32 @@
 				)
 			)
 			(symbol "AOI_2_2_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -521,7 +521,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -539,7 +539,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -557,7 +557,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -575,7 +575,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -789,32 +789,32 @@
 				)
 			)
 			(symbol "AOI_2_3_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -824,7 +824,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -842,7 +842,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -860,7 +860,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -878,7 +878,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1092,32 +1092,32 @@
 				)
 			)
 			(symbol "AOI_2_4_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1127,7 +1127,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1145,7 +1145,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1163,7 +1163,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1181,7 +1181,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1395,32 +1395,32 @@
 				)
 			)
 			(symbol "AOI_2_5_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1430,7 +1430,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1448,7 +1448,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1466,7 +1466,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1484,7 +1484,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1698,32 +1698,32 @@
 				)
 			)
 			(symbol "AOI_2_6_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1733,7 +1733,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1751,7 +1751,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1769,7 +1769,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -1787,7 +1787,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -2001,32 +2001,32 @@
 				)
 			)
 			(symbol "AOI_2_7_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -2036,7 +2036,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -2054,7 +2054,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -2072,7 +2072,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -2090,7 +2090,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -4635,6 +4635,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "INVERT_25"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "INVERT"
+				(at 1.27 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INVERT_25_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INVERT_25_1_1"
+				(circle
+					(center 1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 0 180)
+					(length 1.905)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "INVERT_26"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "INVERT"
+				(at 1.27 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INVERT_26_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INVERT_26_1_1"
+				(circle
+					(center 1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 0 180)
+					(length 1.905)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "INVERT_27"
 			(pin_numbers
 				(hide yes)
@@ -5855,250 +6099,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "INVERT_36"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.508 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "INVERT"
-				(at 1.27 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INVERT_36_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "INVERT_36_1_1"
-				(circle
-					(center 1.27 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 3.81 0 180)
-					(length 1.905)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "INVERT_37"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.508 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "INVERT"
-				(at 1.27 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INVERT_37_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "INVERT_37_1_1"
-				(circle
-					(center 1.27 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 3.81 0 180)
-					(length 1.905)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "INVERT_4"
 			(pin_numbers
 				(hide yes)
@@ -7009,32 +7009,32 @@
 				)
 			)
 			(symbol "AOI_2_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -7044,7 +7044,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -7062,7 +7062,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -7080,7 +7080,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -7098,7 +7098,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -7691,6 +7691,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MMC5:NAND_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NAND_2"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NAND_2_1_1"
+				(polyline
+					(pts
+						(xy 0.635 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0.635 2.54) (xy 3.175 2.54) (xy 3.175 -2.54) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MMC5:NAND_3"
 			(pin_numbers
 				(hide yes)
@@ -8036,6 +8186,328 @@
 					(at -5.08 -3.81 0)
 					(length 2.54)
 					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMC5:NOR_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NOR_2"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOR_2_0_1"
+				(bezier
+					(pts
+						(xy -3.175 2.54) (xy -1.905 1.27) (xy -1.905 -1.27) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NOR_2_1_1"
+				(bezier
+					(pts
+						(xy -3.175 2.54) (xy 4.445 2.54) (xy 4.445 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.5908)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.5908)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMC5:NOR_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.826 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NOR_3"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOR_3_0_1"
+				(bezier
+					(pts
+						(xy -3.175 3.175) (xy -1.905 1.905) (xy -1.905 -1.905) (xy -3.175 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NOR_3_1_1"
+				(bezier
+					(pts
+						(xy -3.175 3.175) (xy 4.445 3.175) (xy 4.445 -3.175) (xy -3.175 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.286)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.794)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.286)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9169,156 +9641,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_2_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 4.318 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "NAND_2"
-				(at 0 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NAND_2_2_1_1"
-				(polyline
-					(pts
-						(xy 0.635 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 0.635 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 0.635 2.54) (xy 3.175 2.54) (xy 3.175 -2.54) (xy 0.635 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NAND_3_1"
 			(pin_numbers
 				(hide yes)
@@ -10159,7 +10481,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_3_7"
+		(symbol "NAND_3_6"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10216,7 +10538,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NAND_3_7_1_1"
+			(symbol "NAND_3_6_1_1"
 				(polyline
 					(pts
 						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
@@ -10327,7 +10649,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_3_8"
+		(symbol "NAND_3_7"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10384,7 +10706,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NAND_3_8_1_1"
+			(symbol "NAND_3_7_1_1"
 				(polyline
 					(pts
 						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
@@ -11467,158 +11789,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NOR_2_6"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 4.318 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "NOR_2"
-				(at 0 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NOR_2_6_0_1"
-				(bezier
-					(pts
-						(xy -3.175 2.54) (xy -1.905 1.27) (xy -1.905 -1.27) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NOR_2_6_1_1"
-				(bezier
-					(pts
-						(xy -3.175 2.54) (xy 4.445 2.54) (xy 4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 1.27 0)
-					(length 2.5908)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -1.27 0)
-					(length 2.5908)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NOR_3_1"
 			(pin_numbers
 				(hide yes)
@@ -11691,176 +11861,6 @@
 				)
 			)
 			(symbol "NOR_3_1_1_1"
-				(bezier
-					(pts
-						(xy -3.175 3.175) (xy 4.445 3.175) (xy 4.445 -3.175) (xy -3.175 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.286)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.794)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.286)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NOR_3_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 4.826 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "NOR_3"
-				(at 0 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NOR_3_3_0_1"
-				(bezier
-					(pts
-						(xy -3.175 3.175) (xy -1.905 1.905) (xy -1.905 -1.905) (xy -3.175 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NOR_3_3_1_1"
 				(bezier
 					(pts
 						(xy -3.175 3.175) (xy 4.445 3.175) (xy 4.445 -3.175) (xy -3.175 -3.175)
@@ -19388,7 +19388,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_17")
+		(lib_name "INVERT_8")
 		(lib_id "MMC5:INVERT")
 		(at 210.82 176.53 0)
 		(unit 1)
@@ -19459,7 +19459,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_20")
+		(lib_name "INVERT_7")
 		(lib_id "MMC5:INVERT")
 		(at 379.73 161.29 0)
 		(unit 1)
@@ -19605,7 +19605,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_2")
 		(lib_id "MMC5:NOR_2")
 		(at 185.42 48.26 0)
 		(unit 1)
@@ -19680,7 +19679,6 @@
 		)
 	)
 	(symbol
-		(lib_name "UNKNOWN_2to2_1")
 		(lib_id "MMC5:UNKNOWN_2to2")
 		(at 232.41 214.63 0)
 		(unit 1)
@@ -19758,7 +19756,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_36")
+		(lib_name "INVERT_6")
 		(lib_id "MMC5:INVERT")
 		(at 378.46 59.69 0)
 		(unit 1)
@@ -19829,7 +19827,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_13")
+		(lib_name "INVERT_4")
 		(lib_id "MMC5:INVERT")
 		(at 78.74 64.77 0)
 		(unit 1)
@@ -19985,7 +19983,6 @@
 		)
 	)
 	(symbol
-		(lib_name "AOI_2_3")
 		(lib_id "MMC5:AOI_2")
 		(at 368.3 73.66 0)
 		(unit 1)
@@ -20005,7 +20002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 369.062 75.692 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20066,7 +20063,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_21")
+		(lib_name "INVERT_3")
 		(lib_id "MMC5:INVERT")
 		(at 379.73 175.26 0)
 		(unit 1)
@@ -20137,7 +20134,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_32")
+		(lib_name "INVERT_9")
 		(lib_id "MMC5:INVERT")
 		(at 173.99 45.72 0)
 		(unit 1)
@@ -20208,7 +20205,6 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_4")
 		(lib_id "MMC5:INVERT")
 		(at 69.85 59.69 0)
 		(unit 1)
@@ -20354,6 +20350,7 @@
 		)
 	)
 	(symbol
+		(lib_name "INVERT_10")
 		(lib_id "MMC5:INVERT")
 		(at 64.77 100.33 0)
 		(unit 1)
@@ -20425,7 +20422,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_1")
+		(lib_name "INVERT_5")
 		(lib_id "MMC5:INVERT")
 		(at 64.77 85.09 0)
 		(unit 1)
@@ -20497,7 +20494,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_31")
+		(lib_name "INVERT_11")
 		(lib_id "MMC5:INVERT")
 		(at 223.52 91.44 0)
 		(unit 1)
@@ -20568,7 +20565,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_6")
+		(lib_name "NOR_2_2")
 		(lib_id "MMC5:NOR_2")
 		(at 185.42 165.1 0)
 		(unit 1)
@@ -20643,7 +20640,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_4_D-Latch_N_1")
 		(lib_id "MMC5:Reg_4_D-Latch_N")
 		(at 49.53 52.07 0)
 		(unit 1)
@@ -20747,7 +20743,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_6")
+		(lib_name "INVERT_12")
 		(lib_id "MMC5:INVERT")
 		(at 69.85 175.26 0)
 		(unit 1)
@@ -20818,7 +20814,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_5")
+		(lib_name "INVERT_1")
 		(lib_id "MMC5:INVERT")
 		(at 78.74 180.34 0)
 		(unit 1)
@@ -20889,7 +20885,7 @@
 		)
 	)
 	(symbol
-		(lib_name "AOI_2_4")
+		(lib_name "AOI_2_1")
 		(lib_id "MMC5:AOI_2")
 		(at 369.57 147.32 0)
 		(unit 1)
@@ -20909,7 +20905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 370.332 149.352 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20970,7 +20966,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_33")
+		(lib_name "INVERT_2")
 		(lib_id "MMC5:INVERT")
 		(at 210.82 59.69 0)
 		(unit 1)
@@ -21041,7 +21037,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_27")
+		(lib_name "INVERT_13")
 		(lib_id "MMC5:INVERT")
 		(at 203.2 91.44 0)
 		(unit 1)
@@ -21112,7 +21108,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_15")
+		(lib_name "INVERT_14")
 		(lib_id "MMC5:INVERT")
 		(at 223.52 215.9 0)
 		(unit 1)
@@ -21258,7 +21254,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_8")
 		(lib_id "MMC5:NAND_3")
 		(at 219.71 54.61 0)
 		(unit 1)
@@ -21336,6 +21331,7 @@
 		)
 	)
 	(symbol
+		(lib_name "UNKNOWN_2to2_1")
 		(lib_id "MMC5:UNKNOWN_2to2")
 		(at 232.41 97.79 0)
 		(unit 1)
@@ -21413,7 +21409,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_34")
+		(lib_name "INVERT_15")
 		(lib_id "MMC5:INVERT")
 		(at 378.46 31.75 0)
 		(unit 1)
@@ -21484,7 +21480,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_3")
+		(lib_name "INVERT_16")
 		(lib_id "MMC5:INVERT")
 		(at 73.66 90.17 0)
 		(unit 1)
@@ -21555,7 +21551,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_12")
+		(lib_name "INVERT_17")
 		(lib_id "MMC5:INVERT")
 		(at 203.2 208.28 0)
 		(unit 1)
@@ -21626,6 +21622,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Reg_4_D-Latch_N_1")
 		(lib_id "MMC5:Reg_4_D-Latch_N")
 		(at 49.53 26.67 0)
 		(unit 1)
@@ -21728,7 +21725,7 @@
 		)
 	)
 	(symbol
-		(lib_name "AOI_2_1")
+		(lib_name "AOI_2_2")
 		(lib_id "MMC5:AOI_2")
 		(at 368.3 45.72 0)
 		(unit 1)
@@ -21748,7 +21745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 369.062 47.752 0)
 			(do_not_autoplace yes)
 			(effects
@@ -21809,7 +21806,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_2")
 		(lib_id "MMC5:NAND_2")
 		(at 173.99 168.91 0)
 		(unit 1)
@@ -21884,7 +21880,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_19")
+		(lib_name "INVERT_25")
 		(lib_id "MMC5:INVERT")
 		(at 379.73 147.32 0)
 		(unit 1)
@@ -21955,7 +21951,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_4")
+		(lib_name "NAND_3_7")
 		(lib_id "MMC5:NAND_3")
 		(at 219.71 184.15 0)
 		(unit 1)
@@ -22117,6 +22113,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_3_6")
 		(lib_id "MMC5:NAND_3")
 		(at 219.71 67.31 0)
 		(unit 1)
@@ -22194,7 +22191,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_28")
+		(lib_name "INVERT_19")
 		(lib_id "MMC5:INVERT")
 		(at 245.11 60.96 0)
 		(unit 1)
@@ -22340,7 +22337,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_22")
+		(lib_name "INVERT_27")
 		(lib_id "MMC5:INVERT")
 		(at 379.73 189.23 0)
 		(unit 1)
@@ -22411,7 +22408,7 @@
 		)
 	)
 	(symbol
-		(lib_name "AOI_2_5")
+		(lib_name "AOI_2_4")
 		(lib_id "MMC5:AOI_2")
 		(at 369.57 175.26 0)
 		(unit 1)
@@ -22431,7 +22428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 370.332 177.292 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22596,7 +22593,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_18")
+		(lib_name "INVERT_29")
 		(lib_id "MMC5:INVERT")
 		(at 173.99 162.56 0)
 		(unit 1)
@@ -22667,7 +22664,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_35")
+		(lib_name "INVERT_28")
 		(lib_id "MMC5:INVERT")
 		(at 378.46 45.72 0)
 		(unit 1)
@@ -22738,7 +22735,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_11")
+		(lib_name "INVERT_30")
 		(lib_id "MMC5:INVERT")
 		(at 245.11 177.8 0)
 		(unit 1)
@@ -22809,7 +22806,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_2")
+		(lib_name "INVERT_22")
 		(lib_id "MMC5:INVERT")
 		(at 73.66 105.41 0)
 		(unit 1)
@@ -22880,7 +22877,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_7")
+		(lib_name "NAND_3_2")
 		(lib_id "MMC5:NAND_3")
 		(at 219.71 45.72 0)
 		(unit 1)
@@ -22958,6 +22955,7 @@
 		)
 	)
 	(symbol
+		(lib_name "AOI_2_3")
 		(lib_id "MMC5:AOI_2")
 		(at 368.3 31.75 0)
 		(unit 1)
@@ -22977,7 +22975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 369.062 33.782 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23142,7 +23140,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_29")
+		(lib_name "INVERT_24")
 		(lib_id "MMC5:INVERT")
 		(at 245.11 96.52 0)
 		(unit 1)
@@ -23213,7 +23211,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_9")
+		(lib_name "INVERT_18")
 		(lib_id "MMC5:INVERT")
 		(at 64.77 215.9 0)
 		(unit 1)
@@ -23285,7 +23283,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_2")
+		(lib_name "NAND_3_4")
 		(lib_id "MMC5:NAND_3")
 		(at 219.71 162.56 0)
 		(unit 1)
@@ -23443,7 +23441,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_3_3")
 		(lib_id "MMC5:NOR_3")
 		(at 212.09 91.44 0)
 		(unit 1)
@@ -23521,7 +23518,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_23")
+		(lib_name "INVERT_35")
 		(lib_id "MMC5:INVERT")
 		(at 254 213.36 0)
 		(unit 1)
@@ -23592,7 +23589,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_7")
+		(lib_name "INVERT_20")
 		(lib_id "MMC5:INVERT")
 		(at 73.66 205.74 0)
 		(unit 1)
@@ -23822,7 +23819,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_30")
+		(lib_name "INVERT_23")
 		(lib_id "MMC5:INVERT")
 		(at 223.52 99.06 0)
 		(unit 1)
@@ -23893,7 +23890,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_24")
+		(lib_name "INVERT_34")
 		(lib_id "MMC5:INVERT")
 		(at 254 96.52 0)
 		(unit 1)
@@ -23964,7 +23961,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_5")
+		(lib_name "NAND_3_1")
 		(lib_id "MMC5:NAND_3")
 		(at 219.71 193.04 0)
 		(unit 1)
@@ -24120,7 +24117,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_10")
+		(lib_name "INVERT_26")
 		(lib_id "MMC5:INVERT")
 		(at 64.77 200.66 0)
 		(unit 1)
@@ -24192,7 +24189,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_16")
+		(lib_name "INVERT_31")
 		(lib_id "MMC5:INVERT")
 		(at 223.52 208.28 0)
 		(unit 1)
@@ -24338,7 +24335,7 @@
 		)
 	)
 	(symbol
-		(lib_name "AOI_2_7")
+		(lib_name "AOI_2_5")
 		(lib_id "MMC5:AOI_2")
 		(at 369.57 189.23 0)
 		(unit 1)
@@ -24358,7 +24355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 370.332 191.262 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24419,7 +24416,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_8")
+		(lib_name "INVERT_32")
 		(lib_id "MMC5:INVERT")
 		(at 73.66 220.98 0)
 		(unit 1)
@@ -24568,7 +24565,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_14")
+		(lib_name "INVERT_21")
 		(lib_id "MMC5:INVERT")
 		(at 245.11 213.36 0)
 		(unit 1)
@@ -24639,7 +24636,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_1")
+		(lib_name "NAND_3_5")
 		(lib_id "MMC5:NAND_3")
 		(at 219.71 76.2 0)
 		(unit 1)
@@ -24717,7 +24714,7 @@
 		)
 	)
 	(symbol
-		(lib_name "AOI_2_6")
+		(lib_name "AOI_2_7")
 		(lib_id "MMC5:AOI_2")
 		(at 369.57 161.29 0)
 		(unit 1)
@@ -24737,7 +24734,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 370.332 163.322 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24798,7 +24795,7 @@
 		)
 	)
 	(symbol
-		(lib_name "AOI_2_2")
+		(lib_name "AOI_2_6")
 		(lib_id "MMC5:AOI_2")
 		(at 368.3 59.69 0)
 		(unit 1)
@@ -24818,7 +24815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 369.062 61.722 0)
 			(do_not_autoplace yes)
 			(effects
@@ -25039,7 +25036,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_37")
+		(lib_name "INVERT_33")
 		(lib_id "MMC5:INVERT")
 		(at 378.46 73.66 0)
 		(unit 1)

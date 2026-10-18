@@ -713,6 +713,990 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BUFFER_12"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_12_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_12_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_13"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_13_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_13_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_14_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_14_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_15"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_15_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_15_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_16"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_16_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_16_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_17"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_17_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_17_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_18"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_18_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_18_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BUFFER_19"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_19_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_19_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BUFFER_2"
 			(pin_numbers
 				(hide yes)
@@ -836,7 +1820,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BUFFER_21"
+		(symbol "BUFFER_20"
 			(pin_numbers
 				(hide yes)
 			)
@@ -893,7 +1877,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BUFFER_21_0_1"
+			(symbol "BUFFER_20_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
@@ -919,868 +1903,7 @@
 					)
 				)
 			)
-			(symbol "BUFFER_21_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BUFFER_22"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_22_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_22_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BUFFER_23"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_23_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_23_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BUFFER_24"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_24_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_24_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BUFFER_25"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_25_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_25_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BUFFER_26"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_26_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_26_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BUFFER_27"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_27_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_27_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BUFFER_28"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_28_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_28_1_1"
+			(symbol "BUFFER_20_1_1"
 				(pin input line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1904,129 +2027,6 @@
 				)
 			)
 			(symbol "BUFFER_3_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BUFFER_30"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_30_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_30_1_1"
 				(pin input line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3616,7 +3616,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "INVERT_27"
+		(symbol "INVERT_2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3673,7 +3673,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INVERT_27_0_1"
+			(symbol "INVERT_2_0_1"
 				(polyline
 					(pts
 						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
@@ -3687,7 +3687,7 @@
 					)
 				)
 			)
-			(symbol "INVERT_27_1_1"
+			(symbol "INVERT_2_1_1"
 				(circle
 					(center 1.27 0)
 					(radius 0.635)
@@ -6971,6 +6971,259 @@
 				)
 				(pin output line
 					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMC5:OAI_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.016 -0.254 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OAI_2"
+				(at 0 -4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OAI_2_0_1"
+				(arc
+					(start -2.794 -0.635)
+					(mid -2.362 -1.905)
+					(end -2.794 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy -2.794 -0.635) (xy 0 -0.635) (xy 0 -3.175) (xy -2.794 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -3.175)
+					(mid -2.54 -3.175)
+					(end -2.54 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy -2.54 -3.81) (xy 0 -3.81) (xy -1.27 -3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 0.635 -1.27) (xy 0.635 -3.81) (xy 1.905 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -1.27)
+					(mid 3.175 -2.54)
+					(end 1.905 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.4925 -2.54)
+					(radius 0.3175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "OAI_2_1_1"
+				(text "A"
+					(at -2.032 -1.27 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "B"
+					(at -2.032 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "C"
+					(at 1.27 -3.302 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -2.54 180)
 					(length 2.54)
 					(name "X"
 						(effects
@@ -11770,174 +12023,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_3_12"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 4.826 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "NAND_3"
-				(at 0 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NAND_3_12_1_1"
-				(polyline
-					(pts
-						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 0.635 3.175) (xy 3.175 3.175) (xy 3.175 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NAND_3_2"
 			(pin_numbers
 				(hide yes)
@@ -12668,6 +12753,174 @@
 				)
 			)
 			(symbol "NAND_3_6_1_1"
+				(polyline
+					(pts
+						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0.635 3.175) (xy 3.175 3.175) (xy 3.175 -3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NAND_3_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.826 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NAND_3"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NAND_3_7_1_1"
 				(polyline
 					(pts
 						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
@@ -19344,259 +19597,6 @@
 				)
 				(pin output line
 					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OAI_2_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -1.016 -0.254 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "OAI_2"
-				(at 0 -4.572 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OAI_2_2_0_1"
-				(arc
-					(start -2.794 -0.635)
-					(mid -2.362 -1.905)
-					(end -2.794 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy -2.794 -0.635) (xy 0 -0.635) (xy 0 -3.175) (xy -2.794 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -3.175)
-					(mid -2.54 -3.175)
-					(end -2.54 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy -2.54 -3.81) (xy 0 -3.81) (xy -1.27 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 0.635 -1.27) (xy 0.635 -3.81) (xy 1.905 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 -1.27)
-					(mid 3.175 -2.54)
-					(end 1.905 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.4925 -2.54)
-					(radius 0.3175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "OAI_2_2_1_1"
-				(text "A"
-					(at -2.032 -1.27 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "B"
-					(at -2.032 -2.54 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "C"
-					(at 1.27 -3.302 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 -2.54 180)
 					(length 2.54)
 					(name "X"
 						(effects
@@ -27817,7 +27817,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BIGBUF_2")
+		(lib_name "BIGBUF_1")
 		(lib_id "MMC5:BIGBUF")
 		(at 138.43 102.87 0)
 		(unit 1)
@@ -27891,7 +27891,6 @@
 		)
 	)
 	(symbol
-		(lib_name "OAI_2_2")
 		(lib_id "MMC5:OAI_2")
 		(at 237.49 151.13 0)
 		(unit 1)
@@ -27911,7 +27910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OAI_2"
+		(property "Value" "OAI_21"
 			(at 237.49 155.702 0)
 			(do_not_autoplace yes)
 			(effects
@@ -27969,7 +27968,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_3")
 		(lib_id "MMC5:NAND_3")
 		(at 133.35 142.24 0)
 		(unit 1)
@@ -28047,7 +28045,6 @@
 		)
 	)
 	(symbol
-		(lib_name "D-FF_Reset_1")
 		(lib_id "MMC5:D-FF_Reset")
 		(at 105.41 167.64 0)
 		(unit 1)
@@ -28127,7 +28124,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_24")
+		(lib_name "BUFFER_3")
 		(lib_id "MMC5:BUFFER")
 		(at 48.26 224.79 0)
 		(unit 1)
@@ -28199,6 +28196,7 @@
 		)
 	)
 	(symbol
+		(lib_name "D-FF_Reset_1")
 		(lib_id "MMC5:D-FF_Reset")
 		(at 57.15 83.82 0)
 		(unit 1)
@@ -28279,7 +28277,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_9")
+		(lib_name "NAND_2_2")
 		(lib_id "MMC5:NAND_2")
 		(at 121.92 170.18 0)
 		(unit 1)
@@ -28354,7 +28352,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_10")
 		(lib_id "MMC5:BUFFER")
 		(at 109.22 43.18 0)
 		(unit 1)
@@ -28426,7 +28423,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_3_6")
+		(lib_name "NAND_Mux_3_2")
 		(lib_id "MMC5:NAND_Mux_3")
 		(at 314.96 121.92 0)
 		(unit 1)
@@ -28513,7 +28510,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_9")
+		(lib_name "INVERT_3")
 		(lib_id "MMC5:INVERT")
 		(at 297.18 34.29 0)
 		(unit 1)
@@ -28700,7 +28697,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_23")
+		(lib_name "BUFFER_4")
 		(lib_id "MMC5:BUFFER")
 		(at 48.26 219.71 0)
 		(unit 1)
@@ -28772,7 +28769,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_2")
 		(lib_id "MMC5:NAND_2")
 		(at 97.79 50.8 0)
 		(unit 1)
@@ -28847,7 +28843,6 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_1")
 		(lib_id "MMC5:INVERT")
 		(at 85.09 68.58 0)
 		(unit 1)
@@ -28991,7 +28986,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BIGBUF_3")
+		(lib_name "BIGBUF_2")
 		(lib_id "MMC5:BIGBUF")
 		(at 58.42 96.52 0)
 		(unit 1)
@@ -29214,7 +29209,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_12")
+		(lib_name "NAND_3_2")
 		(lib_id "MMC5:NAND_3")
 		(at 59.69 252.73 0)
 		(unit 1)
@@ -29292,7 +29287,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_4")
+		(lib_name "NAND_3_1")
 		(lib_id "MMC5:NAND_3")
 		(at 121.92 142.24 0)
 		(unit 1)
@@ -29451,6 +29446,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_Mux_2_1")
 		(lib_id "MMC5:NAND_Mux_2")
 		(at 273.05 205.74 0)
 		(unit 1)
@@ -29531,7 +29527,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_6")
+		(lib_name "NAND_2_3")
 		(lib_id "MMC5:NAND_2")
 		(at 149.86 83.82 0)
 		(unit 1)
@@ -29681,7 +29677,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_9")
+		(lib_name "BUFFER_5")
 		(lib_id "MMC5:BUFFER")
 		(at 113.03 71.12 0)
 		(unit 1)
@@ -29753,7 +29749,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_27")
+		(lib_name "INVERT_1")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 257.81 0)
 		(unit 1)
@@ -29825,7 +29821,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_1")
 		(lib_id "MMC5:NOR_2")
 		(at 93.98 166.37 0)
 		(unit 1)
@@ -29900,7 +29895,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_25")
+		(lib_name "BUFFER_1")
 		(lib_id "MMC5:BUFFER")
 		(at 48.26 240.03 0)
 		(unit 1)
@@ -30128,7 +30123,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_26")
+		(lib_name "BUFFER_2")
 		(lib_id "MMC5:BUFFER")
 		(at 48.26 229.87 0)
 		(unit 1)
@@ -30200,7 +30195,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_22")
+		(lib_name "BUFFER_7")
 		(lib_id "MMC5:BUFFER")
 		(at 48.26 214.63 0)
 		(unit 1)
@@ -30272,7 +30267,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_30")
+		(lib_name "BUFFER_10")
 		(lib_id "MMC5:BUFFER")
 		(at 69.85 252.73 0)
 		(unit 1)
@@ -30344,7 +30339,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_8")
+		(lib_name "BUFFER_6")
 		(lib_id "MMC5:BUFFER")
 		(at 121.92 71.12 0)
 		(unit 1)
@@ -30490,6 +30485,7 @@
 		)
 	)
 	(symbol
+		(lib_name "INVERT_2")
 		(lib_id "MMC5:INVERT")
 		(at 86.36 52.07 0)
 		(unit 1)
@@ -30636,6 +30632,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NOR_2_1")
 		(lib_id "MMC5:NOR_2")
 		(at 123.19 93.98 0)
 		(unit 1)
@@ -30710,7 +30707,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_1")
+		(lib_name "NAND_3_3")
 		(lib_id "MMC5:NAND_3")
 		(at 163.83 91.44 0)
 		(unit 1)
@@ -30788,7 +30785,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_11")
+		(lib_name "NAND_2_5")
 		(lib_id "MMC5:NAND_2")
 		(at 66.04 179.07 0)
 		(unit 1)
@@ -30863,7 +30860,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_2_1")
 		(lib_id "MMC5:NAND_Mux_2")
 		(at 273.05 213.36 0)
 		(unit 1)
@@ -30944,7 +30940,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_13")
+		(lib_name "NAND_2_12")
 		(lib_id "MMC5:NAND_2")
 		(at 285.75 44.45 0)
 		(unit 1)
@@ -31019,7 +31015,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_3")
+		(lib_name "BUFFER_9")
 		(lib_id "MMC5:BUFFER")
 		(at 166.37 71.12 0)
 		(unit 1)
@@ -31091,7 +31087,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_7")
+		(lib_name "BUFFER_8")
 		(lib_id "MMC5:BUFFER")
 		(at 130.81 71.12 0)
 		(unit 1)
@@ -31251,7 +31247,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_5")
+		(lib_name "INVERT_7")
 		(lib_id "MMC5:INVERT")
 		(at 66.04 157.48 0)
 		(unit 1)
@@ -31323,6 +31319,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_3_5")
 		(lib_id "MMC5:NAND_3")
 		(at 93.98 71.12 0)
 		(unit 1)
@@ -31602,7 +31599,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_6")
+		(lib_name "BUFFER_17")
 		(lib_id "MMC5:BUFFER")
 		(at 139.7 71.12 0)
 		(unit 1)
@@ -31674,7 +31671,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BIGBUF_1")
+		(lib_name "BIGBUF_3")
 		(lib_id "MMC5:BIGBUF")
 		(at 40.64 153.67 0)
 		(unit 1)
@@ -31747,6 +31744,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_Mux_3_4")
 		(lib_id "MMC5:NAND_Mux_3")
 		(at 314.96 50.8 0)
 		(unit 1)
@@ -31833,7 +31831,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_5")
+		(lib_name "BUFFER_14")
 		(lib_id "MMC5:BUFFER")
 		(at 148.59 71.12 0)
 		(unit 1)
@@ -31905,7 +31903,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_5")
+		(lib_name "NAND_2_10")
 		(lib_id "MMC5:NAND_2")
 		(at 71.12 81.28 0)
 		(unit 1)
@@ -32052,7 +32050,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_3_4")
+		(lib_name "NAND_Mux_3_7")
 		(lib_id "MMC5:NAND_Mux_3")
 		(at 314.96 91.44 0)
 		(unit 1)
@@ -32226,7 +32224,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_2")
+		(lib_name "BUFFER_15")
 		(lib_id "MMC5:BUFFER")
 		(at 175.26 71.12 0)
 		(unit 1)
@@ -32298,7 +32296,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_2_7")
+		(lib_name "NAND_Mux_2_6")
 		(lib_id "MMC5:NAND_Mux_2")
 		(at 273.05 259.08 0)
 		(unit 1)
@@ -32379,7 +32377,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_3_7")
+		(lib_name "NAND_Mux_3_3")
 		(lib_id "MMC5:NAND_Mux_3")
 		(at 314.96 111.76 0)
 		(unit 1)
@@ -32466,7 +32464,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_2_6")
+		(lib_name "NAND_Mux_2_7")
 		(lib_id "MMC5:NAND_Mux_2")
 		(at 273.05 251.46 0)
 		(unit 1)
@@ -32547,7 +32545,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_27")
+		(lib_name "BUFFER_20")
 		(lib_id "MMC5:BUFFER")
 		(at 48.26 234.95 0)
 		(unit 1)
@@ -32619,7 +32617,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_12")
+		(lib_name "NAND_2_13")
 		(lib_id "MMC5:NAND_2")
 		(at 237.49 182.88 0)
 		(unit 1)
@@ -32809,7 +32807,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_4")
+		(lib_name "INVERT_5")
 		(lib_id "MMC5:INVERT")
 		(at 109.22 35.56 0)
 		(unit 1)
@@ -32959,7 +32957,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_5")
+		(lib_name "NAND_3_7")
 		(lib_id "MMC5:NAND_3")
 		(at 285.75 34.29 0)
 		(unit 1)
@@ -33118,7 +33116,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_8")
+		(lib_name "INVERT_10")
 		(lib_id "MMC5:INVERT")
 		(at 224.79 203.2 0)
 		(unit 1)
@@ -33190,7 +33188,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_3")
+		(lib_name "INVERT_6")
 		(lib_id "MMC5:INVERT")
 		(at 175.26 91.44 0)
 		(unit 1)
@@ -33262,7 +33260,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_3_1")
 		(lib_id "MMC5:NAND_Mux_3")
 		(at 314.96 60.96 0)
 		(unit 1)
@@ -33426,6 +33423,7 @@
 		)
 	)
 	(symbol
+		(lib_name "BUFFER_16")
 		(lib_id "MMC5:BUFFER")
 		(at 104.14 71.12 0)
 		(unit 1)
@@ -33578,7 +33576,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_3")
+		(lib_name "NAND_2_6")
 		(lib_id "MMC5:NAND_2")
 		(at 82.55 85.09 0)
 		(unit 1)
@@ -33653,6 +33651,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_2_9")
 		(lib_id "MMC5:NAND_2")
 		(at 97.79 43.18 0)
 		(unit 1)
@@ -33727,7 +33726,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_3_5")
+		(lib_name "NAND_Mux_3_6")
 		(lib_id "MMC5:NAND_Mux_3")
 		(at 314.96 101.6 0)
 		(unit 1)
@@ -33953,7 +33952,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_1")
+		(lib_name "BUFFER_19")
 		(lib_id "MMC5:BUFFER")
 		(at 184.15 71.12 0)
 		(unit 1)
@@ -34181,7 +34180,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_3_3")
+		(lib_name "NAND_Mux_3_5")
 		(lib_id "MMC5:NAND_Mux_3")
 		(at 314.96 71.12 0)
 		(unit 1)
@@ -34268,7 +34267,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_6")
+		(lib_name "INVERT_4")
 		(lib_id "MMC5:INVERT")
 		(at 93.98 173.99 0)
 		(unit 1)
@@ -34340,7 +34339,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_10")
+		(lib_name "INVERT_8")
 		(lib_id "MMC5:INVERT")
 		(at 297.18 21.59 0)
 		(unit 1)
@@ -34412,7 +34411,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_4")
+		(lib_name "BUFFER_18")
 		(lib_id "MMC5:BUFFER")
 		(at 157.48 71.12 0)
 		(unit 1)
@@ -34484,7 +34483,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_10")
+		(lib_name "NAND_2_8")
 		(lib_id "MMC5:NAND_2")
 		(at 82.55 173.99 0)
 		(unit 1)
@@ -34559,7 +34558,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_21")
+		(lib_name "BUFFER_13")
 		(lib_id "MMC5:BUFFER")
 		(at 48.26 209.55 0)
 		(unit 1)
@@ -34631,7 +34630,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_Mux_3_2")
+		(lib_name "NAND_Mux_3_1")
 		(lib_id "MMC5:NAND_Mux_3")
 		(at 314.96 81.28 0)
 		(unit 1)
@@ -34879,7 +34878,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_8")
+		(lib_name "NAND_2_11")
 		(lib_id "MMC5:NAND_2")
 		(at 121.92 123.19 0)
 		(unit 1)
@@ -34954,7 +34953,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_28")
+		(lib_name "BUFFER_12")
 		(lib_id "MMC5:BUFFER")
 		(at 48.26 245.11 0)
 		(unit 1)
@@ -35026,7 +35025,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_2")
+		(lib_name "NAND_3_4")
 		(lib_id "MMC5:NAND_3")
 		(at 121.92 132.08 0)
 		(unit 1)
@@ -35104,7 +35103,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_7")
+		(lib_name "INVERT_9")
 		(lib_id "MMC5:INVERT")
 		(at 245.11 199.39 0)
 		(unit 1)

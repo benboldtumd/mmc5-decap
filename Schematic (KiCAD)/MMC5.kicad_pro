@@ -516,6 +516,10 @@
       "MMC5A Timer"
     ],
     [
+      "6a43c686-f0c4-4ded-a56f-b6db1fa6d5a6",
+      "MMC5A CL3 SL3 GPIO"
+    ],
+    [
       "f2339e17-4f55-43f8-b207-f65123403db0",
       "Artifacts"
     ]

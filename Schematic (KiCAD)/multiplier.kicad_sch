@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "dce672ae-d66f-4b2b-866a-ee0377716339")
+	(uuid "8b9ff5f0-a41e-4425-97c3-113b3b883626")
 	(paper "USLedger")
 	(lib_symbols
 		(symbol "BUFFER_1"
@@ -8525,7 +8525,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_8")
+		(lib_name "BUFFER_12")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 124.46 0)
 		(unit 1)
@@ -8597,7 +8597,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_13")
+		(lib_name "BUFFER_15")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 78.74 0)
 		(unit 1)
@@ -8669,6 +8669,7 @@
 		)
 	)
 	(symbol
+		(lib_name "BUFFER_1")
 		(lib_id "MMC5:BUFFER")
 		(at 72.39 107.95 0)
 		(unit 1)
@@ -8740,7 +8741,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_9")
+		(lib_name "BUFFER_7")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 130.81 0)
 		(unit 1)
@@ -8812,7 +8813,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_27")
+		(lib_name "BUFFER_33")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 104.14 0)
 		(unit 1)
@@ -8884,7 +8885,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_23")
+		(lib_name "BUFFER_29")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 78.74 0)
 		(unit 1)
@@ -8956,7 +8957,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_22")
+		(lib_name "BUFFER_31")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 85.09 0)
 		(unit 1)
@@ -9028,7 +9029,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_20")
+		(lib_name "BUFFER_25")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 97.79 0)
 		(unit 1)
@@ -9100,7 +9101,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_1")
 		(lib_id "MMC5:BUFFER")
 		(at 72.39 166.37 0)
 		(unit 1)
@@ -9172,7 +9172,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_19")
+		(lib_name "BUFFER_22")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 156.21 0)
 		(unit 1)
@@ -9476,7 +9476,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_4")
+		(lib_name "BUFFER_10")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 149.86 0)
 		(unit 1)
@@ -9548,7 +9548,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_5")
+		(lib_name "BUFFER_11")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 143.51 0)
 		(unit 1)
@@ -9620,7 +9620,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_14")
+		(lib_name "BUFFER_4")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 97.79 0)
 		(unit 1)
@@ -9692,7 +9692,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_26")
+		(lib_name "BUFFER_24")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 110.49 0)
 		(unit 1)
@@ -9764,6 +9764,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Reg_8_D-Latch_N_1")
 		(lib_id "MMC5:Reg_8_D-Latch_N")
 		(at 87.63 64.77 0)
 		(unit 1)
@@ -9903,7 +9904,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_2")
+		(lib_name "BUFFER_3")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 162.56 0)
 		(unit 1)
@@ -9975,7 +9976,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_32")
+		(lib_name "BUFFER_27")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 124.46 0)
 		(unit 1)
@@ -10047,7 +10048,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_11")
+		(lib_name "BUFFER_13")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 110.49 0)
 		(unit 1)
@@ -10119,7 +10120,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_28")
+		(lib_name "BUFFER_23")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 149.86 0)
 		(unit 1)
@@ -10191,7 +10192,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_30")
+		(lib_name "BUFFER_20")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 137.16 0)
 		(unit 1)
@@ -10263,7 +10264,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_25")
+		(lib_name "BUFFER_21")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 66.04 0)
 		(unit 1)
@@ -10335,7 +10336,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_10")
+		(lib_name "BUFFER_9")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 72.39 0)
 		(unit 1)
@@ -10407,7 +10408,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_31")
+		(lib_name "BUFFER_32")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 130.81 0)
 		(unit 1)
@@ -10479,7 +10480,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_12")
+		(lib_name "BUFFER_8")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 85.09 0)
 		(unit 1)
@@ -10551,7 +10552,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_24")
+		(lib_name "BUFFER_18")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 72.39 0)
 		(unit 1)
@@ -10623,7 +10624,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_33")
+		(lib_name "BUFFER_28")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 118.11 0)
 		(unit 1)
@@ -10695,7 +10696,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_21")
+		(lib_name "BUFFER_30")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 91.44 0)
 		(unit 1)
@@ -10767,7 +10768,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_3")
+		(lib_name "BUFFER_14")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 156.21 0)
 		(unit 1)
@@ -10839,7 +10840,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_18")
+		(lib_name "BUFFER_19")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 162.56 0)
 		(unit 1)
@@ -10911,7 +10912,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_29")
+		(lib_name "BUFFER_26")
 		(lib_id "MMC5:BUFFER")
 		(at 210.82 143.51 0)
 		(unit 1)
@@ -10983,7 +10984,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_7")
+		(lib_name "BUFFER_5")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 137.16 0)
 		(unit 1)
@@ -11127,7 +11128,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Reg_8_D-Latch_N_1")
 		(lib_id "MMC5:Reg_8_D-Latch_N")
 		(at 87.63 123.19 0)
 		(unit 1)
@@ -11267,7 +11267,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_15")
+		(lib_name "BUFFER_2")
 		(lib_id "MMC5:BUFFER")
 		(at 201.93 91.44 0)
 		(unit 1)

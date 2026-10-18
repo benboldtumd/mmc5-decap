@@ -3675,128 +3675,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "INVERT_32"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.508 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "INVERT"
-				(at 1.27 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INVERT_32_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "INVERT_32_1_1"
-				(circle
-					(center 1.27 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 3.81 0 180)
-					(length 1.905)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "INVERT_4"
 			(pin_numbers
 				(hide yes)
@@ -5149,6 +5027,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MMC5:INVERT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "INVERT"
+				(at 1.27 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INVERT_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 -1.905) (xy 0.635 0) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INVERT_1_1"
+				(circle
+					(center 1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 0 180)
+					(length 1.905)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MMC5:NAND_2"
 			(pin_numbers
 				(hide yes)
@@ -5264,6 +5264,174 @@
 					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMC5:NAND_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.826 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "NAND_3"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NAND_3_1_1"
+				(polyline
+					(pts
+						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0.635 3.175) (xy 3.175 3.175) (xy 3.175 -3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8652,7 +8820,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_3_13"
+		(symbol "NAND_3_2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -8709,175 +8877,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NAND_3_13_1_1"
-				(polyline
-					(pts
-						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 0.635 3.175) (xy 3.175 3.175) (xy 3.175 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NAND_3_14"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 4.826 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "NAND_3"
-				(at 0 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NAND_3_14_1_1"
+			(symbol "NAND_3_2_1_1"
 				(polyline
 					(pts
 						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
@@ -9324,7 +9324,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_3_8"
+		(symbol "NAND_3_5"
 			(pin_numbers
 				(hide yes)
 			)
@@ -9381,7 +9381,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NAND_3_8_1_1"
+			(symbol "NAND_3_5_1_1"
 				(polyline
 					(pts
 						(xy 0.635 3.175) (xy -2.54 3.175) (xy -2.54 -3.175) (xy 0.635 -3.175)
@@ -15000,7 +15000,6 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_20")
 		(lib_id "MMC5:INVERT")
 		(at 255.27 181.61 0)
 		(unit 1)
@@ -15072,7 +15071,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_2")
+		(lib_name "NAND_2_3")
 		(lib_id "MMC5:NAND_2")
 		(at 77.47 54.61 0)
 		(unit 1)
@@ -15218,7 +15217,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_1")
+		(lib_name "NOR_2_6")
 		(lib_id "MMC5:NOR_2")
 		(at 134.62 154.94 0)
 		(unit 1)
@@ -15367,7 +15366,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_1")
 		(lib_id "MMC5:BUFFER")
 		(at 267.97 186.69 0)
 		(unit 1)
@@ -15439,7 +15437,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_14")
 		(lib_id "MMC5:NAND_3")
 		(at 266.7 153.67 0)
 		(unit 1)
@@ -15516,7 +15513,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_19")
+		(lib_name "INVERT_4")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 205.74 0)
 		(unit 1)
@@ -15588,7 +15585,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_30")
+		(lib_name "INVERT_28")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 83.82 0)
 		(unit 1)
@@ -15660,7 +15657,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_2")
+		(lib_name "INVERT_24")
 		(lib_id "MMC5:INVERT")
 		(at 97.79 17.78 0)
 		(unit 1)
@@ -15732,7 +15729,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_3")
 		(lib_id "MMC5:NOR_2")
 		(at 134.62 85.09 0)
 		(unit 1)
@@ -15807,7 +15803,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_17")
+		(lib_name "INVERT_1")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 50.8 0)
 		(unit 1)
@@ -15879,7 +15875,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_15")
+		(lib_name "INVERT_7")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 43.18 0)
 		(unit 1)
@@ -15951,6 +15947,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NOR_2_1")
 		(lib_id "MMC5:NOR_2")
 		(at 134.62 105.41 0)
 		(unit 1)
@@ -16097,7 +16094,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_4")
+		(lib_name "NAND_2_5")
 		(lib_id "MMC5:NAND_2")
 		(at 77.47 31.75 0)
 		(unit 1)
@@ -16171,7 +16168,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_9")
+		(lib_name "NAND_2_14")
 		(lib_id "MMC5:NAND_2")
 		(at 257.81 48.26 0)
 		(unit 1)
@@ -16331,7 +16328,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_32")
+		(lib_name "INVERT_30")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 96.52 0)
 		(unit 1)
@@ -16403,7 +16400,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_21")
+		(lib_name "INVERT_6")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 166.37 0)
 		(unit 1)
@@ -16475,7 +16472,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_27")
+		(lib_name "INVERT_26")
 		(lib_id "MMC5:INVERT")
 		(at 80.01 20.32 0)
 		(unit 1)
@@ -16547,7 +16544,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_8")
+		(lib_name "INVERT_13")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 99.06 0)
 		(unit 1)
@@ -16619,7 +16616,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_7")
+		(lib_name "NOR_2_2")
 		(lib_id "MMC5:NOR_2")
 		(at 257.81 195.58 0)
 		(unit 1)
@@ -16694,7 +16691,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_3")
+		(lib_name "NAND_2_2")
 		(lib_id "MMC5:NAND_2")
 		(at 77.47 69.85 0)
 		(unit 1)
@@ -16842,7 +16839,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_22")
+		(lib_name "INVERT_23")
 		(lib_id "MMC5:INVERT")
 		(at 97.79 24.13 0)
 		(unit 1)
@@ -16990,7 +16987,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_29")
+		(lib_name "INVERT_27")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 58.42 0)
 		(unit 1)
@@ -17062,7 +17059,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_4")
+		(lib_name "NAND_3_5")
 		(lib_id "MMC5:NAND_3")
 		(at 257.81 119.38 0)
 		(unit 1)
@@ -17140,7 +17137,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_14")
+		(lib_name "INVERT_8")
 		(lib_id "MMC5:INVERT")
 		(at 128.27 39.37 0)
 		(unit 1)
@@ -17361,7 +17358,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_6")
+		(lib_name "NOR_2_3")
 		(lib_id "MMC5:NOR_2")
 		(at 134.62 170.18 0)
 		(unit 1)
@@ -17436,7 +17433,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_15")
+		(lib_name "NAND_2_12")
 		(lib_id "MMC5:NAND_2")
 		(at 257.81 110.49 0)
 		(unit 1)
@@ -17511,7 +17508,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_13")
+		(lib_name "NAND_3_2")
 		(lib_id "MMC5:NAND_3")
 		(at 257.81 205.74 0)
 		(unit 1)
@@ -17589,7 +17586,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_28")
+		(lib_name "INVERT_29")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 53.34 0)
 		(unit 1)
@@ -17661,7 +17658,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_4")
+		(lib_name "INVERT_11")
 		(lib_id "MMC5:INVERT")
 		(at 128.27 54.61 0)
 		(unit 1)
@@ -17808,6 +17805,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_2_1")
 		(lib_id "MMC5:NAND_2")
 		(at 123.19 228.6 0)
 		(unit 1)
@@ -17954,7 +17952,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_3")
+		(lib_name "INVERT_14")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 142.24 0)
 		(unit 1)
@@ -18026,7 +18024,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_1")
+		(lib_name "NAND_3_4")
 		(lib_id "MMC5:NAND_3")
 		(at 123.19 215.9 0)
 		(unit 1)
@@ -18104,7 +18102,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_13")
+		(lib_name "NAND_2_15")
 		(lib_id "MMC5:NAND_2")
 		(at 257.81 91.44 0)
 		(unit 1)
@@ -18178,7 +18176,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_5")
+		(lib_name "NOR_2_4")
 		(lib_id "MMC5:NOR_2")
 		(at 134.62 162.56 0)
 		(unit 1)
@@ -18253,7 +18251,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_14")
+		(lib_name "NAND_2_9")
 		(lib_id "MMC5:NAND_2")
 		(at 257.81 102.87 0)
 		(unit 1)
@@ -18328,7 +18326,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_23")
+		(lib_name "INVERT_15")
 		(lib_id "MMC5:INVERT")
 		(at 255.27 148.59 0)
 		(unit 1)
@@ -18480,7 +18478,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_5")
+		(lib_name "NAND_2_4")
 		(lib_id "MMC5:NAND_2")
 		(at 77.47 62.23 0)
 		(unit 1)
@@ -18554,7 +18552,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_25")
+		(lib_name "INVERT_9")
 		(lib_id "MMC5:INVERT")
 		(at 255.27 158.75 0)
 		(unit 1)
@@ -18626,7 +18624,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_9")
+		(lib_name "INVERT_12")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 120.65 0)
 		(unit 1)
@@ -18698,7 +18696,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Decoder_3to8_1")
 		(lib_id "MMC5:Decoder_3to8")
 		(at 111.76 72.39 0)
 		(unit 1)
@@ -18800,7 +18797,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_2")
+		(lib_name "NOR_2_5")
 		(lib_id "MMC5:NOR_2")
 		(at 134.62 134.62 0)
 		(unit 1)
@@ -18875,7 +18872,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_11")
+		(lib_name "INVERT_21")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 148.59 0)
 		(unit 1)
@@ -18946,7 +18943,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_8")
+		(lib_name "NAND_3_1")
 		(lib_id "MMC5:NAND_3")
 		(at 257.81 217.17 0)
 		(unit 1)
@@ -19024,7 +19021,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_18")
+		(lib_name "INVERT_16")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 58.42 0)
 		(unit 1)
@@ -19171,7 +19168,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_26")
+		(lib_name "INVERT_17")
 		(lib_id "MMC5:INVERT")
 		(at 246.38 148.59 0)
 		(unit 1)
@@ -19243,7 +19240,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_13")
+		(lib_name "INVERT_20")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 35.56 0)
 		(unit 1)
@@ -19315,7 +19312,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_4")
+		(lib_name "NOR_2_7")
 		(lib_id "MMC5:NOR_2")
 		(at 134.62 113.03 0)
 		(unit 1)
@@ -19390,7 +19387,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_24")
+		(lib_name "INVERT_25")
 		(lib_id "MMC5:INVERT")
 		(at 88.9 20.32 0)
 		(unit 1)
@@ -19462,7 +19459,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_7")
+		(lib_name "INVERT_18")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 92.71 0)
 		(unit 1)
@@ -19534,6 +19531,7 @@
 		)
 	)
 	(symbol
+		(lib_name "BUFFER_1")
 		(lib_id "MMC5:BUFFER")
 		(at 267.97 195.58 0)
 		(unit 1)
@@ -19605,6 +19603,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Decoder_3to8_1")
 		(lib_id "MMC5:Decoder_3to8")
 		(at 111.76 33.02 0)
 		(unit 1)
@@ -19784,7 +19783,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_6")
+		(lib_name "INVERT_19")
 		(lib_id "MMC5:INVERT")
 		(at 134.62 78.74 0)
 		(unit 1)
@@ -19856,7 +19855,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_12")
+		(lib_name "NAND_2_13")
 		(lib_id "MMC5:NAND_2")
 		(at 257.81 71.12 0)
 		(unit 1)
@@ -19931,7 +19930,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_12")
+		(lib_name "INVERT_2")
 		(lib_id "MMC5:INVERT")
 		(at 128.27 31.75 0)
 		(unit 1)
@@ -20003,7 +20002,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_1")
+		(lib_name "INVERT_22")
 		(lib_id "MMC5:INVERT")
 		(at 69.85 218.44 0)
 		(unit 1)
@@ -20075,7 +20074,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_16")
+		(lib_name "INVERT_3")
 		(lib_id "MMC5:INVERT")
 		(at 128.27 46.99 0)
 		(unit 1)
@@ -20147,7 +20146,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_1")
 		(lib_id "MMC5:NAND_2")
 		(at 77.47 39.37 0)
 		(unit 1)

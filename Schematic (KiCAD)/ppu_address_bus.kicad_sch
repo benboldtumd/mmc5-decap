@@ -5,7 +5,7 @@
 	(uuid "59715d86-46ec-401a-9cb0-368aec61db2a")
 	(paper "USLedger")
 	(lib_symbols
-		(symbol "BUFFER_10"
+		(symbol "BUFFER_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -62,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BUFFER_10_0_1"
+			(symbol "BUFFER_1_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
@@ -88,7 +88,7 @@
 					)
 				)
 			)
-			(symbol "BUFFER_10_1_1"
+			(symbol "BUFFER_1_1_1"
 				(pin input line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -128,7 +128,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BUFFER_11"
+		(symbol "BUFFER_2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -185,7 +185,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BUFFER_11_0_1"
+			(symbol "BUFFER_2_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
@@ -211,7 +211,7 @@
 					)
 				)
 			)
-			(symbol "BUFFER_11_1_1"
+			(symbol "BUFFER_2_1_1"
 				(pin input line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -251,7 +251,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BUFFER_6"
+		(symbol "BUFFER_3"
 			(pin_numbers
 				(hide yes)
 			)
@@ -308,7 +308,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BUFFER_6_0_1"
+			(symbol "BUFFER_3_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
@@ -334,7 +334,7 @@
 					)
 				)
 			)
-			(symbol "BUFFER_6_1_1"
+			(symbol "BUFFER_3_1_1"
 				(pin input line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -374,7 +374,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BUFFER_7"
+		(symbol "BUFFER_4"
 			(pin_numbers
 				(hide yes)
 			)
@@ -431,7 +431,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BUFFER_7_0_1"
+			(symbol "BUFFER_4_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
@@ -457,7 +457,7 @@
 					)
 				)
 			)
-			(symbol "BUFFER_7_1_1"
+			(symbol "BUFFER_4_1_1"
 				(pin input line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -497,7 +497,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BUFFER_8"
+		(symbol "BUFFER_5"
 			(pin_numbers
 				(hide yes)
 			)
@@ -554,7 +554,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BUFFER_8_0_1"
+			(symbol "BUFFER_5_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
@@ -580,130 +580,7 @@
 					)
 				)
 			)
-			(symbol "BUFFER_8_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BUFFER_9"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "BUFFER"
-				(at 2.794 -1.27 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUFFER_9_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BUFFER_9_1_1"
+			(symbol "BUFFER_5_1_1"
 				(pin input line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -7289,6 +7166,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MMC5:BUFFER"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "BUFFER"
+				(at 2.794 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUFFER_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.905 0) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BUFFER_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MMC5:INVERT"
 			(pin_numbers
 				(hide yes)
@@ -7614,7 +7614,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_4_1"
+		(symbol "MMC5:NAND_4"
 			(pin_numbers
 				(hide yes)
 			)
@@ -7671,7 +7671,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NAND_4_1_0_1"
+			(symbol "NAND_4_0_1"
 				(polyline
 					(pts
 						(xy -2.54 2.54) (xy -2.54 4.445)
@@ -7697,7 +7697,7 @@
 					)
 				)
 			)
-			(symbol "NAND_4_1_1_1"
+			(symbol "NAND_4_1_1"
 				(polyline
 					(pts
 						(xy 0.635 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 0.635 -2.54)
@@ -10573,7 +10573,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_33")
+		(lib_name "INVERT_31")
 		(lib_id "MMC5:INVERT")
 		(at 119.38 33.02 0)
 		(unit 1)
@@ -10645,7 +10645,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_2_1")
+		(lib_name "INVERT_2_2")
 		(lib_id "MMC5:INVERT_2")
 		(at 36.83 43.18 0)
 		(unit 1)
@@ -10720,7 +10720,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_31")
+		(lib_name "INVERT_32")
 		(lib_id "MMC5:INVERT")
 		(at 119.38 27.94 0)
 		(unit 1)
@@ -10792,7 +10792,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_11")
+		(lib_name "BUFFER_4")
 		(lib_id "MMC5:BUFFER")
 		(at 143.51 110.49 0)
 		(unit 1)
@@ -10864,7 +10864,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_38")
+		(lib_name "INVERT_33")
 		(lib_id "MMC5:INVERT")
 		(at 135.89 160.02 0)
 		(unit 1)
@@ -10936,6 +10936,7 @@
 		)
 	)
 	(symbol
+		(lib_name "INVERT_2_4")
 		(lib_id "MMC5:INVERT_2")
 		(at 36.83 29.21 0)
 		(unit 1)
@@ -11010,7 +11011,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_8")
+		(lib_name "INVERT_40")
 		(lib_id "MMC5:INVERT")
 		(at 49.53 35.56 0)
 		(unit 1)
@@ -11082,7 +11083,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_45")
+		(lib_name "INVERT_42")
 		(lib_id "MMC5:INVERT")
 		(at 36.83 186.69 0)
 		(unit 1)
@@ -11154,7 +11155,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_7")
+		(lib_name "BUFFER_5")
 		(lib_id "MMC5:BUFFER")
 		(at 34.29 72.39 0)
 		(unit 1)
@@ -11225,7 +11226,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_19")
+		(lib_name "INVERT_36")
 		(lib_id "MMC5:INVERT")
 		(at 35.56 128.27 0)
 		(unit 1)
@@ -11297,7 +11298,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_43")
+		(lib_name "INVERT_47")
 		(lib_id "MMC5:INVERT")
 		(at 45.72 220.98 0)
 		(unit 1)
@@ -11441,7 +11442,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_39")
+		(lib_name "INVERT_37")
 		(lib_id "MMC5:INVERT")
 		(at 127 100.33 0)
 		(unit 1)
@@ -11513,7 +11514,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_2_4")
+		(lib_name "INVERT_2_3")
 		(lib_id "MMC5:INVERT_2")
 		(at 165.1 146.05 0)
 		(unit 1)
@@ -11588,7 +11589,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_3")
+		(lib_name "INVERT_34")
 		(lib_id "MMC5:INVERT")
 		(at 45.72 163.83 0)
 		(unit 1)
@@ -11660,7 +11661,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_2")
+		(lib_name "INVERT_38")
 		(lib_id "MMC5:INVERT")
 		(at 45.72 191.77 0)
 		(unit 1)
@@ -11732,7 +11733,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_4")
+		(lib_name "INVERT_39")
 		(lib_id "MMC5:INVERT")
 		(at 54.61 196.85 0)
 		(unit 1)
@@ -11804,7 +11805,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_26")
+		(lib_name "INVERT_10")
 		(lib_id "MMC5:INVERT")
 		(at 63.5 207.01 0)
 		(unit 1)
@@ -11876,7 +11877,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_40")
+		(lib_name "INVERT_13")
 		(lib_id "MMC5:INVERT")
 		(at 135.89 115.57 0)
 		(unit 1)
@@ -11948,7 +11949,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_37")
+		(lib_name "INVERT_14")
 		(lib_id "MMC5:INVERT")
 		(at 154.94 130.81 0)
 		(unit 1)
@@ -12020,7 +12021,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_42")
+		(lib_name "INVERT_46")
 		(lib_id "MMC5:INVERT")
 		(at 36.83 214.63 0)
 		(unit 1)
@@ -12092,7 +12093,6 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_2_2")
 		(lib_id "MMC5:INVERT_2")
 		(at 36.83 57.15 0)
 		(unit 1)
@@ -12167,7 +12167,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_17")
+		(lib_name "INVERT_9")
 		(lib_id "MMC5:INVERT")
 		(at 44.45 133.35 0)
 		(unit 1)
@@ -12239,7 +12239,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_13")
+		(lib_name "INVERT_2")
 		(lib_id "MMC5:INVERT")
 		(at 44.45 105.41 0)
 		(unit 1)
@@ -12311,7 +12311,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_44")
+		(lib_name "INVERT_43")
 		(lib_id "MMC5:INVERT")
 		(at 45.72 201.93 0)
 		(unit 1)
@@ -12527,7 +12527,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_20")
+		(lib_name "INVERT_11")
 		(lib_id "MMC5:INVERT")
 		(at 44.45 151.13 0)
 		(unit 1)
@@ -12599,7 +12599,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_29")
+		(lib_name "INVERT_16")
 		(lib_id "MMC5:INVERT")
 		(at 63.5 226.06 0)
 		(unit 1)
@@ -12671,7 +12671,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_4_1")
 		(lib_id "MMC5:NAND_4")
 		(at 146.05 189.23 0)
 		(unit 1)
@@ -12752,7 +12751,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_25")
+		(lib_name "INVERT_21")
 		(lib_id "MMC5:INVERT")
 		(at 54.61 179.07 0)
 		(unit 1)
@@ -12824,7 +12823,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_9")
+		(lib_name "BUFFER_2")
 		(lib_id "MMC5:BUFFER")
 		(at 34.29 87.63 0)
 		(unit 1)
@@ -12895,7 +12894,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_11")
+		(lib_name "INVERT_19")
 		(lib_id "MMC5:INVERT")
 		(at 44.45 97.79 0)
 		(unit 1)
@@ -12967,7 +12966,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_46")
+		(lib_name "INVERT_45")
 		(lib_id "MMC5:INVERT")
 		(at 36.83 158.75 0)
 		(unit 1)
@@ -13039,7 +13038,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_27")
+		(lib_name "INVERT_4")
 		(lib_id "MMC5:INVERT")
 		(at 54.61 207.01 0)
 		(unit 1)
@@ -13111,7 +13110,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_36")
+		(lib_name "INVERT_1")
 		(lib_id "MMC5:INVERT")
 		(at 154.94 125.73 0)
 		(unit 1)
@@ -13183,7 +13182,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_12")
+		(lib_name "INVERT_24")
 		(lib_id "MMC5:INVERT")
 		(at 35.56 105.41 0)
 		(unit 1)
@@ -13255,7 +13254,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_34")
+		(lib_name "INVERT_6")
 		(lib_id "MMC5:INVERT")
 		(at 128.27 53.34 0)
 		(unit 1)
@@ -13327,7 +13326,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_6")
+		(lib_name "INVERT_25")
 		(lib_id "MMC5:INVERT")
 		(at 128.27 48.26 0)
 		(unit 1)
@@ -13399,7 +13398,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_47")
+		(lib_name "INVERT_44")
 		(lib_id "MMC5:INVERT")
 		(at 45.72 173.99 0)
 		(unit 1)
@@ -13471,7 +13470,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_2_3")
+		(lib_name "INVERT_2_1")
 		(lib_id "MMC5:INVERT_2")
 		(at 165.1 138.43 0)
 		(unit 1)
@@ -13546,7 +13545,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_10")
+		(lib_name "BUFFER_1")
 		(lib_id "MMC5:BUFFER")
 		(at 134.62 105.41 0)
 		(unit 1)
@@ -13618,7 +13617,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_6")
+		(lib_name "BUFFER_3")
 		(lib_id "MMC5:BUFFER")
 		(at 34.29 64.77 0)
 		(unit 1)
@@ -13689,7 +13688,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_30")
+		(lib_name "INVERT_7")
 		(lib_id "MMC5:INVERT")
 		(at 54.61 231.14 0)
 		(unit 1)
@@ -13761,7 +13760,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_24")
+		(lib_name "INVERT_26")
 		(lib_id "MMC5:INVERT")
 		(at 63.5 179.07 0)
 		(unit 1)
@@ -13833,7 +13832,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BUFFER_8")
 		(lib_id "MMC5:BUFFER")
 		(at 34.29 80.01 0)
 		(unit 1)
@@ -13976,7 +13974,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_28")
+		(lib_name "INVERT_18")
 		(lib_id "MMC5:INVERT")
 		(at 54.61 226.06 0)
 		(unit 1)
@@ -14048,7 +14046,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_21")
+		(lib_name "INVERT_27")
 		(lib_id "MMC5:INVERT")
 		(at 44.45 140.97 0)
 		(unit 1)
@@ -14120,7 +14118,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_9")
+		(lib_name "INVERT_3")
 		(lib_id "MMC5:INVERT")
 		(at 49.53 49.53 0)
 		(unit 1)
@@ -14192,7 +14190,6 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_32")
 		(lib_id "MMC5:INVERT")
 		(at 128.27 27.94 0)
 		(unit 1)
@@ -14264,7 +14261,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_16")
+		(lib_name "INVERT_28")
 		(lib_id "MMC5:INVERT")
 		(at 44.45 123.19 0)
 		(unit 1)
@@ -14336,7 +14333,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_18")
+		(lib_name "INVERT_29")
 		(lib_id "MMC5:INVERT")
 		(at 35.56 123.19 0)
 		(unit 1)
@@ -14408,7 +14405,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_10")
+		(lib_name "INVERT_8")
 		(lib_id "MMC5:INVERT")
 		(at 35.56 92.71 0)
 		(unit 1)
@@ -14552,7 +14549,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_22")
+		(lib_name "INVERT_30")
 		(lib_id "MMC5:INVERT")
 		(at 35.56 146.05 0)
 		(unit 1)
@@ -14624,7 +14621,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_14")
+		(lib_name "INVERT_20")
 		(lib_id "MMC5:INVERT")
 		(at 35.56 110.49 0)
 		(unit 1)
@@ -14696,7 +14693,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_1")
+		(lib_name "INVERT_12")
 		(lib_id "MMC5:INVERT")
 		(at 119.38 43.18 0)
 		(unit 1)
@@ -14768,7 +14765,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_7")
+		(lib_name "INVERT_17")
 		(lib_id "MMC5:INVERT")
 		(at 49.53 21.59 0)
 		(unit 1)
@@ -14840,6 +14837,7 @@
 		)
 	)
 	(symbol
+		(lib_name "INVERT_22")
 		(lib_id "MMC5:INVERT")
 		(at 110.49 22.86 0)
 		(unit 1)

@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "AOI_2"
+	(symbol "AOI_22"
 		(pin_numbers
 			(hide yes)
 		)
@@ -22,7 +22,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 0.762 -2.032 0)
 			(do_not_autoplace)
 			(effects
@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AOI_2_0_1"
+		(symbol "AOI_22_0_1"
 			(arc
 				(start -3.81 -0.635)
 				(mid -3.81 -0.635)
@@ -179,33 +179,33 @@
 				)
 			)
 		)
-		(symbol "AOI_2_1_1"
-			(text "A"
-				(at -3.302 1.27 0)
+		(symbol "AOI_22_1_1"
+			(text "A1"
+				(at -3.048 1.27 0)
 				(effects
 					(font
 						(size 0.635 0.635)
 					)
 				)
 			)
-			(text "B"
-				(at -3.302 0 0)
+			(text "A2"
+				(at -3.048 0 0)
 				(effects
 					(font
 						(size 0.635 0.635)
 					)
 				)
 			)
-			(text "C"
-				(at -3.302 -1.27 0)
+			(text "B1"
+				(at -3.048 -1.27 0)
 				(effects
 					(font
 						(size 0.635 0.635)
 					)
 				)
 			)
-			(text "D"
-				(at -3.302 -2.54 0)
+			(text "B2"
+				(at -3.048 -2.54 0)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -215,7 +215,7 @@
 			(pin input line
 				(at -6.35 1.27 0)
 				(length 2.54)
-				(name "A"
+				(name "A1"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -233,7 +233,7 @@
 			(pin input line
 				(at -6.35 0 0)
 				(length 2.54)
-				(name "B"
+				(name "A2"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -251,7 +251,7 @@
 			(pin input line
 				(at -6.35 -1.27 0)
 				(length 2.54)
-				(name "C"
+				(name "B1"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -269,7 +269,7 @@
 			(pin input line
 				(at -6.35 -2.54 0)
 				(length 2.54)
-				(name "D"
+				(name "B2"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -651,7 +651,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AOI_23"
+	(symbol "AOI_222"
 		(pin_numbers
 			(hide yes)
 		)
@@ -671,7 +671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_23"
+		(property "Value" "AOI_222"
 			(at 1.778 -2.032 0)
 			(do_not_autoplace)
 			(effects
@@ -707,7 +707,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AOI_23_0_1"
+		(symbol "AOI_222_0_1"
 			(arc
 				(start -3.81 -0.635)
 				(mid -3.81 -0.635)
@@ -864,7 +864,7 @@
 				)
 			)
 		)
-		(symbol "AOI_23_1_1"
+		(symbol "AOI_222_1_1"
 			(text "A1"
 				(at -3.556 1.27 0)
 				(effects
@@ -1048,7 +1048,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AOI_24"
+	(symbol "AOI_2222"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1068,7 +1068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_24"
+		(property "Value" "AOI_2222"
 			(at 1.778 -4.064 0)
 			(do_not_autoplace)
 			(effects
@@ -1104,7 +1104,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AOI_24_0_1"
+		(symbol "AOI_2222_0_1"
 			(arc
 				(start -3.81 -0.635)
 				(mid -3.81 -0.635)
@@ -1297,7 +1297,7 @@
 				)
 			)
 		)
-		(symbol "AOI_24_1_1"
+		(symbol "AOI_2222_1_1"
 			(text "A1"
 				(at -3.556 1.27 0)
 				(effects
@@ -13764,7 +13764,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "OAI_2"
+	(symbol "OAI_21"
 		(pin_numbers
 			(hide yes)
 		)
@@ -13784,7 +13784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OAI_2"
+		(property "Value" "OAI_21"
 			(at 0 -4.572 0)
 			(do_not_autoplace)
 			(effects
@@ -13820,7 +13820,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "OAI_2_0_1"
+		(symbol "OAI_21_0_1"
 			(arc
 				(start -2.794 -0.635)
 				(mid -2.362 -1.905)
@@ -13917,7 +13917,7 @@
 				)
 			)
 		)
-		(symbol "OAI_2_1_1"
+		(symbol "OAI_21_1_1"
 			(text "A"
 				(at -2.032 -1.27 0)
 				(effects

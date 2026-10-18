@@ -4866,7 +4866,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NAND_2_9"
+		(symbol "NAND_2_3"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4923,7 +4923,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NAND_2_9_1_1"
+			(symbol "NAND_2_3_1_1"
 				(polyline
 					(pts
 						(xy 0.635 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 0.635 -2.54)
@@ -9367,7 +9367,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_1")
+		(lib_name "INVERT_8")
 		(lib_id "MMC5:INVERT")
 		(at 105.41 35.56 0)
 		(unit 1)
@@ -9675,7 +9675,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_13")
+		(lib_name "INVERT_14")
 		(lib_id "MMC5:INVERT")
 		(at 162.56 175.26 0)
 		(unit 1)
@@ -9747,6 +9747,7 @@
 		)
 	)
 	(symbol
+		(lib_name "T-FF_Preload_1")
 		(lib_id "MMC5:T-FF_Preload")
 		(at 93.98 34.29 0)
 		(unit 1)
@@ -9827,7 +9828,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_7")
+		(lib_name "INVERT_11")
 		(lib_id "MMC5:INVERT")
 		(at 81.28 81.28 0)
 		(unit 1)
@@ -9899,7 +9900,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_11")
+		(lib_name "INVERT_9")
 		(lib_id "MMC5:INVERT")
 		(at 105.41 105.41 0)
 		(unit 1)
@@ -10043,7 +10044,7 @@
 		)
 	)
 	(symbol
-		(lib_name "T-FF_Reset_2")
+		(lib_name "T-FF_Reset_4")
 		(lib_id "MMC5:T-FF_Reset")
 		(at 93.98 104.14 0)
 		(unit 1)
@@ -10124,7 +10125,7 @@
 		)
 	)
 	(symbol
-		(lib_name "T-FF_Preload_1")
+		(lib_name "T-FF_Preload_2")
 		(lib_id "MMC5:T-FF_Preload")
 		(at 93.98 48.26 0)
 		(unit 1)
@@ -10366,7 +10367,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_9")
+		(lib_name "INVERT_1")
 		(lib_id "MMC5:INVERT")
 		(at 105.41 91.44 0)
 		(unit 1)
@@ -10438,7 +10439,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_12")
+		(lib_name "INVERT_4")
 		(lib_id "MMC5:INVERT")
 		(at 105.41 133.35 0)
 		(unit 1)
@@ -10510,7 +10511,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_3")
+		(lib_name "INVERT_5")
 		(lib_id "MMC5:INVERT")
 		(at 81.28 53.34 0)
 		(unit 1)
@@ -10582,7 +10583,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_4")
+		(lib_name "INVERT_6")
 		(lib_id "MMC5:INVERT")
 		(at 81.28 66.04 0)
 		(unit 1)
@@ -10654,7 +10655,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_5")
+		(lib_name "INVERT_2")
 		(lib_id "MMC5:INVERT")
 		(at 105.41 63.5 0)
 		(unit 1)
@@ -10726,7 +10727,6 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_8")
 		(lib_id "MMC5:INVERT")
 		(at 76.2 111.76 0)
 		(unit 1)
@@ -10798,7 +10798,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_1")
 		(lib_id "MMC5:NAND_3")
 		(at 64.77 111.76 0)
 		(unit 1)
@@ -10876,6 +10875,7 @@
 		)
 	)
 	(symbol
+		(lib_name "INVERT_3")
 		(lib_id "MMC5:INVERT")
 		(at 81.28 39.37 0)
 		(unit 1)
@@ -10947,7 +10947,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_16")
+		(lib_name "INVERT_13")
 		(lib_id "MMC5:INVERT")
 		(at 133.35 162.56 0)
 		(unit 1)
@@ -11019,7 +11019,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_1")
 		(lib_id "MMC5:NAND_2")
 		(at 69.85 53.34 0)
 		(unit 1)
@@ -11094,7 +11093,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_14")
+		(lib_name "INVERT_16")
 		(lib_id "MMC5:INVERT")
 		(at 171.45 175.26 0)
 		(unit 1)
@@ -11323,7 +11322,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_2")
+		(lib_name "INVERT_12")
 		(lib_id "MMC5:INVERT")
 		(at 105.41 49.53 0)
 		(unit 1)
@@ -11395,6 +11394,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_2_2")
 		(lib_id "MMC5:NAND_2")
 		(at 69.85 39.37 0)
 		(unit 1)
@@ -11469,7 +11469,7 @@
 		)
 	)
 	(symbol
-		(lib_name "T-FF_Reset_4")
+		(lib_name "T-FF_Reset_2")
 		(lib_id "MMC5:T-FF_Reset")
 		(at 93.98 132.08 0)
 		(unit 1)
@@ -11642,6 +11642,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_3_1")
 		(lib_id "MMC5:NAND_3")
 		(at 69.85 66.04 0)
 		(unit 1)
@@ -11719,7 +11720,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_6")
+		(lib_name "INVERT_7")
 		(lib_id "MMC5:INVERT")
 		(at 105.41 77.47 0)
 		(unit 1)
@@ -11791,7 +11792,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_9")
+		(lib_name "NAND_2_3")
 		(lib_id "MMC5:NAND_2")
 		(at 121.92 162.56 0)
 		(unit 1)
@@ -11866,7 +11867,6 @@
 		)
 	)
 	(symbol
-		(lib_name "T-FF_Preload_2")
 		(lib_id "MMC5:T-FF_Preload")
 		(at 93.98 76.2 0)
 		(unit 1)
@@ -11947,7 +11947,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_2")
+		(lib_name "NAND_2_1")
 		(lib_id "MMC5:NAND_2")
 		(at 69.85 81.28 0)
 		(unit 1)

@@ -183,32 +183,32 @@
 				)
 			)
 			(symbol "AOI_2_1_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -218,7 +218,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -236,7 +236,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -254,7 +254,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -272,7 +272,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -9294,32 +9294,32 @@
 				)
 			)
 			(symbol "AOI_2_1_1"
-				(text "A"
-					(at -3.302 1.27 0)
+				(text "A1"
+					(at -3.048 1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "B"
-					(at -3.302 0 0)
+				(text "A2"
+					(at -3.048 0 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "C"
-					(at -3.302 -1.27 0)
+				(text "B1"
+					(at -3.048 -1.27 0)
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(text "D"
-					(at -3.302 -2.54 0)
+				(text "B2"
+					(at -3.048 -2.54 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -9329,7 +9329,7 @@
 				(pin input line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -9347,7 +9347,7 @@
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "B"
+					(name "A2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -9365,7 +9365,7 @@
 				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "C"
+					(name "B1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -9383,7 +9383,7 @@
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "B2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -26848,7 +26848,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_6")
+		(lib_name "NAND_2_1")
 		(lib_id "MMC5:NAND_2")
 		(at 313.69 210.82 0)
 		(unit 1)
@@ -26996,7 +26996,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_8")
 		(lib_id "MMC5:NAND_5")
 		(at 39.37 203.2 0)
 		(unit 1)
@@ -27080,7 +27079,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_24")
+		(lib_name "INVERT_10")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 104.14 0)
 		(unit 1)
@@ -27152,7 +27151,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_37")
+		(lib_name "INVERT_7")
 		(lib_id "MMC5:INVERT")
 		(at 72.39 78.74 0)
 		(unit 1)
@@ -27224,7 +27223,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_3")
 		(lib_id "MMC5:NAND_2")
 		(at 128.27 185.42 0)
 		(unit 1)
@@ -27299,7 +27297,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_44")
+		(lib_name "INVERT_11")
 		(lib_id "MMC5:INVERT")
 		(at 295.91 151.13 0)
 		(unit 1)
@@ -27371,7 +27369,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_11")
+		(lib_name "INVERT_8")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 166.37 0)
 		(unit 1)
@@ -27544,7 +27542,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_48")
+		(lib_name "INVERT_9")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 187.96 0)
 		(unit 1)
@@ -27616,7 +27614,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_5")
+		(lib_name "NAND_5_1")
 		(lib_id "MMC5:NAND_5")
 		(at 39.37 152.4 0)
 		(unit 1)
@@ -27700,7 +27698,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_4_4")
 		(lib_id "MMC5:NAND_4")
 		(at 39.37 222.25 0)
 		(unit 1)
@@ -27781,7 +27778,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_2")
+		(lib_name "NAND_5_6")
 		(lib_id "MMC5:NAND_5")
 		(at 39.37 85.09 0)
 		(unit 1)
@@ -27865,7 +27862,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_26")
+		(lib_name "INVERT_5")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 128.27 0)
 		(unit 1)
@@ -27937,7 +27934,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_5")
+		(lib_name "NAND_2_2")
 		(lib_id "MMC5:NAND_2")
 		(at 334.01 219.71 0)
 		(unit 1)
@@ -28012,7 +28009,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_1")
+		(lib_name "INVERT_6")
 		(lib_id "MMC5:INVERT")
 		(at 71.12 38.1 0)
 		(unit 1)
@@ -28084,7 +28081,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_1")
+		(lib_name "NAND_5_3")
 		(lib_id "MMC5:NAND_5")
 		(at 39.37 59.69 0)
 		(unit 1)
@@ -28168,7 +28165,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_7")
+		(lib_name "NAND_2_3")
 		(lib_id "MMC5:NAND_2")
 		(at 232.41 193.04 0)
 		(unit 1)
@@ -28243,7 +28240,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_3")
+		(lib_name "NAND_5_4")
 		(lib_id "MMC5:NAND_5")
 		(at 39.37 99.06 0)
 		(unit 1)
@@ -28410,7 +28407,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_10")
+		(lib_name "NAND_5_5")
 		(lib_id "MMC5:NAND_5")
 		(at 128.27 104.14 0)
 		(unit 1)
@@ -28494,7 +28491,6 @@
 		)
 	)
 	(symbol
-		(lib_name "AOI_2_1")
 		(lib_id "MMC5:AOI_2")
 		(at 314.96 228.6 0)
 		(unit 1)
@@ -28514,7 +28510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 315.722 230.632 0)
 			(do_not_autoplace yes)
 			(effects
@@ -28575,7 +28571,6 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_30")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 176.53 0)
 		(unit 1)
@@ -28647,7 +28642,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_7")
+		(lib_name "INVERT_12")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 115.57 0)
 		(unit 1)
@@ -28719,7 +28714,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_38")
+		(lib_name "INVERT_14")
 		(lib_id "MMC5:INVERT")
 		(at 354.33 219.71 0)
 		(unit 1)
@@ -28791,7 +28786,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_35")
+		(lib_name "INVERT_13")
 		(lib_id "MMC5:INVERT")
 		(at 72.39 203.2 0)
 		(unit 1)
@@ -28863,7 +28858,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_4_3")
+		(lib_name "NAND_4_1")
 		(lib_id "MMC5:NAND_4")
 		(at 39.37 139.7 0)
 		(unit 1)
@@ -28944,7 +28939,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_52")
+		(lib_name "INVERT_1")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 193.04 0)
 		(unit 1)
@@ -29016,7 +29011,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_47")
+		(lib_name "INVERT_15")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 177.8 0)
 		(unit 1)
@@ -29088,7 +29083,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_17")
+		(lib_name "INVERT_4")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 29.21 0)
 		(unit 1)
@@ -29160,7 +29155,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_10")
+		(lib_name "INVERT_16")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 152.4 0)
 		(unit 1)
@@ -29232,7 +29227,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_15")
+		(lib_name "INVERT_17")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 213.36 0)
 		(unit 1)
@@ -29304,7 +29299,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_34")
+		(lib_name "INVERT_18")
 		(lib_id "MMC5:INVERT")
 		(at 162.56 55.88 0)
 		(unit 1)
@@ -29376,7 +29371,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_36")
+		(lib_name "INVERT_3")
 		(lib_id "MMC5:INVERT")
 		(at 72.39 139.7 0)
 		(unit 1)
@@ -29448,7 +29443,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_51")
+		(lib_name "INVERT_19")
 		(lib_id "MMC5:INVERT")
 		(at 269.24 182.88 0)
 		(unit 1)
@@ -29520,7 +29515,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_3_1")
 		(lib_id "MMC5:NAND_3")
 		(at 128.27 29.21 0)
 		(unit 1)
@@ -29678,7 +29672,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_56")
+		(lib_name "INVERT_2")
 		(lib_id "MMC5:INVERT")
 		(at 292.1 237.49 0)
 		(unit 1)
@@ -29750,6 +29744,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_5_2")
 		(lib_id "MMC5:NAND_5")
 		(at 39.37 31.75 0)
 		(unit 1)
@@ -29833,7 +29828,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_57")
+		(lib_name "INVERT_21")
 		(lib_id "MMC5:INVERT")
 		(at 300.99 232.41 0)
 		(unit 1)
@@ -29905,7 +29900,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_8")
+		(lib_name "NAND_2_5")
 		(lib_id "MMC5:NAND_2")
 		(at 231.14 36.83 0)
 		(unit 1)
@@ -29980,7 +29975,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_54")
+		(lib_name "INVERT_26")
 		(lib_id "MMC5:INVERT")
 		(at 292.1 227.33 0)
 		(unit 1)
@@ -30052,7 +30047,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_7")
+		(lib_name "NAND_5_11")
 		(lib_id "MMC5:NAND_5")
 		(at 39.37 180.34 0)
 		(unit 1)
@@ -30136,7 +30131,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_29")
+		(lib_name "INVERT_42")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 165.1 0)
 		(unit 1)
@@ -30363,7 +30358,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_13")
+		(lib_name "NAND_5_9")
 		(lib_id "MMC5:NAND_5")
 		(at 128.27 152.4 0)
 		(unit 1)
@@ -30528,6 +30523,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Counter_4_Preload_1")
 		(lib_id "MMC5:Counter_4_Preload")
 		(at 279.4 81.28 0)
 		(unit 1)
@@ -30626,6 +30622,7 @@
 		)
 	)
 	(symbol
+		(lib_name "INVERT_27")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 31.75 0)
 		(unit 1)
@@ -30697,7 +30694,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_20")
+		(lib_name "INVERT_39")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 60.96 0)
 		(unit 1)
@@ -30769,7 +30766,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_21")
+		(lib_name "INVERT_43")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 68.58 0)
 		(unit 1)
@@ -30841,7 +30838,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_8")
+		(lib_name "INVERT_35")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 128.27 0)
 		(unit 1)
@@ -30913,7 +30910,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_13")
+		(lib_name "INVERT_38")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 191.77 0)
 		(unit 1)
@@ -31084,7 +31081,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_1")
+		(lib_name "NAND_2_6")
 		(lib_id "MMC5:NAND_2")
 		(at 128.27 68.58 0)
 		(unit 1)
@@ -31159,7 +31156,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_42")
+		(lib_name "INVERT_22")
 		(lib_id "MMC5:INVERT")
 		(at 304.8 212.09 0)
 		(unit 1)
@@ -31231,7 +31228,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_28")
+		(lib_name "INVERT_36")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 152.4 0)
 		(unit 1)
@@ -31303,7 +31300,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_4")
+		(lib_name "NAND_5_10")
 		(lib_id "MMC5:NAND_5")
 		(at 39.37 115.57 0)
 		(unit 1)
@@ -31387,7 +31384,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_4_7")
+		(lib_name "NAND_4_5")
 		(lib_id "MMC5:NAND_4")
 		(at 128.27 77.47 0)
 		(unit 1)
@@ -31468,7 +31465,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_53")
+		(lib_name "INVERT_24")
 		(lib_id "MMC5:INVERT")
 		(at 325.12 228.6 0)
 		(unit 1)
@@ -31540,7 +31537,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_6_1")
 		(lib_id "MMC5:NOR_6")
 		(at 151.13 55.88 0)
 		(unit 1)
@@ -31627,7 +31623,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_58")
+		(lib_name "INVERT_37")
 		(lib_id "MMC5:INVERT")
 		(at 222.25 35.56 0)
 		(unit 1)
@@ -31699,6 +31695,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_4_4")
 		(lib_id "MMC5:NAND_4")
 		(at 39.37 44.45 0)
 		(unit 1)
@@ -31779,7 +31776,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_4_5")
+		(lib_name "NAND_4_3")
 		(lib_id "MMC5:NAND_4")
 		(at 128.27 39.37 0)
 		(unit 1)
@@ -31860,7 +31857,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_9")
+		(lib_name "NAND_5_7")
 		(lib_id "MMC5:NAND_5")
 		(at 128.27 90.17 0)
 		(unit 1)
@@ -31944,7 +31941,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_31")
+		(lib_name "INVERT_28")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 185.42 0)
 		(unit 1)
@@ -32016,7 +32013,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_2")
+		(lib_name "INVERT_29")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 44.45 0)
 		(unit 1)
@@ -32088,7 +32085,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_19")
+		(lib_name "INVERT_41")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 50.8 0)
 		(unit 1)
@@ -32160,7 +32157,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_6")
+		(lib_name "INVERT_20")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 99.06 0)
 		(unit 1)
@@ -32232,7 +32229,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_14")
+		(lib_name "NAND_5_8")
 		(lib_id "MMC5:NAND_5")
 		(at 280.67 187.96 0)
 		(unit 1)
@@ -32316,7 +32313,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_43")
+		(lib_name "INVERT_31")
 		(lib_id "MMC5:INVERT")
 		(at 304.8 151.13 0)
 		(unit 1)
@@ -32388,7 +32385,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_18")
+		(lib_name "INVERT_40")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 39.37 0)
 		(unit 1)
@@ -32460,7 +32457,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_5")
+		(lib_name "INVERT_30")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 85.09 0)
 		(unit 1)
@@ -32691,7 +32688,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_59")
+		(lib_name "INVERT_32")
 		(lib_id "MMC5:INVERT")
 		(at 295.91 143.51 0)
 		(unit 1)
@@ -32763,7 +32760,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_11")
+		(lib_name "NAND_5_12")
 		(lib_id "MMC5:NAND_5")
 		(at 128.27 118.11 0)
 		(unit 1)
@@ -32847,6 +32844,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_3_1")
 		(lib_id "MMC5:NAND_3")
 		(at 39.37 191.77 0)
 		(unit 1)
@@ -32924,7 +32922,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_62")
+		(lib_name "INVERT_33")
 		(lib_id "MMC5:INVERT")
 		(at 342.9 210.82 0)
 		(unit 1)
@@ -32996,7 +32994,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_3")
+		(lib_name "INVERT_34")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 59.69 0)
 		(unit 1)
@@ -33068,7 +33066,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_23")
+		(lib_name "INVERT_44")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 90.17 0)
 		(unit 1)
@@ -33140,7 +33138,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_32")
+		(lib_name "INVERT_45")
 		(lib_id "MMC5:INVERT")
 		(at 160.02 176.53 0)
 		(unit 1)
@@ -33331,7 +33329,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_45")
+		(lib_name "INVERT_46")
 		(lib_id "MMC5:INVERT")
 		(at 284.48 220.98 0)
 		(unit 1)
@@ -33475,7 +33473,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_6")
+		(lib_name "NAND_5_13")
 		(lib_id "MMC5:NAND_5")
 		(at 39.37 166.37 0)
 		(unit 1)
@@ -33559,7 +33557,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_12")
+		(lib_name "INVERT_23")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 180.34 0)
 		(unit 1)
@@ -33631,7 +33629,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Counter_4_Preload_1")
 		(lib_id "MMC5:Counter_4_Preload")
 		(at 279.4 101.6 0)
 		(unit 1)
@@ -33730,7 +33727,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_22")
+		(lib_name "INVERT_47")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 77.47 0)
 		(unit 1)
@@ -33802,6 +33799,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NOR_6_1")
 		(lib_id "MMC5:NOR_6")
 		(at 151.13 123.19 0)
 		(unit 1)
@@ -34068,6 +34066,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NAND_2_7")
 		(lib_id "MMC5:NAND_2")
 		(at 39.37 213.36 0)
 		(unit 1)
@@ -34142,7 +34141,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_9")
+		(lib_name "INVERT_25")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 139.7 0)
 		(unit 1)
@@ -34214,7 +34213,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_25")
+		(lib_name "INVERT_48")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 118.11 0)
 		(unit 1)
@@ -34364,7 +34363,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_4_9")
+		(lib_name "NAND_4_8")
 		(lib_id "MMC5:NAND_4")
 		(at 128.27 176.53 0)
 		(unit 1)
@@ -34445,7 +34444,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_4_8")
+		(lib_name "NAND_4_7")
 		(lib_id "MMC5:NAND_4")
 		(at 128.27 165.1 0)
 		(unit 1)
@@ -34526,7 +34525,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_60")
+		(lib_name "INVERT_49")
 		(lib_id "MMC5:INVERT")
 		(at 304.8 143.51 0)
 		(unit 1)
@@ -34598,7 +34597,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_16")
+		(lib_name "INVERT_50")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 222.25 0)
 		(unit 1)
@@ -34670,7 +34669,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_61")
+		(lib_name "INVERT_51")
 		(lib_id "MMC5:INVERT")
 		(at 334.01 210.82 0)
 		(unit 1)
@@ -34742,7 +34741,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_4_1")
+		(lib_name "NAND_4_9")
 		(lib_id "MMC5:NAND_4")
 		(at 39.37 72.39 0)
 		(unit 1)
@@ -34823,7 +34822,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_39")
+		(lib_name "INVERT_61")
 		(lib_id "MMC5:INVERT")
 		(at 222.25 87.63 0)
 		(unit 1)
@@ -34895,7 +34894,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_46")
+		(lib_name "INVERT_53")
 		(lib_id "MMC5:INVERT")
 		(at 275.59 220.98 0)
 		(unit 1)
@@ -34967,7 +34966,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_3")
+		(lib_name "NOR_2_2")
 		(lib_id "MMC5:NOR_2")
 		(at 242.57 38.1 0)
 		(unit 1)
@@ -35042,7 +35041,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_5_12")
+		(lib_name "NAND_5_14")
 		(lib_id "MMC5:NAND_5")
 		(at 128.27 138.43 0)
 		(unit 1)
@@ -35126,7 +35125,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_4")
+		(lib_name "NOR_2_3")
 		(lib_id "MMC5:NOR_2")
 		(at 241.3 143.51 0)
 		(unit 1)
@@ -35201,7 +35200,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_49")
+		(lib_name "INVERT_59")
 		(lib_id "MMC5:INVERT")
 		(at 243.84 193.04 0)
 		(unit 1)
@@ -35273,7 +35272,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_50")
+		(lib_name "INVERT_55")
 		(lib_id "MMC5:INVERT")
 		(at 265.43 156.21 0)
 		(unit 1)
@@ -35422,7 +35421,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NOR_2_2")
+		(lib_name "NOR_2_4")
 		(lib_id "MMC5:NOR_2")
 		(at 241.3 151.13 0)
 		(unit 1)
@@ -35497,6 +35496,7 @@
 		)
 	)
 	(symbol
+		(lib_name "AOI_2_1")
 		(lib_id "MMC5:AOI_2")
 		(at 294.64 212.09 0)
 		(unit 1)
@@ -35516,7 +35516,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOI_2"
+		(property "Value" "AOI_22"
 			(at 295.402 214.122 0)
 			(do_not_autoplace yes)
 			(effects
@@ -35655,7 +35655,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_40")
+		(lib_name "INVERT_57")
 		(lib_id "MMC5:INVERT")
 		(at 345.44 219.71 0)
 		(unit 1)
@@ -35727,7 +35727,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_27")
+		(lib_name "INVERT_62")
 		(lib_id "MMC5:INVERT")
 		(at 139.7 138.43 0)
 		(unit 1)
@@ -35799,7 +35799,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_14")
+		(lib_name "INVERT_54")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 203.2 0)
 		(unit 1)
@@ -35871,7 +35871,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NAND_2_2")
+		(lib_name "NAND_2_8")
 		(lib_id "MMC5:NAND_2")
 		(at 128.27 128.27 0)
 		(unit 1)
@@ -35946,7 +35946,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_55")
+		(lib_name "INVERT_60")
 		(lib_id "MMC5:INVERT")
 		(at 292.1 232.41 0)
 		(unit 1)
@@ -36018,7 +36018,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_33")
+		(lib_name "INVERT_52")
 		(lib_id "MMC5:INVERT")
 		(at 162.56 123.19 0)
 		(unit 1)
@@ -36090,7 +36090,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_4")
+		(lib_name "INVERT_58")
 		(lib_id "MMC5:INVERT")
 		(at 50.8 72.39 0)
 		(unit 1)
@@ -36162,7 +36162,7 @@
 		)
 	)
 	(symbol
-		(lib_name "INVERT_41")
+		(lib_name "INVERT_56")
 		(lib_id "MMC5:INVERT")
 		(at 325.12 210.82 0)
 		(unit 1)
